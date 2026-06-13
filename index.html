@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
 
     <link rel="stylesheet" href="style.css">
     
@@ -65,21 +66,20 @@
                     <button onclick="abrirModalContacto()" class="contact-link" style="border:none; cursor:pointer; font-family: inherit;">✉️ Contactar</button>
                 </div>
             </footer>
-
         </aside>
 
         <main id="map"></main>
     </div>
-<div id="modal-contacto" class="modal-overlay">
+
+    <div id="modal-contacto" class="modal-overlay">
         <div class="modal-box">
             <span class="close-btn" onclick="cerrarModalContacto()">&times;</span>
             <h2 style="margin-bottom: 8px; color: var(--text-main);">Contactar a Fernando</h2>
             <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 20px;">Rellena el formulario y te responderé lo antes posible.</p>
             
-            <form action="https://formsubmit.co/fvgaldos@hotmail.com" method="POST" class="contact-form">
+            <form action="https://formsubmit.co/tu-correo@ejemplo.com" method="POST" class="contact-form">
                 <input type="hidden" name="_subject" value="Nuevo mensaje desde el Dashboard de Institutos!">
                 <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_next" value="https://tu-usuario.github.io/mapa-centros-madrid/">
                 
                 <div class="form-group">
                     <label>Tu Nombre</label>
@@ -101,16 +101,14 @@
         </div>
     </div>
 
-
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
-    
     <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
-
     <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
-
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
     <script src="https://unpkg.com/leaflet.smooth_marker_bouncing@3.3.1/dist/bundle.js"></script>
     
     <script>
+        // Inicializar mapa
         const map = L.map('map', { zoomControl: false }).setView([40.473, -3.641], 12);
         L.control.zoom({ position: 'topright' }).addTo(map);
 
@@ -144,7 +142,8 @@
             popupAnchor: [0, -30]
         });
 
-        fetch('./institutos_filtrados.json')
+        // Cargar JSON
+        fetch('institutos_filtrados.json')
             .then(res => {
                 if(!res.ok) throw new Error("Error en red.");
                 return res.json();
@@ -155,7 +154,7 @@
                 aplicarFiltrosCruzados();
             })
             .catch(err => {
-                document.getElementById('institutos-list').innerHTML = `<li class="error">❌ Error al cargar JSON. Usa un servidor local.</li>`;
+                document.getElementById('institutos-list').innerHTML = `<li class="error">❌ Error al cargar JSON. ¿Estás usando un servidor local (Live Server)?</li>`;
             });
 
         function poblarSelectorDistritos(centros) {
@@ -197,11 +196,7 @@
 
         function actualizarInterfaz(centros) {
             marcadoresGrupo.clearLayers();
-            
-            if(controlRuta) {
-                map.removeControl(controlRuta);
-                controlRuta = null;
-            }
+            cerrarRuta();
 
             const listaUL = document.getElementById('institutos-list');
             listaUL.innerHTML = '';
@@ -222,7 +217,6 @@
                 
                 const parseo = obtenerTipoYNombre(centro.nombre);
 
-                // NUEVA TARJETA: Caja de búsqueda integrada y limpia
                 const contenidoPopup = `
                     <div class="map-popup">
                         <span class="badge ${parseo.clase}">${parseo.tipo}</span>
@@ -230,7 +224,6 @@
                         <p><strong>Distrito:</strong> ${centro.distrito || 'Madrid'}</p>
                         
                         <div style="display: flex; flex-direction: column; gap: 8px; margin-top: 10px;">
-                            
                             <button onclick="calcularRutaGPS(${centro.lat}, ${centro.lng})" class="route-btn">
                                 📍 Ruta desde mi ubicación (GPS)
                             </button>
@@ -284,86 +277,62 @@
             });
         }
 
-        // ==========================================
-        // LÓGICA LIMPIA DE RUTAS (Sin pedir destino)
-        // ==========================================
-        
-        // 1. Ruta con GPS
+        // --- SISTEMA DE RUTAS ---
         window.calcularRutaGPS = function(destLat, destLng) {
             map.closePopup(); 
-            
             if (!navigator.geolocation) {
-                alert("⚠️ Tu navegador no soporta GPS. Escribe la dirección en la casilla.");
+                alert("Tu navegador no soporta GPS.");
                 return;
             }
-
             navigator.geolocation.getCurrentPosition(
-                (position) => {
-                    dibujarLineaRuta(position.coords.latitude, position.coords.longitude, destLat, destLng);
-                },
-                (error) => {
-                    alert("⚠️ No pudimos acceder a tu ubicación. Por favor, escribe tu calle en la tarjeta.");
-                },
+                (position) => dibujarLineaRuta(position.coords.latitude, position.coords.longitude, destLat, destLng),
+                (error) => alert("No pudimos acceder a tu ubicación. Escribe tu calle manualmente."),
                 { enableHighAccuracy: true, timeout: 8000, maximumAge: 0 }
             );
         };
 
-        // 2. Ruta leyendo la calle que ha escrito el usuario
         window.calcularRutaManual = function(destLat, destLng) {
             const inputOrigen = document.getElementById('origen-manual').value;
-            
             if (!inputOrigen || inputOrigen.trim() === '') {
                 alert("Por favor, escribe una calle o ciudad primero.");
                 return;
             }
-
             map.closePopup();
 
-            // Buscamos las coordenadas de esa calle
             fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(inputOrigen + ', Madrid')}&limit=1`)
                 .then(res => res.json())
                 .then(data => {
                     if (data && data.length > 0) {
                         dibujarLineaRuta(parseFloat(data[0].lat), parseFloat(data[0].lon), destLat, destLng);
                     } else {
-                        alert("❌ No hemos encontrado esa dirección. Intenta ser más específico (Ej: Calle Atocha 15, Madrid).");
+                        alert("No hemos encontrado esa dirección.");
                     }
                 })
                 .catch(err => alert("Hubo un error al buscar la dirección."));
         };
 
-        // 3. Pintar la línea (Ocultando la confusa caja de la extensión)
         function dibujarLineaRuta(origenLat, origenLng, destLat, destLng) {
-            // Limpiamos rutas o paneles anteriores
-            if (controlRuta) map.removeControl(controlRuta);
-            if (window.panelResumen) map.removeControl(window.panelResumen);
+            cerrarRuta();
 
-            const waypoints = origenLat 
-                ? [L.latLng(origenLat, origenLng), L.latLng(destLat, destLng)]
-                : [null, L.latLng(destLat, destLng)];
+            const waypoints = [L.latLng(origenLat, origenLng), L.latLng(destLat, destLng)];
 
             controlRuta = L.Routing.control({
                 waypoints: waypoints,
                 routeWhileDragging: false,
-                show: false, // 🔴 ¡AQUÍ OCULTAMOS LAS INDICACIONES PASO A PASO!
+                show: false, 
                 lineOptions: { styles: [{ color: '#4f46e5', opacity: 0.9, weight: 6 }] },
                 createMarker: function() { return null; }
             })
             .on('routesfound', function(e) {
-                // Cuando encuentra la ruta, extraemos los datos:
                 const ruta = e.routes[0];
-                const distanciaKm = (ruta.summary.totalDistance / 1000).toFixed(1); // Metros a Km
-                const tiempoCocheMin = Math.round(ruta.summary.totalTime / 60); // Segundos a Minutos
-                
-                // Estimación heurística del transporte público en Madrid (1.5x coche + 12 mins de esperas/caminata)
+                const distanciaKm = (ruta.summary.totalDistance / 1000).toFixed(1); 
+                const tiempoCocheMin = Math.round(ruta.summary.totalTime / 60); 
                 const tiempoPublicoMin = Math.round((tiempoCocheMin * 1.5) + 12);
-
                 mostrarPanelResumen(distanciaKm, tiempoCocheMin, tiempoPublicoMin);
             })
             .addTo(map);
         }
 
-        // 4. Crear una tarjeta limpia con los resultados en la esquina superior
         function mostrarPanelResumen(distancia, coche, publico) {
             const ResumenControl = L.Control.extend({
                 options: { position: 'topright' },
@@ -371,7 +340,6 @@
                     const div = L.DomUtil.create('div', 'panel-resumen-ruta');
                     div.innerHTML = `
                         <h4 style="margin: 0 0 12px 0; color: #0f172a; font-size: 14px; text-align: center;">Resumen del trayecto</h4>
-                        
                         <div style="display: flex; flex-direction: column; gap: 8px; font-size: 13px;">
                             <div style="display: flex; justify-content: space-between;">
                                 <span>📏 Distancia:</span> <strong>${distancia} km</strong>
@@ -380,14 +348,12 @@
                                 <span>🚗 En coche:</span> <strong>~${coche} min</strong>
                             </div>
                             <div style="display: flex; justify-content: space-between; border-bottom: 1px solid #e2e8f0; padding-bottom: 8px;">
-                                <span>🚌 Transp. Público (est):</span> <strong>~${publico} min</strong>
+                                <span>🚌 Transp. Público:</span> <strong>~${publico} min</strong>
                             </div>
                         </div>
-
                         <p style="font-size: 10.5px; color: #94a3b8; margin-top: 8px; text-align: center; line-height: 1.2;">
-                            Para indicaciones detalladas o estado del tráfico, usa el botón de Google Maps.
+                            Usa el botón de Google Maps para indicaciones paso a paso.
                         </p>
-
                         <button onclick="cerrarRuta()" class="route-btn" style="background: #e2e8f0; color: #475569; margin-top: 10px;">
                             Cerrar ruta ✖
                         </button>
@@ -400,14 +366,28 @@
             map.addControl(window.panelResumen);
         }
 
-        // 5. Botón para limpiar el mapa
         window.cerrarRuta = function() {
             if (controlRuta) map.removeControl(controlRuta);
             if (window.panelResumen) map.removeControl(window.panelResumen);
-            map.closePopup();
         };
 
-        // Listeners
+        // --- SISTEMA DE CONTACTO (MODAL) ---
+        window.abrirModalContacto = function() {
+            document.getElementById('modal-contacto').style.display = 'flex';
+        };
+
+        window.cerrarModalContacto = function() {
+            document.getElementById('modal-contacto').style.display = 'none';
+        };
+
+        window.onclick = function(event) {
+            const modal = document.getElementById('modal-contacto');
+            if (event.target === modal) {
+                modal.style.display = "none";
+            }
+        };
+
+        // Listeners globales
         document.getElementById('search-input').addEventListener('input', aplicarFiltrosCruzados);
         document.getElementById('filter-distrito').addEventListener('change', aplicarFiltrosCruzados);
         document.getElementById('filter-tipo').addEventListener('change', aplicarFiltrosCruzados);
