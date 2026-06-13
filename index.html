@@ -62,13 +62,45 @@
                 </div>
                 <div class="footer-credits">
                     <span>Creado por <span class="creator-name">Fernando Vegas</span></span>
-                    <a href="mailto:tu-correo@ejemplo.com" class="contact-link">✉️ Contactar</a>
+                    <button onclick="abrirModalContacto()" class="contact-link" style="border:none; cursor:pointer; font-family: inherit;">✉️ Contactar</button>
                 </div>
             </footer>
+
         </aside>
 
         <main id="map"></main>
     </div>
+<div id="modal-contacto" class="modal-overlay">
+        <div class="modal-box">
+            <span class="close-btn" onclick="cerrarModalContacto()">&times;</span>
+            <h2 style="margin-bottom: 8px; color: var(--text-main);">Contactar a Fernando</h2>
+            <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 20px;">Rellena el formulario y te responderé lo antes posible.</p>
+            
+            <form action="https://formsubmit.co/tu-correo@ejemplo.com" method="POST" class="contact-form">
+                <input type="hidden" name="_subject" value="Nuevo mensaje desde el Dashboard de Institutos!">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://tu-usuario.github.io/mapa-centros-madrid/">
+                
+                <div class="form-group">
+                    <label>Tu Nombre</label>
+                    <input type="text" name="name" required placeholder="Ej: María López">
+                </div>
+                
+                <div class="form-group">
+                    <label>Tu Email</label>
+                    <input type="email" name="email" required placeholder="Ej: maria@ejemplo.com">
+                </div>
+                
+                <div class="form-group">
+                    <label>Mensaje</label>
+                    <textarea name="message" required placeholder="Escribe tu mensaje aquí..." rows="4"></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Enviar Mensaje 🚀</button>
+            </form>
+        </div>
+    </div>
+
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
     
