@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Educativo - Madrid</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="app-container">
+        <aside class="sidebar">
+            <header class="sidebar-header">
+                <div class="brand">
+                    <span class="brand-icon">🎓</span>
+                    <div>
+                        <h1>Centros Públicos</h1>
+                        <p class="subtitle">Comunidad de Madrid</p>
+                    </div>
+                </div>
+                
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Buscar por nombre...">
+                    <span class="search-icon">🔍</span>
+                </div>
+
+                <div class="filters-row">
+                    <select id="filter-distrito">
+                        <option value="todos">📍 Todos los distritos</option>
+                    </select>
+                    
+                    <select id="filter-tipo">
+                        <option value="todos">⚡ Todos los tipos</option>
+                        <option value="IES">IES</option>
+                        <option value="CEIPSO">CEIPSO</option>
+                        <option value="CEPA">CEPA</option>
+                    </select>
+                </div>
+            </header>
+
+            <div class="list-container">
+                <ul id="institutos-list">
+                    <li class="loading">Cargando ecosistema educativo...</li>
+                </ul>
+            </div>
+            
+            <footer class="sidebar-footer">
+                <div class="footer-stats">
+                    Se han encontrado <span id="counter">0</span> centros
+                </div>
+                <div class="footer-credits">
+                    <span>Creado por <span class="creator-name">Fernando Vegas</span></span>
+                    <a href="mailto:tu-correo@ejemplo.com" class="contact-link">✉️ Contactar</a>
+                </div>
+            </footer>
+        </aside>
+
+        <main id="map"></main>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+    
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+
+    <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+
+    <script src="https://unpkg.com/leaflet.smooth_marker_bouncing@3.3.1/dist/bundle.js"></script>
+    
+    <script>
+        const map = L.map('map', { zoomControl: false }).setView([40.473, -3.641], 12);
+        L.control.zoom({ position: 'topright' }).addTo(map);
+
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+            attribution: '© OpenStreetMap contributors © CARTO',
+            maxZoom: 20
+        }).addTo(map);
+
+        let todosLosCentros = [];
+        let controlRuta = null; 
+        
+        let marcadoresGrupo = L.markerClusterGroup({
+            showCoverageOnHover: false,
+            zoomToBoundsOnClick: true,
+            maxClusterRadius: 50
+        }).addTo(map);
+
+        if (typeof L.Marker.setBouncingOptions === 'function') {
+            L.Marker.setBouncingOptions({
+                bounceHeight: 15,
+                bounceSpeed: 54,
+                exclusive: true
+            });
+        }
+
+        const iconoColegio = L.divIcon({
+            className: 'custom-marker',
+            html: '<div class="marker-pin-glow"></div><div class="marker-pin"></div>',
+            iconSize: [30, 30],
+            iconAnchor: [15, 30],
+            popupAnchor: [0, -30]
+        });
+
+        fetch('./institutos_filtrados.json')
+            .then(res => {
+                if(!res.ok) throw new Error("Error en red.");
+                return res.json();
+            })
+            .then(data => {
+                todosLosCentros = data;
+                poblarSelectorDistritos(todosLosCentros);
+                aplicarFiltrosCruzados();
+            })
+            .catch(err => {
+                document.getElementById('institutos-list').innerHTML = `<li class="error">❌ Error al cargar JSON. Usa un servidor local.</li>`;
+            });
+
+        function poblarSelectorDistritos(centros) {
+            const selector = document.getElementById('filter-distrito');
+            const distritosUnicos = [...new Set(centros.map(c => c.distrito).filter(Boolean))].sort();
+            distritosUnicos.forEach(d => {
+                const opt = document.createElement('option');
+                opt.value = d; opt.textContent = "📍 " + d;
+                selector.appendChild(opt);
+            });
+        }
+
+        function aplicarFiltrosCruzados() {
+            const busquedaTexto = document.getElementById('search-input').value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+            const distritoSeleccionado = document.getElementById('filter-distrito').value;
+            const tipoSeleccionado = document.getElementById('filter-tipo').value;
+
+            const centrosFiltrados = todosLosCentros.filter(centro => {
+                const nombreNorm = centro.nombre.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+                const coincideTexto = nombreNorm.includes(busquedaTexto);
+                const coincideDistrito = (distritoSeleccionado === "todos") || (centro.distrito === distritoSeleccionado);
+                
+                let coincideTipo = true;
+                if (tipoSeleccionado !== "todos") {
+                    coincideTipo = centro.nombre.toUpperCase().startsWith(tipoSeleccionado);
+                }
+                return coincideTexto && coincideDistrito && coincideTipo;
+            });
+            actualizarInterfaz(centrosFiltrados);
+        }
+
+        function obtenerTipoYNombre(nombreCompleto) {
+            const up = nombreCompleto.toUpperCase();
+            if (up.startsWith('IES')) return { tipo: 'IES', clase: 'badge-ies', resto: nombreCompleto.replace(/^IES\s+/i, '') };
+            if (up.startsWith('CEIPSO')) return { tipo: 'CEIPSO', clase: 'badge-ceipso', resto: nombreCompleto.replace(/^CEIPSO\s+/i, '') };
+            if (up.startsWith('CEPA')) return { tipo: 'CEPA', clase: 'badge-cepa', resto: nombreCompleto.replace(/^CEPA\s+/i, '') };
+            return { tipo: 'CENTRO', clase: 'badge-otro', resto: nombreCompleto };
+        }
+
+        function actualizarInterfaz(centros) {
+            marcadoresGrupo.clearLayers();
+            
+            if(controlRuta) {
+                map.removeControl(controlRuta);
+                controlRuta = null;
+            }
+
+            const listaUL = document.getElementById('institutos-list');
+            listaUL.innerHTML = '';
+
+            if (centros.length === 0) {
+                listaUL.innerHTML = '<li class="no-results">Ningún centro coincide.</li>';
+                document.getElementById('counter').innerText = '0';
+                return;
+            }
+
+            document.getElementById('counter').innerText = centros.length;
+
+            centros.forEach((centro) => {
+                const marcador = L.marker([centro.lat, centro.lng], { 
+                    icon: iconoColegio,
+                    bounceOnAdd: true 
+                });
+                
+                const parseo = obtenerTipoYNombre(centro.nombre);
+
+                // NUEVA TARJETA: Caja de búsqueda integrada y limpia
+                const contenidoPopup = `
+                    <div class="map-popup">
+                        <span class="badge ${parseo.clase}">${parseo.tipo}</span>
+                        <h3>${parseo.resto}</h3>
+                        <p><strong>Distrito:</strong> ${centro.distrito || 'Madrid'}</p>
+                        
+                        <div style="display: flex; flex-direction: column; gap: 8px; margin-top: 10px;">
+                            
+                            <button onclick="calcularRutaGPS(${centro.lat}, ${centro.lng})" class="route-btn">
+                                📍 Ruta desde mi ubicación (GPS)
+                            </button>
+                            
+                            <div style="background: #f1f5f9; padding: 10px; border-radius: 8px; border: 1px solid #e2e8f0; margin-top: 4px;">
+                                <p style="font-size: 11.5px; margin-bottom: 6px; font-weight: 600; color: var(--text-main);">✏️ O escribe desde dónde sales:</p>
+                                <input type="text" id="origen-manual" placeholder="Ej: Atocha, Madrid" style="width: 100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 12px; margin-bottom: 8px; outline: none; box-sizing: border-box;">
+                                <button onclick="calcularRutaManual(${centro.lat}, ${centro.lng})" class="route-btn" style="background: var(--text-muted); width: 100%; padding: 8px;">
+                                    Trazar ruta al instituto
+                                </button>
+                            </div>
+
+                            <a href="https://www.google.com/maps/dir/?api=1&destination=${centro.lat},${centro.lng}" target="_blank" class="route-btn google-btn" style="margin-top: 4px;">
+                                🗺️ Abrir en Google Maps ↗
+                            </a>
+                        </div>
+                    </div>
+                `;
+                marcador.bindPopup(contenidoPopup);
+                
+                marcador.on('click', function() {
+                    if (typeof this.bounce === 'function') this.bounce(2);
+                });
+
+                marcadoresGrupo.addLayer(marcador);
+
+                const li = document.createElement('li');
+                li.className = `instituto-item border-${parseo.tipo.toLowerCase()}`;
+                li.innerHTML = `
+                    <div class="item-layout">
+                        <div class="item-info">
+                            <span class="item-title">${parseo.resto}</span>
+                            <span class="item-district">📍 ${centro.distrito || 'Madrid'}</span>
+                        </div>
+                        <span class="badge ${parseo.clase}">${parseo.tipo}</span>
+                    </div>
+                `;
+
+                li.addEventListener('click', () => {
+                    marcadoresGrupo.zoomToShowLayer(marcador, () => {
+                        map.flyTo([centro.lat, centro.lng], 16, { animate: true, duration: 1 });
+                        marcador.openPopup();
+                        if (typeof marcador.bounce === 'function') marcador.bounce(2);
+                    });
+                    
+                    document.querySelectorAll('.instituto-item').forEach(el => el.classList.remove('active'));
+                    li.classList.add('active');
+                });
+
+                listaUL.appendChild(li);
+            });
+        }
+
+        // ==========================================
+        // LÓGICA LIMPIA DE RUTAS (Sin pedir destino)
+        // ==========================================
+        
+        // 1. Ruta con GPS
+        window.calcularRutaGPS = function(destLat, destLng) {
+            map.closePopup(); 
+            
+            if (!navigator.geolocation) {
+                alert("⚠️ Tu navegador no soporta GPS. Escribe la dirección en la casilla.");
+                return;
+            }
+
+            navigator.geolocation.getCurrentPosition(
+                (position) => {
+                    dibujarLineaRuta(position.coords.latitude, position.coords.longitude, destLat, destLng);
+                },
+                (error) => {
+                    alert("⚠️ No pudimos acceder a tu ubicación. Por favor, escribe tu calle en la tarjeta.");
+                },
+                { enableHighAccuracy: true, timeout: 8000, maximumAge: 0 }
+            );
+        };
+
+        // 2. Ruta leyendo la calle que ha escrito el usuario
+        window.calcularRutaManual = function(destLat, destLng) {
+            const inputOrigen = document.getElementById('origen-manual').value;
+            
+            if (!inputOrigen || inputOrigen.trim() === '') {
+                alert("Por favor, escribe una calle o ciudad primero.");
+                return;
+            }
+
+            map.closePopup();
+
+            // Buscamos las coordenadas de esa calle
+            fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(inputOrigen + ', Madrid')}&limit=1`)
+                .then(res => res.json())
+                .then(data => {
+                    if (data && data.length > 0) {
+                        dibujarLineaRuta(parseFloat(data[0].lat), parseFloat(data[0].lon), destLat, destLng);
+                    } else {
+                        alert("❌ No hemos encontrado esa dirección. Intenta ser más específico (Ej: Calle Atocha 15, Madrid).");
+                    }
+                })
+                .catch(err => alert("Hubo un error al buscar la dirección."));
+        };
+
+        // 3. Pintar la línea (Ocultando la confusa caja de la extensión)
+        function dibujarLineaRuta(origenLat, origenLng, destLat, destLng) {
+            // Limpiamos rutas o paneles anteriores
+            if (controlRuta) map.removeControl(controlRuta);
+            if (window.panelResumen) map.removeControl(window.panelResumen);
+
+            const waypoints = origenLat 
+                ? [L.latLng(origenLat, origenLng), L.latLng(destLat, destLng)]
+                : [null, L.latLng(destLat, destLng)];
+
+            controlRuta = L.Routing.control({
+                waypoints: waypoints,
+                routeWhileDragging: false,
+                show: false, // 🔴 ¡AQUÍ OCULTAMOS LAS INDICACIONES PASO A PASO!
+                lineOptions: { styles: [{ color: '#4f46e5', opacity: 0.9, weight: 6 }] },
+                createMarker: function() { return null; }
+            })
+            .on('routesfound', function(e) {
+                // Cuando encuentra la ruta, extraemos los datos:
+                const ruta = e.routes[0];
+                const distanciaKm = (ruta.summary.totalDistance / 1000).toFixed(1); // Metros a Km
+                const tiempoCocheMin = Math.round(ruta.summary.totalTime / 60); // Segundos a Minutos
+                
+                // Estimación heurística del transporte público en Madrid (1.5x coche + 12 mins de esperas/caminata)
+                const tiempoPublicoMin = Math.round((tiempoCocheMin * 1.5) + 12);
+
+                mostrarPanelResumen(distanciaKm, tiempoCocheMin, tiempoPublicoMin);
+            })
+            .addTo(map);
+        }
+
+        // 4. Crear una tarjeta limpia con los resultados en la esquina superior
+        function mostrarPanelResumen(distancia, coche, publico) {
+            const ResumenControl = L.Control.extend({
+                options: { position: 'topright' },
+                onAdd: function () {
+                    const div = L.DomUtil.create('div', 'panel-resumen-ruta');
+                    div.innerHTML = `
+                        <h4 style="margin: 0 0 12px 0; color: #0f172a; font-size: 14px; text-align: center;">Resumen del trayecto</h4>
+                        
+                        <div style="display: flex; flex-direction: column; gap: 8px; font-size: 13px;">
+                            <div style="display: flex; justify-content: space-between;">
+                                <span>📏 Distancia:</span> <strong>${distancia} km</strong>
+                            </div>
+                            <div style="display: flex; justify-content: space-between;">
+                                <span>🚗 En coche:</span> <strong>~${coche} min</strong>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; border-bottom: 1px solid #e2e8f0; padding-bottom: 8px;">
+                                <span>🚌 Transp. Público (est):</span> <strong>~${publico} min</strong>
+                            </div>
+                        </div>
+
+                        <p style="font-size: 10.5px; color: #94a3b8; margin-top: 8px; text-align: center; line-height: 1.2;">
+                            Para indicaciones detalladas o estado del tráfico, usa el botón de Google Maps.
+                        </p>
+
+                        <button onclick="cerrarRuta()" class="route-btn" style="background: #e2e8f0; color: #475569; margin-top: 10px;">
+                            Cerrar ruta ✖
+                        </button>
+                    `;
+                    return div;
+                }
+            });
+
+            window.panelResumen = new ResumenControl();
+            map.addControl(window.panelResumen);
+        }
+
+        // 5. Botón para limpiar el mapa
+        window.cerrarRuta = function() {
+            if (controlRuta) map.removeControl(controlRuta);
+            if (window.panelResumen) map.removeControl(window.panelResumen);
+            map.closePopup();
+        };
+
+        // Listeners
+        document.getElementById('search-input').addEventListener('input', aplicarFiltrosCruzados);
+        document.getElementById('filter-distrito').addEventListener('change', aplicarFiltrosCruzados);
+        document.getElementById('filter-tipo').addEventListener('change', aplicarFiltrosCruzados);
+    </script>
+</body>
+</html>
