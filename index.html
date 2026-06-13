@@ -143,7 +143,7 @@
         });
 
         // Cargar JSON
-        fetch('institutos_filtrados.json')
+        fetch('./institutos_filtrados.json')
             .then(res => {
                 if(!res.ok) throw new Error("Error en red.");
                 return res.json();
