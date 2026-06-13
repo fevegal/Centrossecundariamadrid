@@ -1,0 +1,3002 @@
+[
+  {
+    "nombre": "CEIPSO San Blas",
+    "distrito": "Ajalvir",
+    "lat": 40.5399,
+    "lng": -3.4861
+  },
+  {
+    "nombre": "IES Complutense",
+    "distrito": "Alcalá de Henares",
+    "lat": 40.4846,
+    "lng": -3.348
+  },
+  {
+    "nombre": "CEIPSO Nuestra Señora Del Val",
+    "distrito": "Alcalá de Henares",
+    "lat": 40.4863,
+    "lng": -3.3437
+  },
+  {
+    "nombre": "IES Alonso De Avellaneda",
+    "distrito": "Alcalá de Henares",
+    "lat": 40.4908,
+    "lng": -3.3417
+  },
+  {
+    "nombre": "IES Antonio Machado",
+    "distrito": "Alcalá de Henares",
+    "lat": 40.4916,
+    "lng": -3.3698
+  },
+  {
+    "nombre": "IES Francisco Giner De Los Rios",
+    "distrito": "Alcobendas",
+    "lat": 40.5336,
+    "lng": -3.6207
+  },
+  {
+    "nombre": "CEIPSO Daniel Martin",
+    "distrito": "Alcorcón",
+    "lat": 40.3466,
+    "lng": -3.8193
+  },
+  {
+    "nombre": "CEIPSO San Jose De Calasanz",
+    "distrito": "Aranjuez",
+    "lat": 40.0276,
+    "lng": -3.5977
+  },
+  {
+    "nombre": "IES Domenico Scarlatti",
+    "distrito": "Aranjuez",
+    "lat": 40.0296,
+    "lng": -3.6093
+  },
+  {
+    "nombre": "IES Jorge Manrique",
+    "distrito": "Tres Cantos",
+    "lat": 40.5918,
+    "lng": -3.7043
+  },
+  {
+    "nombre": "IES El Carrascal",
+    "distrito": "Arganda del Rey",
+    "lat": 40.2903,
+    "lng": -3.4414
+  },
+  {
+    "nombre": "CEIPSO Juan Ramon Jimenez",
+    "distrito": "Becerril de la Sierra",
+    "lat": 40.7136,
+    "lng": -3.9912
+  },
+  {
+    "nombre": "CEIPSO Principe Don Felipe",
+    "distrito": "Boadilla del Monte",
+    "lat": 40.4074,
+    "lng": -3.8787
+  },
+  {
+    "nombre": "CEIPSO Peñalta",
+    "distrito": "Buitrago del Lozoya",
+    "lat": 40.9914,
+    "lng": -3.637
+  },
+  {
+    "nombre": "CEIPSO Eugenio Muro",
+    "distrito": "Cadalso de los Vidrios",
+    "lat": 40.3017,
+    "lng": -4.4505
+  },
+  {
+    "nombre": "CEIPSO Federico Garcia Lorca",
+    "distrito": "Camarma de Esteruelas",
+    "lat": 40.5469,
+    "lng": -3.3747
+  },
+  {
+    "nombre": "CEIPSO Suarez Somonte",
+    "distrito": "Cenicientos",
+    "lat": 40.2617,
+    "lng": -4.4698
+  },
+  {
+    "nombre": "IES Juan Carlos I",
+    "distrito": "Ciempozuelos",
+    "lat": 40.1536,
+    "lng": -3.6203
+  },
+  {
+    "nombre": "CEIPSO Villa De Cobeña",
+    "distrito": "Cobeña",
+    "lat": 40.5695,
+    "lng": -3.5061
+  },
+  {
+    "nombre": "IES Marques De Santillana",
+    "distrito": "Colmenar Viejo",
+    "lat": 40.6695,
+    "lng": -3.7709
+  },
+  {
+    "nombre": "IES Jaime Ferran",
+    "distrito": "Collado Villalba",
+    "lat": 40.6382,
+    "lng": -4.0029
+  },
+  {
+    "nombre": "IES Miguel Catalán",
+    "distrito": "Coslada",
+    "lat": 40.4322,
+    "lng": -3.5413
+  },
+  {
+    "nombre": "CEIPSO Angel Berzal Fernandez",
+    "distrito": "Daganzo de Arriba",
+    "lat": 40.55,
+    "lng": -3.4536
+  },
+  {
+    "nombre": "CEIPSO Martina Garcia",
+    "distrito": "Fuente el Saz de Jarama",
+    "lat": 40.6296,
+    "lng": -3.5157
+  },
+  {
+    "nombre": "CEIPSO Sagrado Corazon",
+    "distrito": "Getafe",
+    "lat": 40.306,
+    "lng": -3.7326
+  },
+  {
+    "nombre": "IES Matematico Puig Adam",
+    "distrito": "Getafe",
+    "lat": 40.2975,
+    "lng": -3.7356
+  },
+  {
+    "nombre": "IES Alarnes",
+    "distrito": "Getafe",
+    "lat": 40.3,
+    "lng": -3.7348
+  },
+  {
+    "nombre": "CEIPSO Victor Pradera",
+    "distrito": "Leganés",
+    "lat": 40.3384,
+    "lng": -3.7542
+  },
+  {
+    "nombre": "IES Jose De Churriguera",
+    "distrito": "Leganés",
+    "lat": 40.3232,
+    "lng": -3.7622
+  },
+  {
+    "nombre": "IES Luis Vives",
+    "distrito": "Leganés",
+    "lat": 40.339,
+    "lng": -3.765
+  },
+  {
+    "nombre": "IES Maria Zambrano",
+    "distrito": "Leganés",
+    "lat": 40.3306,
+    "lng": -3.7476
+  },
+  {
+    "nombre": "IES Cervantes",
+    "distrito": "Centro",
+    "lat": 40.4059,
+    "lng": -3.7032
+  },
+  {
+    "nombre": "CEIPSO Alberto Alcocer",
+    "distrito": "San Blas-Canillejas",
+    "lat": 40.4327,
+    "lng": -3.612
+  },
+  {
+    "nombre": "CEIPSO Mejico",
+    "distrito": "Ciudad Lineal",
+    "lat": 40.4435,
+    "lng": -3.6508
+  },
+  {
+    "nombre": "CEIPSO Parque Aluche",
+    "distrito": "Latina",
+    "lat": 40.3914,
+    "lng": -3.7608
+  },
+  {
+    "nombre": "CEIPSO Doctor Conde Arruga",
+    "distrito": "Moratalaz",
+    "lat": 40.4039,
+    "lng": -3.6436
+  },
+  {
+    "nombre": "IES El Espinillo ",
+    "distrito": "Villaverde",
+    "lat": 40.3617,
+    "lng": -3.6885
+  },
+  {
+    "nombre": "IES Valdebernardo",
+    "distrito": "Vicálvaro",
+    "lat": 40.4052,
+    "lng": -3.619
+  },
+  {
+    "nombre": "IES Santa Teresa De Jesus",
+    "distrito": "Centro",
+    "lat": 40.4206,
+    "lng": -3.7101
+  },
+  {
+    "nombre": "IES Santamarca",
+    "distrito": "Chamartín",
+    "lat": 40.4562,
+    "lng": -3.674
+  },
+  {
+    "nombre": "IES Santa Engracia",
+    "distrito": "Chamberí",
+    "lat": 40.4298,
+    "lng": -3.6967
+  },
+  {
+    "nombre": "IES Ortega Y Gasset",
+    "distrito": "Moncloa-Aravaca",
+    "lat": 40.4317,
+    "lng": -3.7357
+  },
+  {
+    "nombre": "IES Instituto Politecnico N.1 Del Ejercito",
+    "distrito": "Carabanchel",
+    "lat": 40.3698,
+    "lng": -3.7528
+  },
+  {
+    "nombre": "IES Emilio Castelar",
+    "distrito": "Carabanchel",
+    "lat": 40.3888,
+    "lng": -3.73
+  },
+  {
+    "nombre": "IES Arcipreste De Hita",
+    "distrito": "Puente de Vallecas",
+    "lat": 40.3766,
+    "lng": -3.6713
+  },
+  {
+    "nombre": "IES San Cristobal De Los Angeles",
+    "distrito": "Villaverde",
+    "lat": 40.3428,
+    "lng": -3.6896
+  },
+  {
+    "nombre": "IES Carlos Maria Rodriguez De Valcarcel",
+    "distrito": "Moratalaz",
+    "lat": 40.4051,
+    "lng": -3.652
+  },
+  {
+    "nombre": "IES Joaquín Turina",
+    "distrito": "Chamberí",
+    "lat": 40.4405,
+    "lng": -3.7126
+  },
+  {
+    "nombre": "IES El Lago",
+    "distrito": "Moncloa-Aravaca",
+    "lat": 40.4157,
+    "lng": -3.733
+  },
+  {
+    "nombre": "IES San Fernando",
+    "distrito": "Fuencarral-El Pardo",
+    "lat": 40.528,
+    "lng": -3.6892
+  },
+  {
+    "nombre": "IES Tirso De Molina",
+    "distrito": "Puente de Vallecas",
+    "lat": 40.3911,
+    "lng": -3.653
+  },
+  {
+    "nombre": "IES Lope De Vega",
+    "distrito": "Centro",
+    "lat": 40.427,
+    "lng": -3.7064
+  },
+  {
+    "nombre": "IES Barajas",
+    "distrito": "Barajas",
+    "lat": 40.451,
+    "lng": -3.5992
+  },
+  {
+    "nombre": "IES Gregorio Marañon",
+    "distrito": "Fuencarral-El Pardo",
+    "lat": 40.4744,
+    "lng": -3.7101
+  },
+  {
+    "nombre": "IES Barrio Simancas",
+    "distrito": "San Blas-Canillejas",
+    "lat": 40.429,
+    "lng": -3.6254
+  },
+  {
+    "nombre": "IES Virgen De La Paloma",
+    "distrito": "Moncloa-Aravaca",
+    "lat": 40.4589,
+    "lng": -3.7158
+  },
+  {
+    "nombre": "IES Conde De Orgaz",
+    "distrito": "Hortaleza",
+    "lat": 40.46,
+    "lng": -3.6465
+  },
+  {
+    "nombre": "IES Carlos Iii",
+    "distrito": "San Blas-Canillejas",
+    "lat": 40.4249,
+    "lng": -3.6145
+  },
+  {
+    "nombre": "IES San Blas",
+    "distrito": "San Blas-Canillejas",
+    "lat": 40.4264,
+    "lng": -3.6133
+  },
+  {
+    "nombre": "IES Gómez Moreno",
+    "distrito": "San Blas-Canillejas",
+    "lat": 40.4321,
+    "lng": -3.6158
+  },
+  {
+    "nombre": "IES Rey Pastor",
+    "distrito": "Moratalaz",
+    "lat": 40.4107,
+    "lng": -3.6481
+  },
+  {
+    "nombre": "IES Vallecas I",
+    "distrito": "Puente de Vallecas",
+    "lat": 40.395,
+    "lng": -3.6631
+  },
+  {
+    "nombre": "IES Enrique Tierno Galvan",
+    "distrito": "Usera",
+    "lat": 40.3702,
+    "lng": -3.6952
+  },
+  {
+    "nombre": "IES Pio Baroja",
+    "distrito": "Usera",
+    "lat": 40.3729,
+    "lng": -3.7189
+  },
+  {
+    "nombre": "IES Parque Aluche",
+    "distrito": "Latina",
+    "lat": 40.3902,
+    "lng": -3.7637
+  },
+  {
+    "nombre": "IES Eijo Y Garay",
+    "distrito": "Latina",
+    "lat": 40.4081,
+    "lng": -3.7388
+  },
+  {
+    "nombre": "IES Nuestra Señora De La Almudena",
+    "distrito": "Tetuán",
+    "lat": 40.464,
+    "lng": -3.6984
+  },
+  {
+    "nombre": "IES Tetuan De Las Victorias",
+    "distrito": "Tetuán",
+    "lat": 40.4731,
+    "lng": -3.6969
+  },
+  {
+    "nombre": "IES Cardenal Herrera Oria",
+    "distrito": "Fuencarral-El Pardo",
+    "lat": 40.4825,
+    "lng": -3.7117
+  },
+  {
+    "nombre": "IES Beatriz Galindo",
+    "distrito": "Salamanca",
+    "lat": 40.4251,
+    "lng": -3.6862
+  },
+  {
+    "nombre": "IES Isabel La Catolica",
+    "distrito": "Retiro",
+    "lat": 40.4095,
+    "lng": -3.6883
+  },
+  {
+    "nombre": "IES Juan De La Cierva",
+    "distrito": "Arganzuela",
+    "lat": 40.4022,
+    "lng": -3.7064
+  },
+  {
+    "nombre": "IES Cardenal Cisneros",
+    "distrito": "Centro",
+    "lat": 40.4244,
+    "lng": -3.7083
+  },
+  {
+    "nombre": "IES San Isidro",
+    "distrito": "Centro",
+    "lat": 40.4126,
+    "lng": -3.7074
+  },
+  {
+    "nombre": "IES Emperatriz Maria De Austria",
+    "distrito": "Carabanchel",
+    "lat": 40.3872,
+    "lng": -3.7171
+  },
+  {
+    "nombre": "IES Calderon De La Barca",
+    "distrito": "Carabanchel",
+    "lat": 40.3872,
+    "lng": -3.7171
+  },
+  {
+    "nombre": "IES Vista Alegre",
+    "distrito": "Carabanchel",
+    "lat": 40.3852,
+    "lng": -3.7364
+  },
+  {
+    "nombre": "CEIPSO Arquitecto Gaudi",
+    "distrito": "Chamartín",
+    "lat": 40.4655,
+    "lng": -3.6693
+  },
+  {
+    "nombre": "IES Pacifico",
+    "distrito": "Retiro",
+    "lat": 40.4041,
+    "lng": -3.6687
+  },
+  {
+    "nombre": "CEIPSO Esperanza",
+    "distrito": "Hortaleza",
+    "lat": 40.4612,
+    "lng": -3.6459
+  },
+  {
+    "nombre": "IES Palomeras Vallecas",
+    "distrito": "Puente de Vallecas",
+    "lat": 40.3881,
+    "lng": -3.6296
+  },
+  {
+    "nombre": "IES Garcia Morato",
+    "distrito": "Latina",
+    "lat": 40.3742,
+    "lng": -3.7677
+  },
+  {
+    "nombre": "IES Gran Capitán",
+    "distrito": "Arganzuela",
+    "lat": 40.4038,
+    "lng": -3.7201
+  },
+  {
+    "nombre": "IES Carmen Martin Gaite",
+    "distrito": "Moralzarzal",
+    "lat": 40.6741,
+    "lng": -3.9744
+  },
+  {
+    "nombre": "IES Ciudad Escolar",
+    "distrito": "Fuencarral-El Pardo",
+    "lat": 40.5245,
+    "lng": -3.6855
+  },
+  {
+    "nombre": "CEIPSO Vicente Aleixandre",
+    "distrito": "Miraflores de la Sierra",
+    "lat": 40.8108,
+    "lng": -3.7591
+  },
+  {
+    "nombre": "IES Felipe Trigo",
+    "distrito": "Móstoles",
+    "lat": 40.3204,
+    "lng": -3.8807
+  },
+  {
+    "nombre": "CEIPSO Principe De Asturias",
+    "distrito": "Navacerrada",
+    "lat": 40.7235,
+    "lng": -4.02
+  },
+  {
+    "nombre": "IES Carmen Martin Gaite",
+    "distrito": "Navalcarnero",
+    "lat": 40.2875,
+    "lng": -4.0201
+  },
+  {
+    "nombre": "CEIPSO Isabel La Catolica",
+    "distrito": "Navas del Rey",
+    "lat": 40.3886,
+    "lng": -4.25
+  },
+  {
+    "nombre": "CEIPSO Juan De Goyeneche",
+    "distrito": "Nuevo Baztán",
+    "lat": 40.3604,
+    "lng": -3.2434
+  },
+  {
+    "nombre": "CEIPSO Nuestra Señora Del Castillo",
+    "distrito": "Perales de Tajuña",
+    "lat": 40.2317,
+    "lng": -3.3523
+  },
+  {
+    "nombre": "CEIPSO Los Angeles",
+    "distrito": "Pozuelo de Alarcón",
+    "lat": 40.4007,
+    "lng": -3.7845
+  },
+  {
+    "nombre": "IES Gerardo Diego",
+    "distrito": "Pozuelo de Alarcón",
+    "lat": 40.443,
+    "lng": -3.7873
+  },
+  {
+    "nombre": "IES Vega Del Jarama",
+    "distrito": "San Fernando de Henares",
+    "lat": 40.4234,
+    "lng": -3.5292
+  },
+  {
+    "nombre": "IES Joan Miro",
+    "distrito": "San Sebastián de los Reyes",
+    "lat": 40.5581,
+    "lng": -3.6243
+  },
+  {
+    "nombre": "IES Isaac Peral",
+    "distrito": "Torrejón de Ardoz",
+    "lat": 40.4557,
+    "lng": -3.4528
+  },
+  {
+    "nombre": "IES Las Veredillas",
+    "distrito": "Torrejón de Ardoz",
+    "lat": 40.4662,
+    "lng": -3.4709
+  },
+  {
+    "nombre": "IES Alto Jarama",
+    "distrito": "Torrelaguna",
+    "lat": 40.8282,
+    "lng": -3.5415
+  },
+  {
+    "nombre": "CEIPSO Jesus Aramburu",
+    "distrito": "Valdetorres de Jarama",
+    "lat": 40.6922,
+    "lng": -3.5168
+  },
+  {
+    "nombre": "CEIPSO Miguel De Cervantes",
+    "distrito": "Valdilecha",
+    "lat": 40.2938,
+    "lng": -3.2997
+  },
+  {
+    "nombre": "CEIPSO San Damaso",
+    "distrito": "Villamanta",
+    "lat": 40.2966,
+    "lng": -4.1087
+  },
+  {
+    "nombre": "IES Nuestra Señora De La Victoria De Lepanto",
+    "distrito": "Villarejo de Salvanés",
+    "lat": 40.1671,
+    "lng": -3.2765
+  },
+  {
+    "nombre": "IES Felipe Ii",
+    "distrito": "Moratalaz",
+    "lat": 40.3975,
+    "lng": -3.6339
+  },
+  {
+    "nombre": "IES Vicente Aleixandre",
+    "distrito": "Pinto",
+    "lat": 40.2511,
+    "lng": -3.6928
+  },
+  {
+    "nombre": "CEIPSO Ramon Perez De Ayala",
+    "distrito": "Hortaleza",
+    "lat": 40.466,
+    "lng": -3.6327
+  },
+  {
+    "nombre": "IES Los Castillos",
+    "distrito": "Alcorcón",
+    "lat": 40.3575,
+    "lng": -3.8101
+  },
+  {
+    "nombre": "CEIPSO Pio Baroja",
+    "distrito": "Leganés",
+    "lat": 40.3372,
+    "lng": -3.7473
+  },
+  {
+    "nombre": "IES Arquitecto Pedro Gumiel",
+    "distrito": "Alcalá de Henares",
+    "lat": 40.4947,
+    "lng": -3.3791
+  },
+  {
+    "nombre": "IES Maria Moliner",
+    "distrito": "Coslada",
+    "lat": 40.4226,
+    "lng": -3.5492
+  },
+  {
+    "nombre": "IES Dionisio Aguado",
+    "distrito": "Fuenlabrada",
+    "lat": 40.2834,
+    "lng": -3.8059
+  },
+  {
+    "nombre": "IES Butarque",
+    "distrito": "Leganés",
+    "lat": 40.3371,
+    "lng": -3.7591
+  },
+  {
+    "nombre": "IES Avenida De Los Toreros",
+    "distrito": "Salamanca",
+    "lat": 40.4335,
+    "lng": -3.6649
+  },
+  {
+    "nombre": "IES Mariano Jose De Larra",
+    "distrito": "Latina",
+    "lat": 40.3883,
+    "lng": -3.7539
+  },
+  {
+    "nombre": "IES La Estrella",
+    "distrito": "Retiro",
+    "lat": 40.4095,
+    "lng": -3.6667
+  },
+  {
+    "nombre": "IES San Juan Bautista",
+    "distrito": "Ciudad Lineal",
+    "lat": 40.452,
+    "lng": -3.6583
+  },
+  {
+    "nombre": "IES Jaime Vera",
+    "distrito": "Tetuán",
+    "lat": 40.457,
+    "lng": -3.6981
+  },
+  {
+    "nombre": "IES Manuel De Falla",
+    "distrito": "Móstoles",
+    "lat": 40.3281,
+    "lng": -3.8841
+  },
+  {
+    "nombre": "IES Las Rozas I",
+    "distrito": "Rozas de Madrid, Las",
+    "lat": 40.4893,
+    "lng": -3.868
+  },
+  {
+    "nombre": "IES Gonzalo Torrente Ballester",
+    "distrito": "San Sebastián de los Reyes",
+    "lat": 40.5588,
+    "lng": -3.6292
+  },
+  {
+    "nombre": "IES Ramiro De Maeztu",
+    "distrito": "Chamartín",
+    "lat": 40.4423,
+    "lng": -3.6862
+  },
+  {
+    "nombre": "IES Juan De Herrera",
+    "distrito": "San Lorenzo de El Escorial",
+    "lat": 40.6025,
+    "lng": -4.1251
+  },
+  {
+    "nombre": "CEIPSO Francisco De Quevedo",
+    "distrito": "Leganés",
+    "lat": 40.3224,
+    "lng": -3.7722
+  },
+  {
+    "nombre": "CEIPSO Dionisio Ridruejo",
+    "distrito": "Hortaleza",
+    "lat": 40.4731,
+    "lng": -3.6344
+  },
+  {
+    "nombre": "CEIPSO Meseta De Orcasitas",
+    "distrito": "Usera",
+    "lat": 40.3719,
+    "lng": -3.7104
+  },
+  {
+    "nombre": "CEPA Casa De La Cultura",
+    "distrito": "Getafe",
+    "lat": 40.3058,
+    "lng": -3.7323
+  },
+  {
+    "nombre": "CEPA Cultural Moratalaz",
+    "distrito": "Moratalaz",
+    "lat": 40.4039,
+    "lng": -3.6493
+  },
+  {
+    "nombre": "CEPA Aluche",
+    "distrito": "Latina",
+    "lat": 40.3848,
+    "lng": -3.7557
+  },
+  {
+    "nombre": "IES Fortuny",
+    "distrito": "Chamberí",
+    "lat": 40.4337,
+    "lng": -3.6899
+  },
+  {
+    "nombre": "IES Ciudad De Los Poetas",
+    "distrito": "Moncloa-Aravaca",
+    "lat": 40.4678,
+    "lng": -3.7176
+  },
+  {
+    "nombre": "IES Ramon Y Cajal",
+    "distrito": "Hortaleza",
+    "lat": 40.4874,
+    "lng": -3.6601
+  },
+  {
+    "nombre": "IES Miguel Delibes",
+    "distrito": "Ciudad Lineal",
+    "lat": 40.4222,
+    "lng": -3.6315
+  },
+  {
+    "nombre": "IES Celestino Mutis",
+    "distrito": "Villaverde",
+    "lat": 40.3482,
+    "lng": -3.713
+  },
+  {
+    "nombre": "IES Damaso Alonso",
+    "distrito": "Fuencarral-El Pardo",
+    "lat": 40.4872,
+    "lng": -3.7006
+  },
+  {
+    "nombre": "CEPA Agustina De Aragon",
+    "distrito": "Móstoles",
+    "lat": 40.3117,
+    "lng": -3.8556
+  },
+  {
+    "nombre": "IES Humanejos",
+    "distrito": "Parla",
+    "lat": 40.2287,
+    "lng": -3.769
+  },
+  {
+    "nombre": "IES Leon Felipe",
+    "distrito": "Torrejón de Ardoz",
+    "lat": 40.4618,
+    "lng": -3.4866
+  },
+  {
+    "nombre": "IES Prado De Santo Domingo",
+    "distrito": "Alcorcón",
+    "lat": 40.3404,
+    "lng": -3.8409
+  },
+  {
+    "nombre": "CEIPSO Antonio Machado",
+    "distrito": "Leganés",
+    "lat": 40.3425,
+    "lng": -3.744
+  },
+  {
+    "nombre": "IES Arturo Soria",
+    "distrito": "Hortaleza",
+    "lat": 40.4777,
+    "lng": -3.6602
+  },
+  {
+    "nombre": "IES Mateo Aleman",
+    "distrito": "Alcalá de Henares",
+    "lat": 40.4783,
+    "lng": -3.3828
+  },
+  {
+    "nombre": "IES Galileo Galilei",
+    "distrito": "Alcorcón",
+    "lat": 40.34,
+    "lng": -3.8392
+  },
+  {
+    "nombre": "IES Blas De Otero",
+    "distrito": "Latina",
+    "lat": 40.3889,
+    "lng": -3.7622
+  },
+  {
+    "nombre": "IES San Mateo",
+    "distrito": "Centro",
+    "lat": 40.4255,
+    "lng": -3.7001
+  },
+  {
+    "nombre": "IES Mariana Pineda",
+    "distrito": "Moratalaz",
+    "lat": 40.4137,
+    "lng": -3.6557
+  },
+  {
+    "nombre": "IES Vallecas-Magerit",
+    "distrito": "Puente de Vallecas",
+    "lat": 40.3889,
+    "lng": -3.6611
+  },
+  {
+    "nombre": "IES Las Musas",
+    "distrito": "San Blas-Canillejas",
+    "lat": 40.4287,
+    "lng": -3.6079
+  },
+  {
+    "nombre": "IES Leonardo Da Vinci",
+    "distrito": "Latina",
+    "lat": 40.3782,
+    "lng": -3.7634
+  },
+  {
+    "nombre": "IES Moratalaz",
+    "distrito": "Moratalaz",
+    "lat": 40.4127,
+    "lng": -3.6582
+  },
+  {
+    "nombre": "CEIPSO Virgen Del Cortijo",
+    "distrito": "Hortaleza",
+    "lat": 40.488,
+    "lng": -3.6641
+  },
+  {
+    "nombre": "CEIPSO Mariano Jose De Larra",
+    "distrito": "San Blas-Canillejas",
+    "lat": 40.4306,
+    "lng": -3.6089
+  },
+  {
+    "nombre": "CEIPSO Pablo Picasso",
+    "distrito": "Hortaleza",
+    "lat": 40.4708,
+    "lng": -3.6472
+  },
+  {
+    "nombre": "CEIPSO Antonio Machado",
+    "distrito": "San Sebastián de los Reyes",
+    "lat": 40.5562,
+    "lng": -3.6306
+  },
+  {
+    "nombre": "IES Escuela Superior De Hosteleria Y Turismo",
+    "distrito": "Moncloa-Aravaca",
+    "lat": 40.4155,
+    "lng": -3.7327
+  },
+  {
+    "nombre": "IES Arquitecto Peridis",
+    "distrito": "Leganés",
+    "lat": 40.3342,
+    "lng": -3.7409
+  },
+  {
+    "nombre": "IES Ciudad De Jaen",
+    "distrito": "Usera",
+    "lat": 40.3717,
+    "lng": -3.7001
+  },
+  {
+    "nombre": "IES Leonardo Da Vinci",
+    "distrito": "Majadahonda",
+    "lat": 40.4789,
+    "lng": -3.8797
+  },
+  {
+    "nombre": "IES Enrique Tierno Galvan",
+    "distrito": "Parla",
+    "lat": 40.226,
+    "lng": -3.7683
+  },
+  {
+    "nombre": "CEIPSO Nuestra Señora Del Rosario",
+    "distrito": "Valdemoro",
+    "lat": 40.1868,
+    "lng": -3.6835
+  },
+  {
+    "nombre": "CEPA Hortaleza-Mar Amarillo",
+    "distrito": "Hortaleza",
+    "lat": 40.4747,
+    "lng": -3.6411
+  },
+  {
+    "nombre": "CEPA Jose Luis Sampedro",
+    "distrito": "Fuencarral-El Pardo",
+    "lat": 40.4735,
+    "lng": -3.7132
+  },
+  {
+    "nombre": "CEPA La Albufera",
+    "distrito": "Puente de Vallecas",
+    "lat": 40.3942,
+    "lng": -3.6617
+  },
+  {
+    "nombre": "IES Alameda De Osuna",
+    "distrito": "Barajas",
+    "lat": 40.4604,
+    "lng": -3.589
+  },
+  {
+    "nombre": "IES Manuela Malasaña",
+    "distrito": "Móstoles",
+    "lat": 40.3128,
+    "lng": -3.8651
+  },
+  {
+    "nombre": "CEIPSO Miguel De Cervantes",
+    "distrito": "Alcorcón",
+    "lat": 40.3514,
+    "lng": -3.8329
+  },
+  {
+    "nombre": "IES Gaspar Melchor De Jovellanos",
+    "distrito": "Fuenlabrada",
+    "lat": 40.292,
+    "lng": -3.8052
+  },
+  {
+    "nombre": "IES San Isidoro De Sevilla",
+    "distrito": "Chamberí",
+    "lat": 40.4452,
+    "lng": -3.7192
+  },
+  {
+    "nombre": "IES Alonso Quijano",
+    "distrito": "Alcalá de Henares",
+    "lat": 40.476,
+    "lng": -3.3653
+  },
+  {
+    "nombre": "IES Jose Luis Sampedro",
+    "distrito": "Tres Cantos",
+    "lat": 40.6098,
+    "lng": -3.7079
+  },
+  {
+    "nombre": "IES Juan De Villanueva",
+    "distrito": "Usera",
+    "lat": 40.3688,
+    "lng": -3.7112
+  },
+  {
+    "nombre": "IES La Dehesilla",
+    "distrito": "Cercedilla",
+    "lat": 40.7374,
+    "lng": -4.0438
+  },
+  {
+    "nombre": "CEIPSO Carmen Conde",
+    "distrito": "Leganés",
+    "lat": 40.3272,
+    "lng": -3.7569
+  },
+  {
+    "nombre": "CEPA San Fernando De Henares",
+    "distrito": "San Fernando de Henares",
+    "lat": 40.4287,
+    "lng": -3.5275
+  },
+  {
+    "nombre": "CEPA Paulo Freire",
+    "distrito": "Fuenlabrada",
+    "lat": 40.2806,
+    "lng": -3.8029
+  },
+  {
+    "nombre": "IES La Arboleda",
+    "distrito": "Alcorcón",
+    "lat": 40.3416,
+    "lng": -3.8326
+  },
+  {
+    "nombre": "IES La Poveda",
+    "distrito": "Arganda del Rey",
+    "lat": 40.3142,
+    "lng": -3.475
+  },
+  {
+    "nombre": "IES Angel Corella",
+    "distrito": "Colmenar Viejo",
+    "lat": 40.6556,
+    "lng": -3.7521
+  },
+  {
+    "nombre": "IES Enrique Tierno Galvan",
+    "distrito": "Leganés",
+    "lat": 40.3171,
+    "lng": -3.7727
+  },
+  {
+    "nombre": "IES Ciudad De Los Ángeles",
+    "distrito": "Villaverde",
+    "lat": 40.3529,
+    "lng": -3.6963
+  },
+  {
+    "nombre": "IES Rosa Chacel",
+    "distrito": "Hortaleza",
+    "lat": 40.4779,
+    "lng": -3.6505
+  },
+  {
+    "nombre": "IES Antonio Dominguez Ortiz",
+    "distrito": "Puente de Vallecas",
+    "lat": 40.389,
+    "lng": -3.6355
+  },
+  {
+    "nombre": "IES Joaquín Rodrigo",
+    "distrito": "Vicálvaro",
+    "lat": 40.4092,
+    "lng": -3.614
+  },
+  {
+    "nombre": "IES Pradolongo",
+    "distrito": "Usera",
+    "lat": 40.3795,
+    "lng": -3.7172
+  },
+  {
+    "nombre": "IES Rey Fernando Vi",
+    "distrito": "San Fernando de Henares",
+    "lat": 40.424,
+    "lng": -3.5288
+  },
+  {
+    "nombre": "IES Victoria Kent",
+    "distrito": "Torrejón de Ardoz",
+    "lat": 40.456,
+    "lng": -3.4507
+  },
+  {
+    "nombre": "IES Diego Velazquez",
+    "distrito": "Torrelodones",
+    "lat": 40.5806,
+    "lng": -3.9356
+  },
+  {
+    "nombre": "CEIPSO Calderon De La Barca",
+    "distrito": "Barajas",
+    "lat": 40.4706,
+    "lng": -3.584
+  },
+  {
+    "nombre": "CEIPSO Luis Buñuel",
+    "distrito": "Alcobendas",
+    "lat": 40.5509,
+    "lng": -3.6422
+  },
+  {
+    "nombre": "CEIPSO Arcipreste De Hita",
+    "distrito": "Fuenlabrada",
+    "lat": 40.2932,
+    "lng": -3.7957
+  },
+  {
+    "nombre": "CEPA Don Juan I",
+    "distrito": "Alcalá de Henares",
+    "lat": 40.4741,
+    "lng": -3.3746
+  },
+  {
+    "nombre": "CEIPSO El Olivar",
+    "distrito": "Rivas-Vaciamadrid",
+    "lat": 40.3641,
+    "lng": -3.5526
+  },
+  {
+    "nombre": "IES Virgen De La Paz",
+    "distrito": "Alcobendas",
+    "lat": 40.5242,
+    "lng": -3.6548
+  },
+  {
+    "nombre": "CEIPSO Joaquin Costa",
+    "distrito": "Alcorcón",
+    "lat": 40.3473,
+    "lng": -3.8138
+  },
+  {
+    "nombre": "IES Luis Buñuel",
+    "distrito": "Alcorcón",
+    "lat": 40.3506,
+    "lng": -3.8326
+  },
+  {
+    "nombre": "CEIPSO Rosalia De Castro",
+    "distrito": "Arganda del Rey",
+    "lat": 40.305,
+    "lng": -3.4434
+  },
+  {
+    "nombre": "IES Rafael Alberti",
+    "distrito": "Coslada",
+    "lat": 40.43,
+    "lng": -3.5647
+  },
+  {
+    "nombre": "IES Salvador Dali",
+    "distrito": "Leganés",
+    "lat": 40.3369,
+    "lng": -3.7427
+  },
+  {
+    "nombre": "IES Siglo Xxi",
+    "distrito": "Leganés",
+    "lat": 40.3384,
+    "lng": -3.7638
+  },
+  {
+    "nombre": "IES Mirasierra",
+    "distrito": "Fuencarral-El Pardo",
+    "lat": 40.491,
+    "lng": -3.7152
+  },
+  {
+    "nombre": "IES Francisco Tomas Y Valiente",
+    "distrito": "Hortaleza",
+    "lat": 40.4637,
+    "lng": -3.6505
+  },
+  {
+    "nombre": "IES Islas Filipinas",
+    "distrito": "Chamberí",
+    "lat": 40.4406,
+    "lng": -3.7113
+  },
+  {
+    "nombre": "IES Luis Buñuel",
+    "distrito": "Móstoles",
+    "lat": 40.3396,
+    "lng": -3.8654
+  },
+  {
+    "nombre": "IES Narcis Monturiol",
+    "distrito": "Parla",
+    "lat": 40.2433,
+    "lng": -3.7767
+  },
+  {
+    "nombre": "IES Jaime Ferran Clua",
+    "distrito": "San Fernando de Henares",
+    "lat": 40.4147,
+    "lng": -3.521
+  },
+  {
+    "nombre": "CEPA Coslada",
+    "distrito": "Coslada",
+    "lat": 40.4313,
+    "lng": -3.5383
+  },
+  {
+    "nombre": "CEPA Colmenar Viejo",
+    "distrito": "Colmenar Viejo",
+    "lat": 40.6584,
+    "lng": -3.768
+  },
+  {
+    "nombre": "CEPA Mariano Jose De Larra",
+    "distrito": "Pinto",
+    "lat": 40.2411,
+    "lng": -3.702
+  },
+  {
+    "nombre": "CEPA Daoiz Y Velarde",
+    "distrito": "Usera",
+    "lat": 40.3675,
+    "lng": -3.7028
+  },
+  {
+    "nombre": "IES Maria De Molina",
+    "distrito": "Latina",
+    "lat": 40.3777,
+    "lng": -3.78
+  },
+  {
+    "nombre": "IES Isaac Newton",
+    "distrito": "Fuencarral-El Pardo",
+    "lat": 40.473,
+    "lng": -3.7226
+  },
+  {
+    "nombre": "IES Severo Ochoa",
+    "distrito": "Alcobendas",
+    "lat": 40.5235,
+    "lng": -3.6544
+  },
+  {
+    "nombre": "IES Parque De Lisboa",
+    "distrito": "Alcorcón",
+    "lat": 40.3508,
+    "lng": -3.8121
+  },
+  {
+    "nombre": "IES La Serna",
+    "distrito": "Fuenlabrada",
+    "lat": 40.296,
+    "lng": -3.7941
+  },
+  {
+    "nombre": "IES La Fortuna",
+    "distrito": "Leganés",
+    "lat": 40.3596,
+    "lng": -3.784
+  },
+  {
+    "nombre": "IES Clara Campoamor",
+    "distrito": "Móstoles",
+    "lat": 40.33,
+    "lng": -3.8534
+  },
+  {
+    "nombre": "IES Velazquez",
+    "distrito": "Móstoles",
+    "lat": 40.3305,
+    "lng": -3.8721
+  },
+  {
+    "nombre": "IES Manuel Elkin Patarroyo",
+    "distrito": "Parla",
+    "lat": 40.2438,
+    "lng": -3.7637
+  },
+  {
+    "nombre": "IES Camilo Jose Cela",
+    "distrito": "Pozuelo de Alarcón",
+    "lat": 40.4392,
+    "lng": -3.8196
+  },
+  {
+    "nombre": "IES Villa De Valdemoro",
+    "distrito": "Valdemoro",
+    "lat": 40.1893,
+    "lng": -3.6828
+  },
+  {
+    "nombre": "IES Alpajes",
+    "distrito": "Aranjuez",
+    "lat": 40.0351,
+    "lng": -3.5936
+  },
+  {
+    "nombre": "IES Maria De Zayas Y Sotomayor",
+    "distrito": "Majadahonda",
+    "lat": 40.4767,
+    "lng": -3.8576
+  },
+  {
+    "nombre": "CEIPSO Antonio Machado",
+    "distrito": "Colmenar Viejo",
+    "lat": 40.6635,
+    "lng": -3.7768
+  },
+  {
+    "nombre": "CEIPSO Santo Domingo",
+    "distrito": "Algete",
+    "lat": 40.6286,
+    "lng": -3.5831
+  },
+  {
+    "nombre": "IES Cardenal Cisneros",
+    "distrito": "Alcalá de Henares",
+    "lat": 40.4812,
+    "lng": -3.3708
+  },
+  {
+    "nombre": "IES Alkala-Nahar",
+    "distrito": "Alcalá de Henares",
+    "lat": 40.4868,
+    "lng": -3.3424
+  },
+  {
+    "nombre": "IES Josefina Aldecoa",
+    "distrito": "Alcorcón",
+    "lat": 40.3567,
+    "lng": -3.8168
+  },
+  {
+    "nombre": "IES Grande Covian",
+    "distrito": "Arganda del Rey",
+    "lat": 40.2966,
+    "lng": -3.4335
+  },
+  {
+    "nombre": "CEIPSO Enrique Tierno Galvan",
+    "distrito": "Fuenlabrada",
+    "lat": 40.2884,
+    "lng": -3.8059
+  },
+  {
+    "nombre": "IES Julio Caro Baroja",
+    "distrito": "Fuenlabrada",
+    "lat": 40.2875,
+    "lng": -3.7862
+  },
+  {
+    "nombre": "IES Salvador Allende",
+    "distrito": "Fuenlabrada",
+    "lat": 40.2894,
+    "lng": -3.7973
+  },
+  {
+    "nombre": "IES Laguna De Joatzel",
+    "distrito": "Getafe",
+    "lat": 40.3114,
+    "lng": -3.7119
+  },
+  {
+    "nombre": "IES Isaac Albeniz",
+    "distrito": "Leganés",
+    "lat": 40.3405,
+    "lng": -3.7435
+  },
+  {
+    "nombre": "IES Marques De Suanzes",
+    "distrito": "San Blas-Canillejas",
+    "lat": 40.4445,
+    "lng": -3.6254
+  },
+  {
+    "nombre": "IES Julio Verne",
+    "distrito": "Leganés",
+    "lat": 40.3374,
+    "lng": -3.7631
+  },
+  {
+    "nombre": "IES Salvador Dalí",
+    "distrito": "Ciudad Lineal",
+    "lat": 40.4396,
+    "lng": -3.6566
+  },
+  {
+    "nombre": "IES Gabriel Garcia Marquez",
+    "distrito": "Hortaleza",
+    "lat": 40.4698,
+    "lng": -3.6355
+  },
+  {
+    "nombre": "IES Villablanca",
+    "distrito": "Vicálvaro",
+    "lat": 40.406,
+    "lng": -3.6002
+  },
+  {
+    "nombre": "IES Carlos Bousoño",
+    "distrito": "Majadahonda",
+    "lat": 40.4724,
+    "lng": -3.8607
+  },
+  {
+    "nombre": "IES Los Rosales",
+    "distrito": "Móstoles",
+    "lat": 40.3358,
+    "lng": -3.871
+  },
+  {
+    "nombre": "IES Benjamin Rua",
+    "distrito": "Móstoles",
+    "lat": 40.3363,
+    "lng": -3.8715
+  },
+  {
+    "nombre": "IES Luis De Gongora",
+    "distrito": "Torrejón de Ardoz",
+    "lat": 40.45,
+    "lng": -3.4729
+  },
+  {
+    "nombre": "CEIPSO Laura Garcia Noblejas Y Brunet",
+    "distrito": "Villaviciosa de Odón",
+    "lat": 40.3621,
+    "lng": -3.9057
+  },
+  {
+    "nombre": "IES Al-Satt",
+    "distrito": "Algete",
+    "lat": 40.5974,
+    "lng": -3.5091
+  },
+  {
+    "nombre": "IES Aldebaran",
+    "distrito": "Alcobendas",
+    "lat": 40.5431,
+    "lng": -3.6606
+  },
+  {
+    "nombre": "IES Gustavo Adolfo Becquer",
+    "distrito": "Algete",
+    "lat": 40.5974,
+    "lng": -3.5091
+  },
+  {
+    "nombre": "IES Carpe Diem",
+    "distrito": "Chinchón",
+    "lat": 40.1393,
+    "lng": -3.4145
+  },
+  {
+    "nombre": "IES José Hierro",
+    "distrito": "Getafe",
+    "lat": 40.2907,
+    "lng": -3.7517
+  },
+  {
+    "nombre": "IES Leon Felipe",
+    "distrito": "Getafe",
+    "lat": 40.2996,
+    "lng": -3.7327
+  },
+  {
+    "nombre": "IES De Guadarrama",
+    "distrito": "Guadarrama",
+    "lat": 40.6652,
+    "lng": -4.0881
+  },
+  {
+    "nombre": "IES San Nicasio",
+    "distrito": "Leganés",
+    "lat": 40.3407,
+    "lng": -3.7629
+  },
+  {
+    "nombre": "IES Iturralde",
+    "distrito": "Latina",
+    "lat": 40.3856,
+    "lng": -3.7512
+  },
+  {
+    "nombre": "IES Villa De Vallecas",
+    "distrito": "Villa de Vallecas",
+    "lat": 40.3749,
+    "lng": -3.6247
+  },
+  {
+    "nombre": "IES San Juan De La Cruz",
+    "distrito": "Pozuelo de Alarcón",
+    "lat": 40.4304,
+    "lng": -3.8169
+  },
+  {
+    "nombre": "IES El Burgo-Ignacio Echeverría",
+    "distrito": "Rozas de Madrid, Las",
+    "lat": 40.4882,
+    "lng": -3.8829
+  },
+  {
+    "nombre": "IES Julio Palacios",
+    "distrito": "San Sebastián de los Reyes",
+    "lat": 40.5435,
+    "lng": -3.6182
+  },
+  {
+    "nombre": "IES Agora",
+    "distrito": "Alcobendas",
+    "lat": 40.5523,
+    "lng": -3.6424
+  },
+  {
+    "nombre": "IES El Pinar",
+    "distrito": "Alcorcón",
+    "lat": 40.3398,
+    "lng": -3.8245
+  },
+  {
+    "nombre": "IES Profesor Maximo Trueba",
+    "distrito": "Boadilla del Monte",
+    "lat": 40.4062,
+    "lng": -3.8817
+  },
+  {
+    "nombre": "IES De La Cabrera",
+    "distrito": "Cabrera, La",
+    "lat": 40.8669,
+    "lng": -3.6105
+  },
+  {
+    "nombre": "IES Antonio Gaudi",
+    "distrito": "Coslada",
+    "lat": 40.4235,
+    "lng": -3.5387
+  },
+  {
+    "nombre": "IES Altair",
+    "distrito": "Getafe",
+    "lat": 40.3153,
+    "lng": -3.7414
+  },
+  {
+    "nombre": "IES Juana De Castilla",
+    "distrito": "Moratalaz",
+    "lat": 40.3985,
+    "lng": -3.6331
+  },
+  {
+    "nombre": "IES Miguel Delibes",
+    "distrito": "Mejorada del Campo",
+    "lat": 40.3906,
+    "lng": -3.484
+  },
+  {
+    "nombre": "IES Profesor Angel Ysern",
+    "distrito": "Navalcarnero",
+    "lat": 40.2932,
+    "lng": -4.0107
+  },
+  {
+    "nombre": "IES La Laguna",
+    "distrito": "Parla",
+    "lat": 40.2451,
+    "lng": -3.7724
+  },
+  {
+    "nombre": "IES Las Lagunas",
+    "distrito": "Rivas-Vaciamadrid",
+    "lat": 40.3624,
+    "lng": -3.5479
+  },
+  {
+    "nombre": "IES Palas Atenea",
+    "distrito": "Torrejón de Ardoz",
+    "lat": 40.4639,
+    "lng": -3.4578
+  },
+  {
+    "nombre": "IES Calatalifa",
+    "distrito": "Villaviciosa de Odón",
+    "lat": 40.3547,
+    "lng": -3.9022
+  },
+  {
+    "nombre": "IES Las Canteras",
+    "distrito": "Collado Villalba",
+    "lat": 40.6395,
+    "lng": -3.9999
+  },
+  {
+    "nombre": "IES Satafi",
+    "distrito": "Getafe",
+    "lat": 40.3122,
+    "lng": -3.7122
+  },
+  {
+    "nombre": "IES Ignacio Ellacuria",
+    "distrito": "Alcalá de Henares",
+    "lat": 40.4951,
+    "lng": -3.3547
+  },
+  {
+    "nombre": "IES Maria Guerrero",
+    "distrito": "Collado Villalba",
+    "lat": 40.6243,
+    "lng": -4.0043
+  },
+  {
+    "nombre": "IES Pablo Neruda",
+    "distrito": "Leganés",
+    "lat": 40.329,
+    "lng": -3.7455
+  },
+  {
+    "nombre": "IES Gabriel Garcia Marquez",
+    "distrito": "Leganés",
+    "lat": 40.3277,
+    "lng": -3.7528
+  },
+  {
+    "nombre": "IES Joaquin Araujo",
+    "distrito": "Fuenlabrada",
+    "lat": 40.2781,
+    "lng": -3.7879
+  },
+  {
+    "nombre": "IES Dolores Ibarruri",
+    "distrito": "Fuenlabrada",
+    "lat": 40.2768,
+    "lng": -3.7965
+  },
+  {
+    "nombre": "IES Antonio Lopez García",
+    "distrito": "Getafe",
+    "lat": 40.3241,
+    "lng": -3.7254
+  },
+  {
+    "nombre": "IES Margarita Salas",
+    "distrito": "Majadahonda",
+    "lat": 40.4651,
+    "lng": -3.8674
+  },
+  {
+    "nombre": "IES Antonio Gala",
+    "distrito": "Móstoles",
+    "lat": 40.3222,
+    "lng": -3.8827
+  },
+  {
+    "nombre": "IES Miguel Hernández",
+    "distrito": "Móstoles",
+    "lat": 40.3235,
+    "lng": -3.8497
+  },
+  {
+    "nombre": "IES Pintor Antonio Lopez",
+    "distrito": "Tres Cantos",
+    "lat": 40.6024,
+    "lng": -3.7025
+  },
+  {
+    "nombre": "IES Itaca",
+    "distrito": "Alcorcón",
+    "lat": 40.3561,
+    "lng": -3.8089
+  },
+  {
+    "nombre": "CEIPSO Velazquez",
+    "distrito": "Fuenlabrada",
+    "lat": 40.2925,
+    "lng": -3.8321
+  },
+  {
+    "nombre": "IES Luis Braille",
+    "distrito": "Coslada",
+    "lat": 40.4271,
+    "lng": -3.558
+  },
+  {
+    "nombre": "IES Infanta Elena",
+    "distrito": "Galapagar",
+    "lat": 40.5829,
+    "lng": -4.0114
+  },
+  {
+    "nombre": "IES Icaro",
+    "distrito": "Getafe",
+    "lat": 40.3159,
+    "lng": -3.7422
+  },
+  {
+    "nombre": "IES Santa Eugenia",
+    "distrito": "Villa de Vallecas",
+    "lat": 40.3855,
+    "lng": -3.6045
+  },
+  {
+    "nombre": "IES Clara Del Rey",
+    "distrito": "Chamartín",
+    "lat": 40.4464,
+    "lng": -3.6644
+  },
+  {
+    "nombre": "IES Europa",
+    "distrito": "Móstoles",
+    "lat": 40.3275,
+    "lng": -3.8504
+  },
+  {
+    "nombre": "IES Antonio De Nebrija",
+    "distrito": "Móstoles",
+    "lat": 40.3119,
+    "lng": -3.853
+  },
+  {
+    "nombre": "IES Valle Inclan",
+    "distrito": "Torrejón de Ardoz",
+    "lat": 40.4628,
+    "lng": -3.4585
+  },
+  {
+    "nombre": "CEIPSO Los Jarales-Monterrozas",
+    "distrito": "Rozas de Madrid, Las",
+    "lat": 40.5197,
+    "lng": -3.9043
+  },
+  {
+    "nombre": "CEIPSO Ciudad De Columbia",
+    "distrito": "Tres Cantos",
+    "lat": 40.6139,
+    "lng": -3.7165
+  },
+  {
+    "nombre": "CEPA Enrique Tierno Galvan",
+    "distrito": "Arganda del Rey",
+    "lat": 40.2984,
+    "lng": -3.4322
+  },
+  {
+    "nombre": "CEPA Pedro Martinez Gavito",
+    "distrito": "San Lorenzo de El Escorial",
+    "lat": 40.6009,
+    "lng": -4.1353
+  },
+  {
+    "nombre": "CEPA Pan Bendito",
+    "distrito": "Carabanchel",
+    "lat": 40.377,
+    "lng": -3.7344
+  },
+  {
+    "nombre": "CEPA Tetuan",
+    "distrito": "Tetuán",
+    "lat": 40.468,
+    "lng": -3.6982
+  },
+  {
+    "nombre": "CEPA Fuencarral",
+    "distrito": "Fuencarral-El Pardo",
+    "lat": 40.4959,
+    "lng": -3.6935
+  },
+  {
+    "nombre": "CEPA Entrevias",
+    "distrito": "Puente de Vallecas",
+    "lat": 40.3766,
+    "lng": -3.6695
+  },
+  {
+    "nombre": "IES Rosa Chacel",
+    "distrito": "Colmenar Viejo",
+    "lat": 40.6542,
+    "lng": -3.7655
+  },
+  {
+    "nombre": "IES Victoria Kent",
+    "distrito": "Fuenlabrada",
+    "lat": 40.3025,
+    "lng": -3.8104
+  },
+  {
+    "nombre": "IES Pablo Picasso",
+    "distrito": "Pinto",
+    "lat": 40.2382,
+    "lng": -3.694
+  },
+  {
+    "nombre": "IES Juan De Mairena",
+    "distrito": "San Sebastián de los Reyes",
+    "lat": 40.5489,
+    "lng": -3.6349
+  },
+  {
+    "nombre": "CEPA Villaverde",
+    "distrito": "Villaverde",
+    "lat": 40.3497,
+    "lng": -3.7087
+  },
+  {
+    "nombre": "CEPA Canillejas",
+    "distrito": "San Blas-Canillejas",
+    "lat": 40.4374,
+    "lng": -3.6082
+  },
+  {
+    "nombre": "CEPA Pablo Guzman",
+    "distrito": "Hortaleza",
+    "lat": 40.4621,
+    "lng": -3.6454
+  },
+  {
+    "nombre": "IES Carmen Conde",
+    "distrito": "Rozas de Madrid, Las",
+    "lat": 40.5304,
+    "lng": -3.9107
+  },
+  {
+    "nombre": "IES Luis Garcia Berlanga",
+    "distrito": "Coslada",
+    "lat": 40.4299,
+    "lng": -3.5626
+  },
+  {
+    "nombre": "CEPA Vista Alegre",
+    "distrito": "Carabanchel",
+    "lat": 40.3852,
+    "lng": -3.7367
+  },
+  {
+    "nombre": "CEPA Vallecas",
+    "distrito": "Villa de Vallecas",
+    "lat": 40.3815,
+    "lng": -3.6128
+  },
+  {
+    "nombre": "CEPA Paracuellos Del Jarama",
+    "distrito": "Paracuellos de Jarama",
+    "lat": 40.5027,
+    "lng": -3.5326
+  },
+  {
+    "nombre": "CEPA Torres De La Alameda",
+    "distrito": "Torres de la Alameda",
+    "lat": 40.401,
+    "lng": -3.3608
+  },
+  {
+    "nombre": "CEPA Villarejo De Salvanes",
+    "distrito": "Villarejo de Salvanés",
+    "lat": 40.1676,
+    "lng": -3.2756
+  },
+  {
+    "nombre": "CEPA San Martin De Valdeiglesias",
+    "distrito": "San Martín de Valdeiglesias",
+    "lat": 40.3635,
+    "lng": -4.3982
+  },
+  {
+    "nombre": "IES Rayuela",
+    "distrito": "Móstoles",
+    "lat": 40.3311,
+    "lng": -3.8747
+  },
+  {
+    "nombre": "IES El Olivo",
+    "distrito": "Parla",
+    "lat": 40.2365,
+    "lng": -3.7616
+  },
+  {
+    "nombre": "IES Doctor Marañon",
+    "distrito": "Alcalá de Henares",
+    "lat": 40.4936,
+    "lng": -3.3767
+  },
+  {
+    "nombre": "IES Duque De Rivas",
+    "distrito": "Rivas-Vaciamadrid",
+    "lat": 40.3675,
+    "lng": -3.5338
+  },
+  {
+    "nombre": "IES Anselmo Lorenzo",
+    "distrito": "San Martín de la Vega",
+    "lat": 40.2149,
+    "lng": -3.5666
+  },
+  {
+    "nombre": "CEPA Sierra Norte",
+    "distrito": "Torrelaguna",
+    "lat": 40.8282,
+    "lng": -3.5407
+  },
+  {
+    "nombre": "IES Francisco De Quevedo",
+    "distrito": "San Blas-Canillejas",
+    "lat": 40.4216,
+    "lng": -3.6225
+  },
+  {
+    "nombre": "IES Los Olivos",
+    "distrito": "Mejorada del Campo",
+    "lat": 40.3927,
+    "lng": -3.4799
+  },
+  {
+    "nombre": "IES Manuel De Falla",
+    "distrito": "Coslada",
+    "lat": 40.4167,
+    "lng": -3.5547
+  },
+  {
+    "nombre": "IES Villarejo De Salvanés",
+    "distrito": "Villarejo de Salvanés",
+    "lat": 40.1748,
+    "lng": -3.2866
+  },
+  {
+    "nombre": "IES Lazaro Cardenas",
+    "distrito": "Collado Villalba",
+    "lat": 40.621,
+    "lng": -4.0184
+  },
+  {
+    "nombre": "CEIPSO Ciudad De Nejapa",
+    "distrito": "Tres Cantos",
+    "lat": 40.6009,
+    "lng": -3.7009
+  },
+  {
+    "nombre": "CEPA Cid Campeador Las Aguilas - Cuatro Vientos",
+    "distrito": "Latina",
+    "lat": 40.3819,
+    "lng": -3.7707
+  },
+  {
+    "nombre": "CEPA Ciudad Lineal",
+    "distrito": "Ciudad Lineal",
+    "lat": 40.4293,
+    "lng": -3.6323
+  },
+  {
+    "nombre": "CEPA El Ponton",
+    "distrito": "Collado Villalba",
+    "lat": 40.6289,
+    "lng": -4.0081
+  },
+  {
+    "nombre": "CEPA Oporto",
+    "distrito": "Carabanchel",
+    "lat": 40.3863,
+    "lng": -3.7249
+  },
+  {
+    "nombre": "CEPA Los Rosales",
+    "distrito": "Villaverde",
+    "lat": 40.3542,
+    "lng": -3.6815
+  },
+  {
+    "nombre": "CEPA Vicalvaro",
+    "distrito": "Vicálvaro",
+    "lat": 40.4015,
+    "lng": -3.6068
+  },
+  {
+    "nombre": "CEPA Dulce Chacon",
+    "distrito": "Hortaleza",
+    "lat": 40.4772,
+    "lng": -3.6497
+  },
+  {
+    "nombre": "CEPA El Buen Gobernador",
+    "distrito": "Torrejón de Ardoz",
+    "lat": 40.4557,
+    "lng": -3.4818
+  },
+  {
+    "nombre": "CEPA Alfar",
+    "distrito": "Alcorcón",
+    "lat": 40.3529,
+    "lng": -3.8157
+  },
+  {
+    "nombre": "CEPA Jose Luis Sampedro",
+    "distrito": "Aranjuez",
+    "lat": 40.0277,
+    "lng": -3.6164
+  },
+  {
+    "nombre": "CEPA Rosalia De Castro",
+    "distrito": "Leganés",
+    "lat": 40.3394,
+    "lng": -3.7548
+  },
+  {
+    "nombre": "CEPA Gloria Fuertes",
+    "distrito": "Navalcarnero",
+    "lat": 40.2874,
+    "lng": -4.0133
+  },
+  {
+    "nombre": "CEPA Ramon Y Cajal",
+    "distrito": "Parla",
+    "lat": 40.2378,
+    "lng": -3.7754
+  },
+  {
+    "nombre": "CEPA Hermanos Correa",
+    "distrito": "Valdemoro",
+    "lat": 40.1873,
+    "lng": -3.6896
+  },
+  {
+    "nombre": "CEPA Mancomunidad Del Suroeste",
+    "distrito": "Humanes de Madrid",
+    "lat": 40.2542,
+    "lng": -3.8287
+  },
+  {
+    "nombre": "CEPA Atalayas",
+    "distrito": "Molar, El",
+    "lat": 40.7372,
+    "lng": -3.5823
+  },
+  {
+    "nombre": "CEPA Arganzuela",
+    "distrito": "Arganzuela",
+    "lat": 40.4005,
+    "lng": -3.696
+  },
+  {
+    "nombre": "CEPA Las Rozas",
+    "distrito": "Rozas de Madrid, Las",
+    "lat": 40.4954,
+    "lng": -3.8696
+  },
+  {
+    "nombre": "IES Francisco De Goya",
+    "distrito": "Ciudad Lineal",
+    "lat": 40.4184,
+    "lng": -3.6508
+  },
+  {
+    "nombre": "IES Pedro De Tolosa",
+    "distrito": "San Martín de Valdeiglesias",
+    "lat": 40.3625,
+    "lng": -4.4045
+  },
+  {
+    "nombre": "CEPA Moncloa",
+    "distrito": "Moncloa-Aravaca",
+    "lat": 40.425,
+    "lng": -3.7147
+  },
+  {
+    "nombre": "CEPA San Martin De La Vega",
+    "distrito": "San Martín de la Vega",
+    "lat": 40.2112,
+    "lng": -3.5741
+  },
+  {
+    "nombre": "IES Senda Galiana",
+    "distrito": "Torres de la Alameda",
+    "lat": 40.3973,
+    "lng": -3.3596
+  },
+  {
+    "nombre": "IES Humanes",
+    "distrito": "Humanes de Madrid",
+    "lat": 40.2472,
+    "lng": -3.8201
+  },
+  {
+    "nombre": "IES Avalon",
+    "distrito": "Valdemoro",
+    "lat": 40.1957,
+    "lng": -3.6867
+  },
+  {
+    "nombre": "IES Valmayor",
+    "distrito": "Valdemorillo",
+    "lat": 40.5018,
+    "lng": -4.0657
+  },
+  {
+    "nombre": "IES Madrid-Sur",
+    "distrito": "Puente de Vallecas",
+    "lat": 40.3765,
+    "lng": -3.6566
+  },
+  {
+    "nombre": "IES Atenea",
+    "distrito": "Alcalá de Henares",
+    "lat": 40.4682,
+    "lng": -3.3681
+  },
+  {
+    "nombre": "IES Alpedrete",
+    "distrito": "Alpedrete",
+    "lat": 40.6541,
+    "lng": -4.0164
+  },
+  {
+    "nombre": "IES Francisco Ayala",
+    "distrito": "Hoyo de Manzanares",
+    "lat": 40.626,
+    "lng": -3.9013
+  },
+  {
+    "nombre": "IES Ignacio Aldecoa",
+    "distrito": "Getafe",
+    "lat": 40.3253,
+    "lng": -3.6574
+  },
+  {
+    "nombre": "IES Maestro Juan Maria Leonet",
+    "distrito": "Villa del Prado",
+    "lat": 40.2727,
+    "lng": -4.304
+  },
+  {
+    "nombre": "IES Marcela De Ulloa",
+    "distrito": "Colmenar de Oreja",
+    "lat": 40.1143,
+    "lng": -3.3931
+  },
+  {
+    "nombre": "IES Vega Del Tajuña",
+    "distrito": "Morata de Tajuña",
+    "lat": 40.2294,
+    "lng": -3.4428
+  },
+  {
+    "nombre": "IES Las Encinas",
+    "distrito": "Villanueva de la Cañada",
+    "lat": 40.4553,
+    "lng": -3.9941
+  },
+  {
+    "nombre": "IES Griñon",
+    "distrito": "Griñón",
+    "lat": 40.2148,
+    "lng": -3.8459
+  },
+  {
+    "nombre": "IES San Agustin De Guadalix",
+    "distrito": "San Agustín del Guadalix",
+    "lat": 40.6791,
+    "lng": -3.6192
+  },
+  {
+    "nombre": "IES Cañada Real",
+    "distrito": "Galapagar",
+    "lat": 40.5834,
+    "lng": -4.0083
+  },
+  {
+    "nombre": "IES El Escorial",
+    "distrito": "Escorial, El",
+    "lat": 40.5785,
+    "lng": -4.1243
+  },
+  {
+    "nombre": "CEPA Orcasitas",
+    "distrito": "Usera",
+    "lat": 40.3697,
+    "lng": -3.7188
+  },
+  {
+    "nombre": "CEPA Joaquin Sorolla",
+    "distrito": "Salamanca",
+    "lat": 40.4354,
+    "lng": -3.6727
+  },
+  {
+    "nombre": "IES Europa",
+    "distrito": "Rivas-Vaciamadrid",
+    "lat": 40.3564,
+    "lng": -3.5297
+  },
+  {
+    "nombre": "IES Gregorio Peces-Barba",
+    "distrito": "Colmenarejo",
+    "lat": 40.5568,
+    "lng": -4.0129
+  },
+  {
+    "nombre": "IES Principe Felipe",
+    "distrito": "Fuencarral-El Pardo",
+    "lat": 40.4807,
+    "lng": -3.7027
+  },
+  {
+    "nombre": "IES Puerta Bonita",
+    "distrito": "Carabanchel",
+    "lat": 40.3796,
+    "lng": -3.7396
+  },
+  {
+    "nombre": "IES Hotel Escuela De La Comunidad De Madrid",
+    "distrito": "Fuencarral-El Pardo",
+    "lat": 40.5256,
+    "lng": -3.6828
+  },
+  {
+    "nombre": "IES Federico Garcia Lorca",
+    "distrito": "Rozas de Madrid, Las",
+    "lat": 40.5513,
+    "lng": -3.8987
+  },
+  {
+    "nombre": "IES Centro De Capacitacion Agraria",
+    "distrito": "Villaviciosa de Odón",
+    "lat": 40.3596,
+    "lng": -3.8906
+  },
+  {
+    "nombre": "CEIPSO Guindalera",
+    "distrito": "Salamanca",
+    "lat": 40.4372,
+    "lng": -3.6669
+  },
+  {
+    "nombre": "IES Gabriela Mistral",
+    "distrito": "Arroyomolinos",
+    "lat": 40.2641,
+    "lng": -3.9161
+  },
+  {
+    "nombre": "IES Alfonso Moreno",
+    "distrito": "Brunete",
+    "lat": 40.4133,
+    "lng": -4.002
+  },
+  {
+    "nombre": "IES Gabriel Cisneros",
+    "distrito": "Móstoles",
+    "lat": 40.3159,
+    "lng": -3.9225
+  },
+  {
+    "nombre": "IES Sevilla La Nueva",
+    "distrito": "Sevilla la Nueva",
+    "lat": 40.3464,
+    "lng": -4.031
+  },
+  {
+    "nombre": "IES Sapere Aude",
+    "distrito": "Villanueva del Pardillo",
+    "lat": 40.4909,
+    "lng": -3.9622
+  },
+  {
+    "nombre": "IES Miguel De Cervantes",
+    "distrito": "Móstoles",
+    "lat": 40.3088,
+    "lng": -3.8782
+  },
+  {
+    "nombre": "IES Profesor Julio Perez",
+    "distrito": "Rivas-Vaciamadrid",
+    "lat": 40.3321,
+    "lng": -3.514
+  },
+  {
+    "nombre": "CEIPSO Anton Sevillano",
+    "distrito": "Sevilla la Nueva",
+    "lat": 40.347,
+    "lng": -4.0314
+  },
+  {
+    "nombre": "CEIPSO El Encinar",
+    "distrito": "Torrelodones",
+    "lat": 40.5698,
+    "lng": -3.9272
+  },
+  {
+    "nombre": "CEIPSO Maria Moliner",
+    "distrito": "Villanueva de la Cañada",
+    "lat": 40.4399,
+    "lng": -3.9998
+  },
+  {
+    "nombre": "IES Las Americas",
+    "distrito": "Parla",
+    "lat": 40.2358,
+    "lng": -3.7622
+  },
+  {
+    "nombre": "IES Ana Maria Matute",
+    "distrito": "Velilla de San Antonio",
+    "lat": 40.3714,
+    "lng": -3.4842
+  },
+  {
+    "nombre": "IES Gaspar Sanz",
+    "distrito": "Meco",
+    "lat": 40.5462,
+    "lng": -3.3222
+  },
+  {
+    "nombre": "IES Adolfo Suarez",
+    "distrito": "Paracuellos de Jarama",
+    "lat": 40.5028,
+    "lng": -3.5259
+  },
+  {
+    "nombre": "IES Renacimiento",
+    "distrito": "Carabanchel",
+    "lat": 40.3941,
+    "lng": -3.7375
+  },
+  {
+    "nombre": "CEPA Rivas-Vaciamadrid",
+    "distrito": "Rivas-Vaciamadrid",
+    "lat": 40.3737,
+    "lng": -3.527
+  },
+  {
+    "nombre": "CEPA Mario Vargas Llosa",
+    "distrito": "Majadahonda",
+    "lat": 40.4682,
+    "lng": -3.871
+  },
+  {
+    "nombre": "CEPA Pozuelo De Alarcon",
+    "distrito": "Pozuelo de Alarcón",
+    "lat": 40.4495,
+    "lng": -3.7993
+  },
+  {
+    "nombre": "IES Sierra De Guadarrama",
+    "distrito": "Soto del Real",
+    "lat": 40.7547,
+    "lng": -3.78
+  },
+  {
+    "nombre": "CEPA Las Rosas",
+    "distrito": "San Blas-Canillejas",
+    "lat": 40.4213,
+    "lng": -3.6237
+  },
+  {
+    "nombre": "IES Numancia",
+    "distrito": "Puente de Vallecas",
+    "lat": 40.4022,
+    "lng": -3.6545
+  },
+  {
+    "nombre": "IES Escuela De Hosteleria Y Turismo",
+    "distrito": "Alcalá de Henares",
+    "lat": 40.4925,
+    "lng": -3.3472
+  },
+  {
+    "nombre": "IES Jose Saramago",
+    "distrito": "Arganda del Rey",
+    "lat": 40.3125,
+    "lng": -3.4528
+  },
+  {
+    "nombre": "IES Atenea",
+    "distrito": "San Sebastián de los Reyes",
+    "lat": 40.5591,
+    "lng": -3.6266
+  },
+  {
+    "nombre": "IES Arquitecto Ventura Rodriguez",
+    "distrito": "Boadilla del Monte",
+    "lat": 40.4092,
+    "lng": -3.8931
+  },
+  {
+    "nombre": "IES Jose Saramago",
+    "distrito": "Majadahonda",
+    "lat": 40.4672,
+    "lng": -3.8765
+  },
+  {
+    "nombre": "IES Barrio Loranca",
+    "distrito": "Fuenlabrada",
+    "lat": 40.2946,
+    "lng": -3.8351
+  },
+  {
+    "nombre": "IES El Alamo",
+    "distrito": "Álamo, El",
+    "lat": 40.2284,
+    "lng": -3.9848
+  },
+  {
+    "nombre": "IES Miguel Delibes",
+    "distrito": "Torrejón de la Calzada",
+    "lat": 40.1936,
+    "lng": -3.8049
+  },
+  {
+    "nombre": "IES Sabino Fernandez Campo",
+    "distrito": "Robledo de Chavela",
+    "lat": 40.4987,
+    "lng": -4.235
+  },
+  {
+    "nombre": "CEPA Distrito Centro",
+    "distrito": "Centro",
+    "lat": 40.427,
+    "lng": -3.7064
+  },
+  {
+    "nombre": "CEPA La Mesta",
+    "distrito": "Villanueva de la Cañada",
+    "lat": 40.4499,
+    "lng": -4.0058
+  },
+  {
+    "nombre": "CEPA La Oreja Verde",
+    "distrito": "Galapagar",
+    "lat": 40.5947,
+    "lng": -3.9868
+  },
+  {
+    "nombre": "CEPA Almajan",
+    "distrito": "Torrelodones",
+    "lat": 40.5766,
+    "lng": -3.9445
+  },
+  {
+    "nombre": "CEPA Buitrago De Lozoya",
+    "distrito": "Buitrago del Lozoya",
+    "lat": 40.993,
+    "lng": -3.6384
+  },
+  {
+    "nombre": "CEIPSO Pedro Duque",
+    "distrito": "Vicálvaro",
+    "lat": 40.3972,
+    "lng": -3.6072
+  },
+  {
+    "nombre": "CEIPSO Bachiller Alonso Lopez",
+    "distrito": "Alcobendas",
+    "lat": 40.5533,
+    "lng": -3.6558
+  },
+  {
+    "nombre": "CEIPSO Salvador Dali",
+    "distrito": "Fuenlabrada",
+    "lat": 40.3038,
+    "lng": -3.8423
+  },
+  {
+    "nombre": "CEIPSO El Cantizal",
+    "distrito": "Rozas de Madrid, Las",
+    "lat": 40.5189,
+    "lng": -3.9225
+  },
+  {
+    "nombre": "IES Lazaro Carreter",
+    "distrito": "Alcalá de Henares",
+    "lat": 40.5046,
+    "lng": -3.3734
+  },
+  {
+    "nombre": "IES Miguel De Cervantes",
+    "distrito": "Daganzo de Arriba",
+    "lat": 40.5448,
+    "lng": -3.4626
+  },
+  {
+    "nombre": "IES Don Pelayo",
+    "distrito": "Villalbilla",
+    "lat": 40.4495,
+    "lng": -3.352
+  },
+  {
+    "nombre": "CEPA San Sebastian De Los Reyes",
+    "distrito": "San Sebastián de los Reyes",
+    "lat": 40.5542,
+    "lng": -3.6326
+  },
+  {
+    "nombre": "CEPA Sierra De Guadarrama",
+    "distrito": "Collado Mediano",
+    "lat": 40.6903,
+    "lng": -4.0415
+  },
+  {
+    "nombre": "IES Santiago Rusiñol",
+    "distrito": "Aranjuez",
+    "lat": 40.0341,
+    "lng": -3.5839
+  },
+  {
+    "nombre": "IES Maestro Matias Bravo",
+    "distrito": "Valdemoro",
+    "lat": 40.1786,
+    "lng": -3.6892
+  },
+  {
+    "nombre": "IES Francisco Umbral",
+    "distrito": "Ciempozuelos",
+    "lat": 40.1616,
+    "lng": -3.6273
+  },
+  {
+    "nombre": "IES Villaverde",
+    "distrito": "Villaverde",
+    "lat": 40.3573,
+    "lng": -3.6904
+  },
+  {
+    "nombre": "CEIPSO Gabriela Mistral",
+    "distrito": "Fuencarral-El Pardo",
+    "lat": 40.5077,
+    "lng": -3.6676
+  },
+  {
+    "nombre": "CEIPSO Adolfo Suarez",
+    "distrito": "Hortaleza",
+    "lat": 40.4893,
+    "lng": -3.6529
+  },
+  {
+    "nombre": "CEIPSO Sansueña",
+    "distrito": "Talamanca de Jarama",
+    "lat": 40.7475,
+    "lng": -3.515
+  },
+  {
+    "nombre": "CEIPSO Maria Martin",
+    "distrito": "Navalcarnero",
+    "lat": 40.2937,
+    "lng": -3.9961
+  },
+  {
+    "nombre": "CEIPSO Gandhi",
+    "distrito": "Villaviciosa de Odón",
+    "lat": 40.3606,
+    "lng": -3.914
+  },
+  {
+    "nombre": "IES Antares",
+    "distrito": "Rivas-Vaciamadrid",
+    "lat": 40.3536,
+    "lng": -3.5156
+  },
+  {
+    "nombre": "IES Luis Garcia Berlanga",
+    "distrito": "Guadalix de la Sierra",
+    "lat": 40.7822,
+    "lng": -3.6961
+  },
+  {
+    "nombre": "CEIPSO Principes De Asturias",
+    "distrito": "Pozuelo de Alarcón",
+    "lat": 40.4573,
+    "lng": -3.8068
+  },
+  {
+    "nombre": "CEIPSO Teresa De Calcuta",
+    "distrito": "San Sebastián de los Reyes",
+    "lat": 40.5616,
+    "lng": -3.6122
+  },
+  {
+    "nombre": "IES Gustavo Adolfo Becquer",
+    "distrito": "Moraleja de Enmedio",
+    "lat": 40.2661,
+    "lng": -3.8544
+  },
+  {
+    "nombre": "IES Gonzalo Anes",
+    "distrito": "Collado Mediano",
+    "lat": 40.6902,
+    "lng": -4.042
+  },
+  {
+    "nombre": "IES Campo Real",
+    "distrito": "Campo Real",
+    "lat": 40.3335,
+    "lng": -3.3724
+  },
+  {
+    "nombre": "CEIPSO Mario Vargas Llosa",
+    "distrito": "Rozas de Madrid, Las",
+    "lat": 40.527,
+    "lng": -3.9163
+  },
+  {
+    "nombre": "CEIPSO Salvador De Madariaga",
+    "distrito": "Daganzo de Arriba",
+    "lat": 40.5444,
+    "lng": -3.4664
+  },
+  {
+    "nombre": "IES Calderon De La Barca",
+    "distrito": "Pinto",
+    "lat": 40.256,
+    "lng": -3.6968
+  },
+  {
+    "nombre": "CEIPSO Santo Angel De La Guarda",
+    "distrito": "Chapinería",
+    "lat": 40.378,
+    "lng": -4.2052
+  },
+  {
+    "nombre": "CEIPSO San Miguel",
+    "distrito": "Villamantilla",
+    "lat": 40.3452,
+    "lng": -4.1283
+  },
+  {
+    "nombre": "CEIPSO Loyola De Palacio",
+    "distrito": "Villa de Vallecas",
+    "lat": 40.3606,
+    "lng": -3.5986
+  },
+  {
+    "nombre": "CEIPSO Angel Gonzalez",
+    "distrito": "Leganés",
+    "lat": 40.3102,
+    "lng": -3.7891
+  },
+  {
+    "nombre": "IES Fernando Fernan Gomez",
+    "distrito": "Humanes de Madrid",
+    "lat": 40.2558,
+    "lng": -3.8182
+  },
+  {
+    "nombre": "CEIPSO Leopoldo Calvo-Sotelo",
+    "distrito": "Fuencarral-El Pardo",
+    "lat": 40.502,
+    "lng": -3.6748
+  },
+  {
+    "nombre": "IES Jimena Menendez Pidal",
+    "distrito": "Fuenlabrada",
+    "lat": 40.285,
+    "lng": -3.8151
+  },
+  {
+    "nombre": "CEIPSO Maestro Rodrigo",
+    "distrito": "Aranjuez",
+    "lat": 40.0657,
+    "lng": -3.5971
+  },
+  {
+    "nombre": "CEIPSO Ernest Hemingway",
+    "distrito": "Alcalá de Henares",
+    "lat": 40.5004,
+    "lng": -3.3628
+  },
+  {
+    "nombre": "IES Carpe Diem",
+    "distrito": "Fuenlabrada",
+    "lat": 40.2936,
+    "lng": -3.8311
+  },
+  {
+    "nombre": "IES Nicolas Copernico",
+    "distrito": "Parla",
+    "lat": 40.2238,
+    "lng": -3.7614
+  },
+  {
+    "nombre": "IES Cortes De Cadiz",
+    "distrito": "Molar, El",
+    "lat": 40.7402,
+    "lng": -3.5833
+  },
+  {
+    "nombre": "CEIPSO Josep Tarradellas",
+    "distrito": "Fuencarral-El Pardo",
+    "lat": 40.5101,
+    "lng": -3.6701
+  },
+  {
+    "nombre": "IES La Senda",
+    "distrito": "Getafe",
+    "lat": 40.2944,
+    "lng": -3.7474
+  },
+  {
+    "nombre": "IES Pedro Duque",
+    "distrito": "Leganés",
+    "lat": 40.3268,
+    "lng": -3.7535
+  },
+  {
+    "nombre": "CEIPSO Constitucion De 1812",
+    "distrito": "Leganés",
+    "lat": 40.3192,
+    "lng": -3.751
+  },
+  {
+    "nombre": "IES Manuel Fraga Iribarne",
+    "distrito": "Hortaleza",
+    "lat": 40.4998,
+    "lng": -3.6572
+  },
+  {
+    "nombre": "CEIPSO Puerta De La Sierra",
+    "distrito": "Venturada",
+    "lat": 40.7982,
+    "lng": -3.6251
+  },
+  {
+    "nombre": "IES Jorge Guillen",
+    "distrito": "Alcorcón",
+    "lat": 40.3397,
+    "lng": -3.8195
+  },
+  {
+    "nombre": "IES Gonzalo Chacon",
+    "distrito": "Arroyomolinos",
+    "lat": 40.2847,
+    "lng": -3.9209
+  },
+  {
+    "nombre": "IES Jose Luis Lopez Aranguren",
+    "distrito": "Fuenlabrada",
+    "lat": 40.2933,
+    "lng": -3.7821
+  },
+  {
+    "nombre": "IES Neil Armstrong",
+    "distrito": "Valdemoro",
+    "lat": 40.1892,
+    "lng": -3.6674
+  },
+  {
+    "nombre": "IES Pedro Salinas",
+    "distrito": "Usera",
+    "lat": 40.3889,
+    "lng": -3.7089
+  },
+  {
+    "nombre": "CEIPSO Jose De Echegaray",
+    "distrito": "Villa de Vallecas",
+    "lat": 40.3675,
+    "lng": -3.6126
+  },
+  {
+    "nombre": "IES Menendez Pelayo",
+    "distrito": "Getafe",
+    "lat": 40.3191,
+    "lng": -3.7231
+  },
+  {
+    "nombre": "IES Juan Gris",
+    "distrito": "Móstoles",
+    "lat": 40.3112,
+    "lng": -3.8539
+  },
+  {
+    "nombre": "IES El Cañaveral",
+    "distrito": "Móstoles",
+    "lat": 40.3126,
+    "lng": -3.8525
+  },
+  {
+    "nombre": "IES Francisco Ayala",
+    "distrito": "Carabanchel",
+    "lat": 40.3657,
+    "lng": -3.7608
+  },
+  {
+    "nombre": "IES Rafael Frühbeck De Burgos",
+    "distrito": "Leganés",
+    "lat": 40.3095,
+    "lng": -3.7877
+  },
+  {
+    "nombre": "IES Sor Juana De La Cruz",
+    "distrito": "Cubas de la Sagra",
+    "lat": 40.1968,
+    "lng": -3.8444
+  },
+  {
+    "nombre": "IES Jose Garcia Nieto",
+    "distrito": "Rozas de Madrid, Las",
+    "lat": 40.5243,
+    "lng": -3.8923
+  },
+  {
+    "nombre": "CEIPSO Blas De Lezo",
+    "distrito": "Fuencarral-El Pardo",
+    "lat": 40.5112,
+    "lng": -3.6726
+  },
+  {
+    "nombre": "CEIPSO Miguel De Cervantes",
+    "distrito": "Getafe",
+    "lat": 40.3159,
+    "lng": -3.7069
+  },
+  {
+    "nombre": "IES Alfredo Kraus",
+    "distrito": "San Blas-Canillejas",
+    "lat": 40.4238,
+    "lng": -3.6077
+  },
+  {
+    "nombre": "IES Juan Ramon Jiménez",
+    "distrito": "Villaverde",
+    "lat": 40.3432,
+    "lng": -3.6741
+  },
+  {
+    "nombre": "IES Marie Curie",
+    "distrito": "Loeches",
+    "lat": 40.384,
+    "lng": -3.4152
+  },
+  {
+    "nombre": "CEIPSO Andrea Casamayor",
+    "distrito": "Paracuellos de Jarama",
+    "lat": 40.501,
+    "lng": -3.5098
+  },
+  {
+    "nombre": "IES Maria Rodrigo",
+    "distrito": "Villa de Vallecas",
+    "lat": 40.3681,
+    "lng": -3.6192
+  },
+  {
+    "nombre": "CEIPSO La Luna",
+    "distrito": "Rivas-Vaciamadrid",
+    "lat": 40.3744,
+    "lng": -3.5381
+  },
+  {
+    "nombre": "IES Montserrat Caballe",
+    "distrito": "Tres Cantos",
+    "lat": 40.616,
+    "lng": -3.723
+  },
+  {
+    "nombre": "CEIPSO Alfredo Di Stefano",
+    "distrito": "Hortaleza",
+    "lat": 40.4966,
+    "lng": -3.6232
+  },
+  {
+    "nombre": "CEIPSO Angel Nieto",
+    "distrito": "Villa de Vallecas",
+    "lat": 40.3617,
+    "lng": -3.5879
+  },
+  {
+    "nombre": "IES Malala Yousafzai",
+    "distrito": "Fuencarral-El Pardo",
+    "lat": 40.5,
+    "lng": -3.6647
+  },
+  {
+    "nombre": "IES Simone Veil",
+    "distrito": "Paracuellos de Jarama",
+    "lat": 40.4972,
+    "lng": -3.5148
+  },
+  {
+    "nombre": "IES Africa",
+    "distrito": "Fuenlabrada",
+    "lat": 40.2859,
+    "lng": -3.8095
+  },
+  {
+    "nombre": "IES Isabel La Catolica",
+    "distrito": "Boadilla del Monte",
+    "lat": 40.4106,
+    "lng": -3.9116
+  },
+  {
+    "nombre": "IES Gloria Fuertes",
+    "distrito": "Alcobendas",
+    "lat": 40.5541,
+    "lng": -3.6576
+  },
+  {
+    "nombre": "IES Elisa Soriano Fischer",
+    "distrito": "Getafe",
+    "lat": 40.3206,
+    "lng": -3.7426
+  },
+  {
+    "nombre": "IES Antonio Fraguas Forges",
+    "distrito": "Arganzuela",
+    "lat": 40.399,
+    "lng": -3.6801
+  },
+  {
+    "nombre": "IES Jane Goodall",
+    "distrito": "San Blas-Canillejas",
+    "lat": 40.4414,
+    "lng": -3.5883
+  },
+  {
+    "nombre": "IES Ana Frank",
+    "distrito": "Moncloa-Aravaca",
+    "lat": 40.4505,
+    "lng": -3.7801
+  },
+  {
+    "nombre": "IES Francisca De Pedraza",
+    "distrito": "Alcalá de Henares",
+    "lat": 40.4837,
+    "lng": -3.3877
+  },
+  {
+    "nombre": "IES Juan Bautista Monegro",
+    "distrito": "Torrejón de Ardoz",
+    "lat": 40.4505,
+    "lng": -3.4461
+  },
+  {
+    "nombre": "CEIPSO Padre Garralda",
+    "distrito": "Villanueva de la Cañada",
+    "lat": 40.438,
+    "lng": -4.0092
+  },
+  {
+    "nombre": "IES Jose Pedro Perez Llorca",
+    "distrito": "Parla",
+    "lat": 40.2178,
+    "lng": -3.7578
+  },
+  {
+    "nombre": "IES Blanca Fernandez Ochoa",
+    "distrito": "Fuencarral-El Pardo",
+    "lat": 40.5003,
+    "lng": -3.7119
+  },
+  {
+    "nombre": "IES Torcuato Fernandez Miranda",
+    "distrito": "Arroyomolinos",
+    "lat": 40.283,
+    "lng": -3.9222
+  },
+  {
+    "nombre": "IES Centro Integral De Formacion Profesional A Distancia Ignacio Ellacuria",
+    "distrito": "Alcorcón",
+    "lat": 40.3358,
+    "lng": -3.8213
+  },
+  {
+    "nombre": "IES Isidra De Guzman",
+    "distrito": "Alcalá de Henares",
+    "lat": 40.4737,
+    "lng": -3.3717
+  },
+  {
+    "nombre": "IES Maria Goyri Goyri",
+    "distrito": "Villaverde",
+    "lat": 40.338,
+    "lng": -3.6768
+  },
+  {
+    "nombre": "CEIPSO Rudyard Kipling",
+    "distrito": "Vicálvaro",
+    "lat": 40.4017,
+    "lng": -3.5648
+  },
+  {
+    "nombre": "IES Eduardo Capa",
+    "distrito": "Arganda del Rey",
+    "lat": 40.2973,
+    "lng": -3.4564
+  }
+]
