@@ -270,51 +270,78 @@ body, html { height: 100%; width: 100%; overflow: hidden; background-color: var(
 
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 @keyframes slideUp { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+
 /* ==========================================
-   DISEÑO RESPONSIVO (MÓVILES Y TABLETS)
+   DISEÑO RESPONSIVO (MÓVILES - ESTILO APP)
    ========================================== */
+#mobile-toggle { display: none; }
+.mobile-close { display: none; }
+
 @media (max-width: 768px) {
-    /* Cambiamos la estructura: Mapa arriba, menú abajo */
-    .app-container {
-        flex-direction: column-reverse; 
-    }
+    /* El contenedor principal ya no usa flex, permitiendo capas superpuestas */
+    .app-container { display: block; position: relative; }
     
-    /* El menú ocupa todo el ancho y la mitad inferior del alto */
+    /* El mapa ocupa el 100% de la pantalla dinámica */
+    #map { height: 100dvh; width: 100vw; z-index: 1; }
+
+    /* El menú lateral se convierte en un panel deslizante (Bottom Sheet) */
     .sidebar {
-        width: 100%;
-        height: 55vh; 
-        box-shadow: 0 -10px 20px rgba(0, 0, 0, 0.08);
+        position: fixed;
+        bottom: -120%; /* Oculto abajo por defecto */
+        left: 0;
+        width: 100vw;
+        height: 85dvh;
+        border-radius: 24px 24px 0 0;
+        transition: bottom 0.4s cubic-bezier(0.32, 0.72, 0, 1);
+        box-shadow: 0 -15px 40px rgba(0,0,0,0.3);
+        z-index: 2000;
     }
 
-    /* El mapa ocupa todo el ancho y la mitad superior */
-    #map {
-        width: 100%;
-        height: 45vh; 
+    /* Cuando el panel está activo, sube */
+    .sidebar.active { bottom: 0; }
+
+    /* Botón flotante estilo Google Maps */
+    #mobile-toggle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1000;
+        background: var(--primary-gradient);
+        color: white;
+        padding: 14px 28px;
+        border-radius: 30px;
+        box-shadow: 0 10px 25px rgba(15, 23, 42, 0.3);
+        border: none;
+        font-size: 15px;
+        font-weight: 600;
+        gap: 8px;
+        cursor: pointer;
     }
 
-    /* Reducimos un poco los márgenes para ganar espacio */
-    .sidebar-header {
-        padding: 20px 16px;
-    }
-
-    /* Apilamos los filtros uno debajo de otro para que no se aprieten */
-    .filters-row {
-        flex-direction: column; 
-    }
-
-    /* Adaptamos la ventana flotante de contacto */
-    .modal-box {
-        width: 90%;
-        padding: 20px;
-    }
-
-    /* Hacemos el panel flotante de las rutas un poco más pequeño */
-    .panel-resumen-ruta {
-        width: 220px;
+    /* Botón de cerrar dentro del menú */
+    .mobile-close {
+        display: flex;
+        justify-content: center;
         padding: 12px;
+        background: rgba(255,255,255,0.15);
+        border-radius: 12px;
+        margin-bottom: 20px;
+        font-size: 13px;
+        font-weight: bold;
+        cursor: pointer;
+        color: white;
+        transition: background 0.2s;
     }
+    .mobile-close:active { background: rgba(255,255,255,0.3); }
+
+    /* Ajustes para que los filtros no se aplasten */
+    .filters-row { flex-direction: column; }
     
-    .panel-resumen-ruta h4 {
-        font-size: 13px !important;
-    }
+    /* Panel de rutas más pequeño en móvil */
+    .panel-resumen-ruta { width: 220px; padding: 12px; }
+    .panel-resumen-ruta h4 { font-size: 13px !important; }
 }

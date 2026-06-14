@@ -3,3000 +3,3500 @@
     "nombre": "CEIPSO San Blas",
     "distrito": "Ajalvir",
     "lat": 40.5399,
-    "lng": -3.4861
+    "lng": -3.4861,
+    "web": "http://www.educa.madrid.org/cp.sanblas.ajalvir"
   },
   {
     "nombre": "IES Complutense",
     "distrito": "Alcalá de Henares",
     "lat": 40.4846,
-    "lng": -3.348
+    "lng": -3.348,
+    "web": "http://www.educa.madrid.org/ies.complutense.alcala"
   },
   {
     "nombre": "CEIPSO Nuestra Señora Del Val",
     "distrito": "Alcalá de Henares",
     "lat": 40.4863,
-    "lng": -3.3437
+    "lng": -3.3437,
+    "web": "http://www.educa.madrid.org/cp.val.alcala"
   },
   {
     "nombre": "IES Alonso De Avellaneda",
     "distrito": "Alcalá de Henares",
     "lat": 40.4908,
-    "lng": -3.3417
+    "lng": -3.3417,
+    "web": "http://www.educa.madrid.org/ies.alonsodeavellan.alcala"
   },
   {
     "nombre": "IES Antonio Machado",
     "distrito": "Alcalá de Henares",
     "lat": 40.4916,
-    "lng": -3.3698
+    "lng": -3.3698,
+    "web": "http://www.educa.madrid.org/ies.machado.alcala"
   },
   {
     "nombre": "IES Francisco Giner De Los Rios",
     "distrito": "Alcobendas",
     "lat": 40.5336,
-    "lng": -3.6207
+    "lng": -3.6207,
+    "web": "http://www.educa.madrid.org/ies.ginerdelosrios.alcobendas"
   },
   {
     "nombre": "CEIPSO Daniel Martin",
     "distrito": "Alcorcón",
     "lat": 40.3466,
-    "lng": -3.8193
+    "lng": -3.8193,
+    "web": "http://www.educa.madrid.org/portal/web/danielmartin"
   },
   {
     "nombre": "CEIPSO San Jose De Calasanz",
     "distrito": "Aranjuez",
     "lat": 40.0276,
-    "lng": -3.5977
+    "lng": -3.5977,
+    "web": "http://www.educa.madrid.org/cp.sanjosedecalasanz.aranjuez"
   },
   {
     "nombre": "IES Domenico Scarlatti",
     "distrito": "Aranjuez",
     "lat": 40.0296,
-    "lng": -3.6093
+    "lng": -3.6093,
+    "web": "http://www.educa.madrid.org/ies.domenicoscarlat.aranjuez"
   },
   {
     "nombre": "IES Jorge Manrique",
     "distrito": "Tres Cantos",
     "lat": 40.5918,
-    "lng": -3.7043
+    "lng": -3.7043,
+    "web": "http://www.educa.madrid.org/ies.jorgemanrique.trescantos"
   },
   {
     "nombre": "IES El Carrascal",
     "distrito": "Arganda del Rey",
     "lat": 40.2903,
-    "lng": -3.4414
+    "lng": -3.4414,
+    "web": "http://www.educa.madrid.org/ies.elcarrascal.arganda"
   },
   {
     "nombre": "CEIPSO Juan Ramon Jimenez",
     "distrito": "Becerril de la Sierra",
     "lat": 40.7136,
-    "lng": -3.9912
+    "lng": -3.9912,
+    "web": "http://www.educa.madrid.org/cp.juanramonjimenez.becerril"
   },
   {
     "nombre": "CEIPSO Principe Don Felipe",
     "distrito": "Boadilla del Monte",
     "lat": 40.4074,
-    "lng": -3.8787
+    "lng": -3.8787,
+    "web": "http://www.educa.madrid.org/cp.principedonfelipe.boadilla"
   },
   {
     "nombre": "CEIPSO Peñalta",
     "distrito": "Buitrago del Lozoya",
     "lat": 40.9914,
-    "lng": -3.637
+    "lng": -3.637,
+    "web": "http://www.educa.madrid.org/cp.penalta.buitrago"
   },
   {
     "nombre": "CEIPSO Eugenio Muro",
     "distrito": "Cadalso de los Vidrios",
     "lat": 40.3017,
-    "lng": -4.4505
+    "lng": -4.4505,
+    "web": "http://www.educa.madrid.org/cp.eugeniomuro.cadalso"
   },
   {
     "nombre": "CEIPSO Federico Garcia Lorca",
     "distrito": "Camarma de Esteruelas",
     "lat": 40.5469,
-    "lng": -3.3747
+    "lng": -3.3747,
+    "web": "http://www.educa.madrid.org/cp.garcialorca.camarma"
   },
   {
     "nombre": "CEIPSO Suarez Somonte",
     "distrito": "Cenicientos",
     "lat": 40.2617,
-    "lng": -4.4698
+    "lng": -4.4698,
+    "web": "http://www.educa.madrid.org/cp.suarezsomonte.cenicientos"
   },
   {
     "nombre": "IES Juan Carlos I",
     "distrito": "Ciempozuelos",
     "lat": 40.1536,
-    "lng": -3.6203
+    "lng": -3.6203,
+    "web": "http://www.educa.madrid.org/ies.juancarlosprimero.ciempozuelos"
   },
   {
     "nombre": "CEIPSO Villa De Cobeña",
     "distrito": "Cobeña",
     "lat": 40.5695,
-    "lng": -3.5061
+    "lng": -3.5061,
+    "web": "http://www.educa.madrid.org/cp.villadecobena.cobena"
   },
   {
     "nombre": "IES Marques De Santillana",
     "distrito": "Colmenar Viejo",
     "lat": 40.6695,
-    "lng": -3.7709
+    "lng": -3.7709,
+    "web": "http://www.educa.madrid.org/ies.marquesdesantil.colmenarviejo"
   },
   {
     "nombre": "IES Jaime Ferran",
     "distrito": "Collado Villalba",
     "lat": 40.6382,
-    "lng": -4.0029
+    "lng": -4.0029,
+    "web": "http://www.educa.madrid.org/ies.jaimeferran.colladovillalba"
   },
   {
     "nombre": "IES Miguel Catalán",
     "distrito": "Coslada",
     "lat": 40.4322,
-    "lng": -3.5413
+    "lng": -3.5413,
+    "web": "http://www.educa.madrid.org/ies.miguelcatalan.coslada"
   },
   {
     "nombre": "CEIPSO Angel Berzal Fernandez",
     "distrito": "Daganzo de Arriba",
     "lat": 40.55,
-    "lng": -3.4536
+    "lng": -3.4536,
+    "web": "http://www.educa.madrid.org/cp.angelberzalfern.daganzo"
   },
   {
     "nombre": "CEIPSO Martina Garcia",
     "distrito": "Fuente el Saz de Jarama",
     "lat": 40.6296,
-    "lng": -3.5157
+    "lng": -3.5157,
+    "web": "http://www.educa.madrid.org/cp.martinagarcia.fuenteelsaz"
   },
   {
     "nombre": "CEIPSO Sagrado Corazon",
     "distrito": "Getafe",
     "lat": 40.306,
-    "lng": -3.7326
+    "lng": -3.7326,
+    "web": "http://www.educa.madrid.org/cp.sagradocorazon.getafe"
   },
   {
     "nombre": "IES Matematico Puig Adam",
     "distrito": "Getafe",
     "lat": 40.2975,
-    "lng": -3.7356
+    "lng": -3.7356,
+    "web": "http://www.educa.madrid.org/ies.puigadam.getafe"
   },
   {
     "nombre": "IES Alarnes",
     "distrito": "Getafe",
     "lat": 40.3,
-    "lng": -3.7348
+    "lng": -3.7348,
+    "web": "http://www.educa.madrid.org/ies.alarnes.getafe"
   },
   {
     "nombre": "CEIPSO Victor Pradera",
     "distrito": "Leganés",
     "lat": 40.3384,
-    "lng": -3.7542
+    "lng": -3.7542,
+    "web": "http://www.educa.madrid.org/cp.victorpradera.leganes"
   },
   {
     "nombre": "IES Jose De Churriguera",
     "distrito": "Leganés",
     "lat": 40.3232,
-    "lng": -3.7622
+    "lng": -3.7622,
+    "web": "http://www.educa.madrid.org/ies.churriguera.leganes"
   },
   {
     "nombre": "IES Luis Vives",
     "distrito": "Leganés",
     "lat": 40.339,
-    "lng": -3.765
+    "lng": -3.765,
+    "web": "http://www.educa.madrid.org/ies.luisvives.leganes"
   },
   {
     "nombre": "IES Maria Zambrano",
     "distrito": "Leganés",
     "lat": 40.3306,
-    "lng": -3.7476
+    "lng": -3.7476,
+    "web": "http://www.educa.madrid.org/ies.mariazambrano.leganes"
   },
   {
     "nombre": "IES Cervantes",
     "distrito": "Centro",
     "lat": 40.4059,
-    "lng": -3.7032
+    "lng": -3.7032,
+    "web": "http://www.educa.madrid.org/ies.cervantes.madrid"
   },
   {
     "nombre": "CEIPSO Alberto Alcocer",
     "distrito": "San Blas-Canillejas",
     "lat": 40.4327,
-    "lng": -3.612
+    "lng": -3.612,
+    "web": "http://www.educa.madrid.org/cp.albertoalcocer.madrid"
   },
   {
     "nombre": "CEIPSO Mejico",
     "distrito": "Ciudad Lineal",
     "lat": 40.4435,
-    "lng": -3.6508
+    "lng": -3.6508,
+    "web": "http://www.educa.madrid.org/cp.mejico.madrid"
   },
   {
     "nombre": "CEIPSO Parque Aluche",
     "distrito": "Latina",
     "lat": 40.3914,
-    "lng": -3.7608
+    "lng": -3.7608,
+    "web": "http://www.educa.madrid.org/cp.parquealuche.madrid"
   },
   {
     "nombre": "CEIPSO Doctor Conde Arruga",
     "distrito": "Moratalaz",
     "lat": 40.4039,
-    "lng": -3.6436
+    "lng": -3.6436,
+    "web": "http://www.educa.madrid.org/cp.condearruga.madrid"
   },
   {
     "nombre": "IES El Espinillo ",
     "distrito": "Villaverde",
     "lat": 40.3617,
-    "lng": -3.6885
+    "lng": -3.6885,
+    "web": "http://www.educa.madrid.org/ies.elespinillo.madrid"
   },
   {
     "nombre": "IES Valdebernardo",
     "distrito": "Vicálvaro",
     "lat": 40.4052,
-    "lng": -3.619
+    "lng": -3.619,
+    "web": "http://www.educa.madrid.org/ies.valdebernardo.madrid"
   },
   {
     "nombre": "IES Santa Teresa De Jesus",
     "distrito": "Centro",
     "lat": 40.4206,
-    "lng": -3.7101
+    "lng": -3.7101,
+    "web": "http://www.educa.madrid.org/ies.santateresa.madrid"
   },
   {
     "nombre": "IES Santamarca",
     "distrito": "Chamartín",
     "lat": 40.4562,
-    "lng": -3.674
+    "lng": -3.674,
+    "web": "http://www.educa.madrid.org/ies.santamarca.madrid"
   },
   {
     "nombre": "IES Santa Engracia",
     "distrito": "Chamberí",
     "lat": 40.4298,
-    "lng": -3.6967
+    "lng": -3.6967,
+    "web": "http://www.educa.madrid.org/ies.santaengracia.madrid"
   },
   {
     "nombre": "IES Ortega Y Gasset",
     "distrito": "Moncloa-Aravaca",
     "lat": 40.4317,
-    "lng": -3.7357
+    "lng": -3.7357,
+    "web": "http://www.educa.madrid.org/ies.ortegaygasset.madrid"
   },
   {
     "nombre": "IES Instituto Politecnico N.1 Del Ejercito",
     "distrito": "Carabanchel",
     "lat": 40.3698,
-    "lng": -3.7528
+    "lng": -3.7528,
+    "web": "http://www.educa.madrid.org/ies.numerounoejercito.madrid"
   },
   {
     "nombre": "IES Emilio Castelar",
     "distrito": "Carabanchel",
     "lat": 40.3888,
-    "lng": -3.73
+    "lng": -3.73,
+    "web": "http://www.educa.madrid.org/ies.emiliocastelar.madrid"
   },
   {
     "nombre": "IES Arcipreste De Hita",
     "distrito": "Puente de Vallecas",
     "lat": 40.3766,
-    "lng": -3.6713
+    "lng": -3.6713,
+    "web": "http://www.educa.madrid.org/ies.arciprestedehita.madrid"
   },
   {
     "nombre": "IES San Cristobal De Los Angeles",
     "distrito": "Villaverde",
     "lat": 40.3428,
-    "lng": -3.6896
+    "lng": -3.6896,
+    "web": "http://www.educa.madrid.org/ies.sancristobal.madrid"
   },
   {
     "nombre": "IES Carlos Maria Rodriguez De Valcarcel",
     "distrito": "Moratalaz",
     "lat": 40.4051,
-    "lng": -3.652
+    "lng": -3.652,
+    "web": "http://www.educa.madrid.org/ies.rodriguezdevalcarcel.madrid"
   },
   {
     "nombre": "IES Joaquín Turina",
     "distrito": "Chamberí",
     "lat": 40.4405,
-    "lng": -3.7126
+    "lng": -3.7126,
+    "web": "http://www.educa.madrid.org/ies.joaquinturina.madrid"
   },
   {
     "nombre": "IES El Lago",
     "distrito": "Moncloa-Aravaca",
     "lat": 40.4157,
-    "lng": -3.733
+    "lng": -3.733,
+    "web": "http://www.educa.madrid.org/ies.ellago.madrid"
   },
   {
     "nombre": "IES San Fernando",
     "distrito": "Fuencarral-El Pardo",
     "lat": 40.528,
-    "lng": -3.6892
+    "lng": -3.6892,
+    "web": "www.iessanfernando.com"
   },
   {
     "nombre": "IES Tirso De Molina",
     "distrito": "Puente de Vallecas",
     "lat": 40.3911,
-    "lng": -3.653
+    "lng": -3.653,
+    "web": "http://www.educa.madrid.org/ies.tirsodemolina.madrid"
   },
   {
     "nombre": "IES Lope De Vega",
     "distrito": "Centro",
     "lat": 40.427,
-    "lng": -3.7064
+    "lng": -3.7064,
+    "web": "http://www.educa.madrid.org/ies.lopedevega.madrid"
   },
   {
     "nombre": "IES Barajas",
     "distrito": "Barajas",
     "lat": 40.451,
-    "lng": -3.5992
+    "lng": -3.5992,
+    "web": "http://www.educa.madrid.org/ies.barajas.madrid"
   },
   {
     "nombre": "IES Gregorio Marañon",
     "distrito": "Fuencarral-El Pardo",
     "lat": 40.4744,
-    "lng": -3.7101
+    "lng": -3.7101,
+    "web": "http://www.educa.madrid.org/ies.gregoriomaranon.madrid"
   },
   {
     "nombre": "IES Barrio Simancas",
     "distrito": "San Blas-Canillejas",
     "lat": 40.429,
-    "lng": -3.6254
+    "lng": -3.6254,
+    "web": "http://www.educa.madrid.org/ies.barriosimancas.madrid"
   },
   {
     "nombre": "IES Virgen De La Paloma",
     "distrito": "Moncloa-Aravaca",
     "lat": 40.4589,
-    "lng": -3.7158
+    "lng": -3.7158,
+    "web": "http://www.educa.madrid.org/ies.lapaloma.madrid"
   },
   {
     "nombre": "IES Conde De Orgaz",
     "distrito": "Hortaleza",
     "lat": 40.46,
-    "lng": -3.6465
+    "lng": -3.6465,
+    "web": "http://www.educa.madrid.org/ies.condedeorgaz.madrid"
   },
   {
     "nombre": "IES Carlos Iii",
     "distrito": "San Blas-Canillejas",
     "lat": 40.4249,
-    "lng": -3.6145
+    "lng": -3.6145,
+    "web": "http://www.educa.madrid.org/ies.carlostercero.madrid"
   },
   {
     "nombre": "IES San Blas",
     "distrito": "San Blas-Canillejas",
     "lat": 40.4264,
-    "lng": -3.6133
+    "lng": -3.6133,
+    "web": "http://www.educa.madrid.org/ies.sanblas.madrid"
   },
   {
     "nombre": "IES Gómez Moreno",
     "distrito": "San Blas-Canillejas",
     "lat": 40.4321,
-    "lng": -3.6158
+    "lng": -3.6158,
+    "web": "http://www.educa.madrid.org/ies.gomezmoreno.madrid"
   },
   {
     "nombre": "IES Rey Pastor",
     "distrito": "Moratalaz",
     "lat": 40.4107,
-    "lng": -3.6481
+    "lng": -3.6481,
+    "web": "http://www.educa.madrid.org/ies.reypastor.madrid"
   },
   {
     "nombre": "IES Vallecas I",
     "distrito": "Puente de Vallecas",
     "lat": 40.395,
-    "lng": -3.6631
+    "lng": -3.6631,
+    "web": "https://site.educa.madrid.org/ies.vallecasuno.madrid/"
   },
   {
     "nombre": "IES Enrique Tierno Galvan",
     "distrito": "Usera",
     "lat": 40.3702,
-    "lng": -3.6952
+    "lng": -3.6952,
+    "web": "http://www.educa.madrid.org/ies.tiernogalvan.madrid"
   },
   {
     "nombre": "IES Pio Baroja",
     "distrito": "Usera",
     "lat": 40.3729,
-    "lng": -3.7189
+    "lng": -3.7189,
+    "web": "http://www.educa.madrid.org/ies.piobaroja.madrid"
   },
   {
     "nombre": "IES Parque Aluche",
     "distrito": "Latina",
     "lat": 40.3902,
-    "lng": -3.7637
+    "lng": -3.7637,
+    "web": "http://www.educa.madrid.org/ies.parquealuche.madrid"
   },
   {
     "nombre": "IES Eijo Y Garay",
     "distrito": "Latina",
     "lat": 40.4081,
-    "lng": -3.7388
+    "lng": -3.7388,
+    "web": "http://www.educa.madrid.org/ies.eijogaray.madrid"
   },
   {
     "nombre": "IES Nuestra Señora De La Almudena",
     "distrito": "Tetuán",
     "lat": 40.464,
-    "lng": -3.6984
+    "lng": -3.6984,
+    "web": "http://www.educa.madrid.org/ies.almudena.madrid"
   },
   {
     "nombre": "IES Tetuan De Las Victorias",
     "distrito": "Tetuán",
     "lat": 40.4731,
-    "lng": -3.6969
+    "lng": -3.6969,
+    "web": "http://www.educa.madrid.org/ies.tetuan.madrid"
   },
   {
     "nombre": "IES Cardenal Herrera Oria",
     "distrito": "Fuencarral-El Pardo",
     "lat": 40.4825,
-    "lng": -3.7117
+    "lng": -3.7117,
+    "web": "http://www.educa.madrid.org/ies.cardenalherrera.madrid"
   },
   {
     "nombre": "IES Beatriz Galindo",
     "distrito": "Salamanca",
     "lat": 40.4251,
-    "lng": -3.6862
+    "lng": -3.6862,
+    "web": "http://www.educa.madrid.org/ies.beatrizgalindo.madrid"
   },
   {
     "nombre": "IES Isabel La Catolica",
     "distrito": "Retiro",
     "lat": 40.4095,
-    "lng": -3.6883
+    "lng": -3.6883,
+    "web": "http://www.educa.madrid.org/ies.isabellacatolica.madrid"
   },
   {
     "nombre": "IES Juan De La Cierva",
     "distrito": "Arganzuela",
     "lat": 40.4022,
-    "lng": -3.7064
+    "lng": -3.7064,
+    "web": "http://iesjuandelacierva.es"
   },
   {
     "nombre": "IES Cardenal Cisneros",
     "distrito": "Centro",
     "lat": 40.4244,
-    "lng": -3.7083
+    "lng": -3.7083,
+    "web": "http://www.educa.madrid.org/ies.cardenalcisneros.madrid"
   },
   {
     "nombre": "IES San Isidro",
     "distrito": "Centro",
     "lat": 40.4126,
-    "lng": -3.7074
+    "lng": -3.7074,
+    "web": "http://www.educa.madrid.org/ies.sanisidro.madrid"
   },
   {
     "nombre": "IES Emperatriz Maria De Austria",
     "distrito": "Carabanchel",
     "lat": 40.3872,
-    "lng": -3.7171
+    "lng": -3.7171,
+    "web": "http://www.educa.madrid.org/ies.emperatrizmaria.madrid"
   },
   {
     "nombre": "IES Calderon De La Barca",
     "distrito": "Carabanchel",
     "lat": 40.3872,
-    "lng": -3.7171
+    "lng": -3.7171,
+    "web": "http://www.educa.madrid.org/ies.calderondelabar.madrid"
   },
   {
     "nombre": "IES Vista Alegre",
     "distrito": "Carabanchel",
     "lat": 40.3852,
-    "lng": -3.7364
+    "lng": -3.7364,
+    "web": "http://www.educa.madrid.org/ies.vistaalegre.madrid"
   },
   {
     "nombre": "CEIPSO Arquitecto Gaudi",
     "distrito": "Chamartín",
     "lat": 40.4655,
-    "lng": -3.6693
+    "lng": -3.6693,
+    "web": "http://www.educa.madrid.org/cp.arquitectogaudi.madrid"
   },
   {
     "nombre": "IES Pacifico",
     "distrito": "Retiro",
     "lat": 40.4041,
-    "lng": -3.6687
+    "lng": -3.6687,
+    "web": "http://www.educa.madrid.org/ies.pacifico.madrid"
   },
   {
     "nombre": "CEIPSO Esperanza",
     "distrito": "Hortaleza",
     "lat": 40.4612,
-    "lng": -3.6459
+    "lng": -3.6459,
+    "web": "http://www.educa.madrid.org/cp.esperanza.madrid"
   },
   {
     "nombre": "IES Palomeras Vallecas",
     "distrito": "Puente de Vallecas",
     "lat": 40.3881,
-    "lng": -3.6296
+    "lng": -3.6296,
+    "web": "http://www.educa.madrid.org/ies.palomerasvallecas.madrid"
   },
   {
     "nombre": "IES Garcia Morato",
     "distrito": "Latina",
     "lat": 40.3742,
-    "lng": -3.7677
+    "lng": -3.7677,
+    "web": "ies.garciamorato.madrid.educa.madrid.org"
   },
   {
     "nombre": "IES Gran Capitán",
     "distrito": "Arganzuela",
     "lat": 40.4038,
-    "lng": -3.7201
+    "lng": -3.7201,
+    "web": "http://www.educa.madrid.org/ies.grancapitan.madrid"
   },
   {
     "nombre": "IES Carmen Martin Gaite",
     "distrito": "Moralzarzal",
     "lat": 40.6741,
-    "lng": -3.9744
+    "lng": -3.9744,
+    "web": "http://www.educa.madrid.org/ies.carmenmartingai.moralzarzal"
   },
   {
     "nombre": "IES Ciudad Escolar",
     "distrito": "Fuencarral-El Pardo",
     "lat": 40.5245,
-    "lng": -3.6855
+    "lng": -3.6855,
+    "web": "http://www.educa.madrid.org/ies.ciudadescolar.madrid"
   },
   {
     "nombre": "CEIPSO Vicente Aleixandre",
     "distrito": "Miraflores de la Sierra",
     "lat": 40.8108,
-    "lng": -3.7591
+    "lng": -3.7591,
+    "web": "http://www.educa.madrid.org/cp.vicentealeixandre.miraflores"
   },
   {
     "nombre": "IES Felipe Trigo",
     "distrito": "Móstoles",
     "lat": 40.3204,
-    "lng": -3.8807
+    "lng": -3.8807,
+    "web": "http://www.educa.madrid.org/ies.felipetrigo.mostoles"
   },
   {
     "nombre": "CEIPSO Principe De Asturias",
     "distrito": "Navacerrada",
     "lat": 40.7235,
-    "lng": -4.02
+    "lng": -4.02,
+    "web": "http://cp.principeasturias.navacerrada.educa.madrid.org//index.htm"
   },
   {
     "nombre": "IES Carmen Martin Gaite",
     "distrito": "Navalcarnero",
     "lat": 40.2875,
-    "lng": -4.0201
+    "lng": -4.0201,
+    "web": "http://www.educa.madrid.org/ies.carmenmartingai.navalcarnero"
   },
   {
     "nombre": "CEIPSO Isabel La Catolica",
     "distrito": "Navas del Rey",
     "lat": 40.3886,
-    "lng": -4.25
+    "lng": -4.25,
+    "web": "http://www.educa.madrid.org/cp.isabellacatolica.navas"
   },
   {
     "nombre": "CEIPSO Juan De Goyeneche",
     "distrito": "Nuevo Baztán",
     "lat": 40.3604,
-    "lng": -3.2434
+    "lng": -3.2434,
+    "web": "http://www.educa.madrid.org/cp.goyeneche.nuevobaztan"
   },
   {
     "nombre": "CEIPSO Nuestra Señora Del Castillo",
     "distrito": "Perales de Tajuña",
     "lat": 40.2317,
-    "lng": -3.3523
+    "lng": -3.3523,
+    "web": "http://www.educa.madrid.org/cp.castillo.perales"
   },
   {
     "nombre": "CEIPSO Los Angeles",
     "distrito": "Pozuelo de Alarcón",
     "lat": 40.4007,
-    "lng": -3.7845
+    "lng": -3.7845,
+    "web": "http://www.educa.madrid.org/cp.losangeles.pozuelodealarcon"
   },
   {
     "nombre": "IES Gerardo Diego",
     "distrito": "Pozuelo de Alarcón",
     "lat": 40.443,
-    "lng": -3.7873
+    "lng": -3.7873,
+    "web": "http://www.educa.madrid.org/ies.gerardodiego.pozuelodealarcon"
   },
   {
     "nombre": "IES Vega Del Jarama",
     "distrito": "San Fernando de Henares",
     "lat": 40.4234,
-    "lng": -3.5292
+    "lng": -3.5292,
+    "web": "http://www.educa.madrid.org/ies.vegadeljarama.sanfernando"
   },
   {
     "nombre": "IES Joan Miro",
     "distrito": "San Sebastián de los Reyes",
     "lat": 40.5581,
-    "lng": -3.6243
+    "lng": -3.6243,
+    "web": "http://www.educa.madrid.org/ies.joanmiro.sansebastian"
   },
   {
     "nombre": "IES Isaac Peral",
     "distrito": "Torrejón de Ardoz",
     "lat": 40.4557,
-    "lng": -3.4528
+    "lng": -3.4528,
+    "web": "http://www.educa.madrid.org/ies.isaacperal.torrejondeardoz"
   },
   {
     "nombre": "IES Las Veredillas",
     "distrito": "Torrejón de Ardoz",
     "lat": 40.4662,
-    "lng": -3.4709
+    "lng": -3.4709,
+    "web": "http://www.educa.madrid.org/ies.lasveredillas.torrejondeardoz"
   },
   {
     "nombre": "IES Alto Jarama",
     "distrito": "Torrelaguna",
     "lat": 40.8282,
-    "lng": -3.5415
+    "lng": -3.5415,
+    "web": "http://www.educa.madrid.org/ies.altojarama.torrelaguna"
   },
   {
     "nombre": "CEIPSO Jesus Aramburu",
     "distrito": "Valdetorres de Jarama",
     "lat": 40.6922,
-    "lng": -3.5168
+    "lng": -3.5168,
+    "web": "http://www.educa.madrid.org/cp.jesusaramburu.valdetorres"
   },
   {
     "nombre": "CEIPSO Miguel De Cervantes",
     "distrito": "Valdilecha",
     "lat": 40.2938,
-    "lng": -3.2997
+    "lng": -3.2997,
+    "web": "http://www.educa.madrid.org/cp.cervantes.valdilecha"
   },
   {
     "nombre": "CEIPSO San Damaso",
     "distrito": "Villamanta",
     "lat": 40.2966,
-    "lng": -4.1087
+    "lng": -4.1087,
+    "web": "http://www.educa.madrid.org/cp.sandamaso.villamanta"
   },
   {
     "nombre": "IES Nuestra Señora De La Victoria De Lepanto",
     "distrito": "Villarejo de Salvanés",
     "lat": 40.1671,
-    "lng": -3.2765
+    "lng": -3.2765,
+    "web": "http://www.educa.madrid.org/ies.victoria.villarejo"
   },
   {
     "nombre": "IES Felipe Ii",
     "distrito": "Moratalaz",
     "lat": 40.3975,
-    "lng": -3.6339
+    "lng": -3.6339,
+    "web": "http://www.educa.madrid.org/ies.felipesegundo.madrid"
   },
   {
     "nombre": "IES Vicente Aleixandre",
     "distrito": "Pinto",
     "lat": 40.2511,
-    "lng": -3.6928
+    "lng": -3.6928,
+    "web": "http://www.educa.madrid.org/ies.vicentealeixand.pinto"
   },
   {
     "nombre": "CEIPSO Ramon Perez De Ayala",
     "distrito": "Hortaleza",
     "lat": 40.466,
-    "lng": -3.6327
+    "lng": -3.6327,
+    "web": "http://www.educa.madrid.org/cp.perezdeayala.madrid"
   },
   {
     "nombre": "IES Los Castillos",
     "distrito": "Alcorcón",
     "lat": 40.3575,
-    "lng": -3.8101
+    "lng": -3.8101,
+    "web": "http://www.educa.madrid.org/ies.loscastillos.alcorcon"
   },
   {
     "nombre": "CEIPSO Pio Baroja",
     "distrito": "Leganés",
     "lat": 40.3372,
-    "lng": -3.7473
+    "lng": -3.7473,
+    "web": "http://www.educa.madrid.org/cp.piobaroja.leganes"
   },
   {
     "nombre": "IES Arquitecto Pedro Gumiel",
     "distrito": "Alcalá de Henares",
     "lat": 40.4947,
-    "lng": -3.3791
+    "lng": -3.3791,
+    "web": "http://www.educa.madrid.org/ies.arquitectopedro.alcala"
   },
   {
     "nombre": "IES Maria Moliner",
     "distrito": "Coslada",
     "lat": 40.4226,
-    "lng": -3.5492
+    "lng": -3.5492,
+    "web": "http://www.educa.madrid.org/ies.mariamoliner.coslada"
   },
   {
     "nombre": "IES Dionisio Aguado",
     "distrito": "Fuenlabrada",
     "lat": 40.2834,
-    "lng": -3.8059
+    "lng": -3.8059,
+    "web": "http://www.educa.madrid.org/ies.dionisioaguado.fuenlabrada"
   },
   {
     "nombre": "IES Butarque",
     "distrito": "Leganés",
     "lat": 40.3371,
-    "lng": -3.7591
+    "lng": -3.7591,
+    "web": "http://www.educa.madrid.org/ies.butarque.leganes"
   },
   {
     "nombre": "IES Avenida De Los Toreros",
     "distrito": "Salamanca",
     "lat": 40.4335,
-    "lng": -3.6649
+    "lng": -3.6649,
+    "web": "http://www.educa.madrid.org/ies.avenidadelostor.madrid"
   },
   {
     "nombre": "IES Mariano Jose De Larra",
     "distrito": "Latina",
     "lat": 40.3883,
-    "lng": -3.7539
+    "lng": -3.7539,
+    "web": "http://www.educa.madrid.org/ies.larra.madrid"
   },
   {
     "nombre": "IES La Estrella",
     "distrito": "Retiro",
     "lat": 40.4095,
-    "lng": -3.6667
+    "lng": -3.6667,
+    "web": "http://www.educa.madrid.org/ies.laestrella.madrid"
   },
   {
     "nombre": "IES San Juan Bautista",
     "distrito": "Ciudad Lineal",
     "lat": 40.452,
-    "lng": -3.6583
+    "lng": -3.6583,
+    "web": "http://www.educa.madrid.org/ies.sanjuanbautista.madrid"
   },
   {
     "nombre": "IES Jaime Vera",
     "distrito": "Tetuán",
     "lat": 40.457,
-    "lng": -3.6981
+    "lng": -3.6981,
+    "web": "http://www.educa.madrid.org/ies.jaimevera.madrid"
   },
   {
     "nombre": "IES Manuel De Falla",
     "distrito": "Móstoles",
     "lat": 40.3281,
-    "lng": -3.8841
+    "lng": -3.8841,
+    "web": "http://www.educa.madrid.org/ies.manueldefalla.mostoles"
   },
   {
     "nombre": "IES Las Rozas I",
     "distrito": "Rozas de Madrid, Las",
     "lat": 40.4893,
-    "lng": -3.868
+    "lng": -3.868,
+    "web": "http://www.educa.madrid.org/ies.uno.lasrozas"
   },
   {
     "nombre": "IES Gonzalo Torrente Ballester",
     "distrito": "San Sebastián de los Reyes",
     "lat": 40.5588,
-    "lng": -3.6292
+    "lng": -3.6292,
+    "web": "http://www.educa.madrid.org/ies.torrenteballest.sansebastian"
   },
   {
     "nombre": "IES Ramiro De Maeztu",
     "distrito": "Chamartín",
     "lat": 40.4423,
-    "lng": -3.6862
+    "lng": -3.6862,
+    "web": "http://www.educa.madrid.org/ies.ramirodemaeztu.madrid"
   },
   {
     "nombre": "IES Juan De Herrera",
     "distrito": "San Lorenzo de El Escorial",
     "lat": 40.6025,
-    "lng": -4.1251
+    "lng": -4.1251,
+    "web": "http://www.educa.madrid.org/ies.juandeherrera.sanlorenzo"
   },
   {
     "nombre": "CEIPSO Francisco De Quevedo",
     "distrito": "Leganés",
     "lat": 40.3224,
-    "lng": -3.7722
+    "lng": -3.7722,
+    "web": "http://www.educa.madrid.org/cp.quevedo.leganes"
   },
   {
     "nombre": "CEIPSO Dionisio Ridruejo",
     "distrito": "Hortaleza",
     "lat": 40.4731,
-    "lng": -3.6344
+    "lng": -3.6344,
+    "web": "http://www.educa.madrid.org/cp.dionisioridruej.madrid"
   },
   {
     "nombre": "CEIPSO Meseta De Orcasitas",
     "distrito": "Usera",
     "lat": 40.3719,
-    "lng": -3.7104
+    "lng": -3.7104,
+    "web": "http://www.educa.madrid.org/cp.mesetadeorcasitas.madrid"
   },
   {
     "nombre": "CEPA Casa De La Cultura",
     "distrito": "Getafe",
     "lat": 40.3058,
-    "lng": -3.7323
+    "lng": -3.7323,
+    "web": "http://www.educa.madrid.org/cepa.getafe"
   },
   {
     "nombre": "CEPA Cultural Moratalaz",
     "distrito": "Moratalaz",
     "lat": 40.4039,
-    "lng": -3.6493
+    "lng": -3.6493,
+    "web": "http://www.educa.madrid.org/cepa.moratalaz.madrid"
   },
   {
     "nombre": "CEPA Aluche",
     "distrito": "Latina",
     "lat": 40.3848,
-    "lng": -3.7557
+    "lng": -3.7557,
+    "web": "http://www.educa.madrid.org/cepa.aluche.madrid"
   },
   {
     "nombre": "IES Fortuny",
     "distrito": "Chamberí",
     "lat": 40.4337,
-    "lng": -3.6899
+    "lng": -3.6899,
+    "web": "http://www.educa.madrid.org/ies.fortuny.madrid"
   },
   {
     "nombre": "IES Ciudad De Los Poetas",
     "distrito": "Moncloa-Aravaca",
     "lat": 40.4678,
-    "lng": -3.7176
+    "lng": -3.7176,
+    "web": "http://www.educa.madrid.org/ies.ciudaddelospoetas.madrid"
   },
   {
     "nombre": "IES Ramon Y Cajal",
     "distrito": "Hortaleza",
     "lat": 40.4874,
-    "lng": -3.6601
+    "lng": -3.6601,
+    "web": "http://www.educa.madrid.org/ies.ramonycajal.madrid"
   },
   {
     "nombre": "IES Miguel Delibes",
     "distrito": "Ciudad Lineal",
     "lat": 40.4222,
-    "lng": -3.6315
+    "lng": -3.6315,
+    "web": "http://www.educa.madrid.org/ies.delibes.madrid"
   },
   {
     "nombre": "IES Celestino Mutis",
     "distrito": "Villaverde",
     "lat": 40.3482,
-    "lng": -3.713
+    "lng": -3.713,
+    "web": "http://www.educa.madrid.org/ies.celestinomutis.madrid"
   },
   {
     "nombre": "IES Damaso Alonso",
     "distrito": "Fuencarral-El Pardo",
     "lat": 40.4872,
-    "lng": -3.7006
+    "lng": -3.7006,
+    "web": "http://www.educa.madrid.org/ies.damasoalonso.madrid"
   },
   {
     "nombre": "CEPA Agustina De Aragon",
     "distrito": "Móstoles",
     "lat": 40.3117,
-    "lng": -3.8556
+    "lng": -3.8556,
+    "web": "http://www.educa.madrid.org/cepa.mostoles"
   },
   {
     "nombre": "IES Humanejos",
     "distrito": "Parla",
     "lat": 40.2287,
-    "lng": -3.769
+    "lng": -3.769,
+    "web": "www.ieshumanejos.com"
   },
   {
     "nombre": "IES Leon Felipe",
     "distrito": "Torrejón de Ardoz",
     "lat": 40.4618,
-    "lng": -3.4866
+    "lng": -3.4866,
+    "web": "http://www.educa.madrid.org/ies.leonfelipe.torrejondeardoz"
   },
   {
     "nombre": "IES Prado De Santo Domingo",
     "distrito": "Alcorcón",
     "lat": 40.3404,
-    "lng": -3.8409
+    "lng": -3.8409,
+    "web": "http://www.educa.madrid.org/ies.pradodesantodomingo.alcorcon"
   },
   {
     "nombre": "CEIPSO Antonio Machado",
     "distrito": "Leganés",
     "lat": 40.3425,
-    "lng": -3.744
+    "lng": -3.744,
+    "web": "http://www.educa.madrid.org/cp.machado.leganes"
   },
   {
     "nombre": "IES Arturo Soria",
     "distrito": "Hortaleza",
     "lat": 40.4777,
-    "lng": -3.6602
+    "lng": -3.6602,
+    "web": "http://www.educa.madrid.org/ies.arturosoria.madrid"
   },
   {
     "nombre": "IES Mateo Aleman",
     "distrito": "Alcalá de Henares",
     "lat": 40.4783,
-    "lng": -3.3828
+    "lng": -3.3828,
+    "web": "http://www.educa.madrid.org/ies.mateoaleman.alcala"
   },
   {
     "nombre": "IES Galileo Galilei",
     "distrito": "Alcorcón",
     "lat": 40.34,
-    "lng": -3.8392
+    "lng": -3.8392,
+    "web": "http://www.educa.madrid.org/ies.galileogalilei.alcorcon"
   },
   {
     "nombre": "IES Blas De Otero",
     "distrito": "Latina",
     "lat": 40.3889,
-    "lng": -3.7622
+    "lng": -3.7622,
+    "web": "http://www.educa.madrid.org/ies.blasdeotero.madrid"
   },
   {
     "nombre": "IES San Mateo",
     "distrito": "Centro",
     "lat": 40.4255,
-    "lng": -3.7001
+    "lng": -3.7001,
+    "web": "http://www.educa.madrid.org/ies.sanmateo.madrid"
   },
   {
     "nombre": "IES Mariana Pineda",
     "distrito": "Moratalaz",
     "lat": 40.4137,
-    "lng": -3.6557
+    "lng": -3.6557,
+    "web": "http://www.educa.madrid.org/ies.marianapineda.madrid"
   },
   {
     "nombre": "IES Vallecas-Magerit",
     "distrito": "Puente de Vallecas",
     "lat": 40.3889,
-    "lng": -3.6611
+    "lng": -3.6611,
+    "web": "www.vmagerit.com"
   },
   {
     "nombre": "IES Las Musas",
     "distrito": "San Blas-Canillejas",
     "lat": 40.4287,
-    "lng": -3.6079
+    "lng": -3.6079,
+    "web": "http://www.educa.madrid.org/ies.lasmusas.madrid"
   },
   {
     "nombre": "IES Leonardo Da Vinci",
     "distrito": "Latina",
     "lat": 40.3782,
-    "lng": -3.7634
+    "lng": -3.7634,
+    "web": "http://www.educa.madrid.org/ies.leonardodavinci.madrid"
   },
   {
     "nombre": "IES Moratalaz",
     "distrito": "Moratalaz",
     "lat": 40.4127,
-    "lng": -3.6582
+    "lng": -3.6582,
+    "web": "http://www.educa.madrid.org/ies.moratalaz.madrid"
   },
   {
     "nombre": "CEIPSO Virgen Del Cortijo",
     "distrito": "Hortaleza",
     "lat": 40.488,
-    "lng": -3.6641
+    "lng": -3.6641,
+    "web": "http://www.educa.madrid.org/cp.cortijo.madrid"
   },
   {
     "nombre": "CEIPSO Mariano Jose De Larra",
     "distrito": "San Blas-Canillejas",
     "lat": 40.4306,
-    "lng": -3.6089
+    "lng": -3.6089,
+    "web": "http://www.educa.madrid.org/cp.larra.madrid"
   },
   {
     "nombre": "CEIPSO Pablo Picasso",
     "distrito": "Hortaleza",
     "lat": 40.4708,
-    "lng": -3.6472
+    "lng": -3.6472,
+    "web": "http://www.educa.madrid.org/cp.picasso.madrid"
   },
   {
     "nombre": "CEIPSO Antonio Machado",
     "distrito": "San Sebastián de los Reyes",
     "lat": 40.5562,
-    "lng": -3.6306
+    "lng": -3.6306,
+    "web": "http://www.educa.madrid.org/cp.machado.sansebastian"
   },
   {
     "nombre": "IES Escuela Superior De Hosteleria Y Turismo",
     "distrito": "Moncloa-Aravaca",
     "lat": 40.4155,
-    "lng": -3.7327
+    "lng": -3.7327,
+    "web": "http://www.educa.madrid.org/ies.hosteleria.madrid"
   },
   {
     "nombre": "IES Arquitecto Peridis",
     "distrito": "Leganés",
     "lat": 40.3342,
-    "lng": -3.7409
+    "lng": -3.7409,
+    "web": "http://www.educa.madrid.org/ies.arquitectoperid.leganes"
   },
   {
     "nombre": "IES Ciudad De Jaen",
     "distrito": "Usera",
     "lat": 40.3717,
-    "lng": -3.7001
+    "lng": -3.7001,
+    "web": "http://www.educa.madrid.org/ies.ciudaddejaen.madrid"
   },
   {
     "nombre": "IES Leonardo Da Vinci",
     "distrito": "Majadahonda",
     "lat": 40.4789,
-    "lng": -3.8797
+    "lng": -3.8797,
+    "web": "http://www.educa.madrid.org/ies.leonardodavinci.majadahonda"
   },
   {
     "nombre": "IES Enrique Tierno Galvan",
     "distrito": "Parla",
     "lat": 40.226,
-    "lng": -3.7683
+    "lng": -3.7683,
+    "web": "http://www.educa.madrid.org/ies.tiernogalvan.parla"
   },
   {
     "nombre": "CEIPSO Nuestra Señora Del Rosario",
     "distrito": "Valdemoro",
     "lat": 40.1868,
-    "lng": -3.6835
+    "lng": -3.6835,
+    "web": "http://www.educa.madrid.org/cp.rosario.valdemoro"
   },
   {
     "nombre": "CEPA Hortaleza-Mar Amarillo",
     "distrito": "Hortaleza",
     "lat": 40.4747,
-    "lng": -3.6411
+    "lng": -3.6411,
+    "web": "http://www.educa.madrid.org/cepa.maramarillo.madrid"
   },
   {
     "nombre": "CEPA Jose Luis Sampedro",
     "distrito": "Fuencarral-El Pardo",
     "lat": 40.4735,
-    "lng": -3.7132
+    "lng": -3.7132,
+    "web": "http://www.educa.madrid.org/cepa.sampedro.madrid"
   },
   {
     "nombre": "CEPA La Albufera",
     "distrito": "Puente de Vallecas",
     "lat": 40.3942,
-    "lng": -3.6617
+    "lng": -3.6617,
+    "web": "http://www.educa.madrid.org/cepa.laalbufera.madrid"
   },
   {
     "nombre": "IES Alameda De Osuna",
     "distrito": "Barajas",
     "lat": 40.4604,
-    "lng": -3.589
+    "lng": -3.589,
+    "web": "http://www.educa.madrid.org/ies.alamedadeosuna.madrid"
   },
   {
     "nombre": "IES Manuela Malasaña",
     "distrito": "Móstoles",
     "lat": 40.3128,
-    "lng": -3.8651
+    "lng": -3.8651,
+    "web": "http://www.educa.madrid.org/ies.malasana.mostoles"
   },
   {
     "nombre": "CEIPSO Miguel De Cervantes",
     "distrito": "Alcorcón",
     "lat": 40.3514,
-    "lng": -3.8329
+    "lng": -3.8329,
+    "web": "http://www.educa.madrid.org/cp.cervantes.alcorcon"
   },
   {
     "nombre": "IES Gaspar Melchor De Jovellanos",
     "distrito": "Fuenlabrada",
     "lat": 40.292,
-    "lng": -3.8052
+    "lng": -3.8052,
+    "web": "http://www.educa.madrid.org/ies.jovellanos.fuenlabrada"
   },
   {
     "nombre": "IES San Isidoro De Sevilla",
     "distrito": "Chamberí",
     "lat": 40.4452,
-    "lng": -3.7192
+    "lng": -3.7192,
+    "web": "http://www.educa.madrid.org/ies.sanisidoro.madrid"
   },
   {
     "nombre": "IES Alonso Quijano",
     "distrito": "Alcalá de Henares",
     "lat": 40.476,
-    "lng": -3.3653
+    "lng": -3.3653,
+    "web": "http://www.educa.madrid.org/ies.alonsoquijano.alcala"
   },
   {
     "nombre": "IES Jose Luis Sampedro",
     "distrito": "Tres Cantos",
     "lat": 40.6098,
-    "lng": -3.7079
+    "lng": -3.7079,
+    "web": "http://www.educa.madrid.org/ies.sampedro.trescantos"
   },
   {
     "nombre": "IES Juan De Villanueva",
     "distrito": "Usera",
     "lat": 40.3688,
-    "lng": -3.7112
+    "lng": -3.7112,
+    "web": "http://www.educa.madrid.org/ies.juandevillanuev.madrid"
   },
   {
     "nombre": "IES La Dehesilla",
     "distrito": "Cercedilla",
     "lat": 40.7374,
-    "lng": -4.0438
+    "lng": -4.0438,
+    "web": "http://www.educa.madrid.org/ies.ladehesilla.cercedilla"
   },
   {
     "nombre": "CEIPSO Carmen Conde",
     "distrito": "Leganés",
     "lat": 40.3272,
-    "lng": -3.7569
+    "lng": -3.7569,
+    "web": "http://www.educa.madrid.org/cp.carmenconde.leganes"
   },
   {
     "nombre": "CEPA San Fernando De Henares",
     "distrito": "San Fernando de Henares",
     "lat": 40.4287,
-    "lng": -3.5275
+    "lng": -3.5275,
+    "web": "http://www.educa.madrid.org/cepa.sanfernandodehenares"
   },
   {
     "nombre": "CEPA Paulo Freire",
     "distrito": "Fuenlabrada",
     "lat": 40.2806,
-    "lng": -3.8029
+    "lng": -3.8029,
+    "web": "http://www.educa.madrid.org/cepa.fuenlabrada"
   },
   {
     "nombre": "IES La Arboleda",
     "distrito": "Alcorcón",
     "lat": 40.3416,
-    "lng": -3.8326
+    "lng": -3.8326,
+    "web": "http://www.educa.madrid.org/ies.laarboleda.alcorcon"
   },
   {
     "nombre": "IES La Poveda",
     "distrito": "Arganda del Rey",
     "lat": 40.3142,
-    "lng": -3.475
+    "lng": -3.475,
+    "web": "http://www.educa.madrid.org/ies.lapoveda.arganda"
   },
   {
     "nombre": "IES Angel Corella",
     "distrito": "Colmenar Viejo",
     "lat": 40.6556,
-    "lng": -3.7521
+    "lng": -3.7521,
+    "web": "http://www.educa.madrid.org/ies.angelcorella.colmenarviejo"
   },
   {
     "nombre": "IES Enrique Tierno Galvan",
     "distrito": "Leganés",
     "lat": 40.3171,
-    "lng": -3.7727
+    "lng": -3.7727,
+    "web": "http://www.educa.madrid.org/ies.tiernogalvan.leganes"
   },
   {
     "nombre": "IES Ciudad De Los Ángeles",
     "distrito": "Villaverde",
     "lat": 40.3529,
-    "lng": -3.6963
+    "lng": -3.6963,
+    "web": "http://www.educa.madrid.org/ies.ciudaddelosangeles.madrid"
   },
   {
     "nombre": "IES Rosa Chacel",
     "distrito": "Hortaleza",
     "lat": 40.4779,
-    "lng": -3.6505
+    "lng": -3.6505,
+    "web": "http://www.educa.madrid.org/ies.rosachacel.madrid"
   },
   {
     "nombre": "IES Antonio Dominguez Ortiz",
     "distrito": "Puente de Vallecas",
     "lat": 40.389,
-    "lng": -3.6355
+    "lng": -3.6355,
+    "web": "http://www.educa.madrid.org/ies.antoniodomingue.madrid"
   },
   {
     "nombre": "IES Joaquín Rodrigo",
     "distrito": "Vicálvaro",
     "lat": 40.4092,
-    "lng": -3.614
+    "lng": -3.614,
+    "web": "http://www.educa.madrid.org/ies.joaquinrodrigo.madrid"
   },
   {
     "nombre": "IES Pradolongo",
     "distrito": "Usera",
     "lat": 40.3795,
-    "lng": -3.7172
+    "lng": -3.7172,
+    "web": "http://www.educa.madrid.org/ies.pradolongo.madrid"
   },
   {
     "nombre": "IES Rey Fernando Vi",
     "distrito": "San Fernando de Henares",
     "lat": 40.424,
-    "lng": -3.5288
+    "lng": -3.5288,
+    "web": "http://www.educa.madrid.org/ies.reyfernando.sanfernando"
   },
   {
     "nombre": "IES Victoria Kent",
     "distrito": "Torrejón de Ardoz",
     "lat": 40.456,
-    "lng": -3.4507
+    "lng": -3.4507,
+    "web": "http://www.educa.madrid.org/ies.victoriakent.torrejondeardoz"
   },
   {
     "nombre": "IES Diego Velazquez",
     "distrito": "Torrelodones",
     "lat": 40.5806,
-    "lng": -3.9356
+    "lng": -3.9356,
+    "web": "https://www.educa2.madrid.org/web/diego-velazquez"
   },
   {
     "nombre": "CEIPSO Calderon De La Barca",
     "distrito": "Barajas",
     "lat": 40.4706,
-    "lng": -3.584
+    "lng": -3.584,
+    "web": "http://www.educa.madrid.org/cp.calderondelabarca.madrid"
   },
   {
     "nombre": "CEIPSO Luis Buñuel",
     "distrito": "Alcobendas",
     "lat": 40.5509,
-    "lng": -3.6422
+    "lng": -3.6422,
+    "web": "http://www.educa.madrid.org/cp.luisbunuel.alcobendas"
   },
   {
     "nombre": "CEIPSO Arcipreste De Hita",
     "distrito": "Fuenlabrada",
     "lat": 40.2932,
-    "lng": -3.7957
+    "lng": -3.7957,
+    "web": "http://www.educa.madrid.org/cp.arciprestedehita.fuenlabrada"
   },
   {
     "nombre": "CEPA Don Juan I",
     "distrito": "Alcalá de Henares",
     "lat": 40.4741,
-    "lng": -3.3746
+    "lng": -3.3746,
+    "web": "http://www.educa.madrid.org/cepa.alcala"
   },
   {
     "nombre": "CEIPSO El Olivar",
     "distrito": "Rivas-Vaciamadrid",
     "lat": 40.3641,
-    "lng": -3.5526
+    "lng": -3.5526,
+    "web": "http://www.educa.madrid.org/cp.elolivar.rivas"
   },
   {
     "nombre": "IES Virgen De La Paz",
     "distrito": "Alcobendas",
     "lat": 40.5242,
-    "lng": -3.6548
+    "lng": -3.6548,
+    "web": "http://www.educa.madrid.org/ies.lapaz.alcobendas"
   },
   {
     "nombre": "CEIPSO Joaquin Costa",
     "distrito": "Alcorcón",
     "lat": 40.3473,
-    "lng": -3.8138
+    "lng": -3.8138,
+    "web": "http://www.educa.madrid.org/cp.joaquincosta.alcorcon"
   },
   {
     "nombre": "IES Luis Buñuel",
     "distrito": "Alcorcón",
     "lat": 40.3506,
-    "lng": -3.8326
+    "lng": -3.8326,
+    "web": "http://www.educa.madrid.org/ies.luisbunuel.alcorcon"
   },
   {
     "nombre": "CEIPSO Rosalia De Castro",
     "distrito": "Arganda del Rey",
     "lat": 40.305,
-    "lng": -3.4434
+    "lng": -3.4434,
+    "web": "http://www.educa.madrid.org/cp.rosaliadecastro.arganda"
   },
   {
     "nombre": "IES Rafael Alberti",
     "distrito": "Coslada",
     "lat": 40.43,
-    "lng": -3.5647
+    "lng": -3.5647,
+    "web": "http://www.educa.madrid.org/ies.alberti.coslada"
   },
   {
     "nombre": "IES Salvador Dali",
     "distrito": "Leganés",
     "lat": 40.3369,
-    "lng": -3.7427
+    "lng": -3.7427,
+    "web": "http://www.educa.madrid.org/ies.salvadordali.leganes"
   },
   {
     "nombre": "IES Siglo Xxi",
     "distrito": "Leganés",
     "lat": 40.3384,
-    "lng": -3.7638
+    "lng": -3.7638,
+    "web": "http://www.educa.madrid.org/ies.sigloveintiuno.leganes"
   },
   {
     "nombre": "IES Mirasierra",
     "distrito": "Fuencarral-El Pardo",
     "lat": 40.491,
-    "lng": -3.7152
+    "lng": -3.7152,
+    "web": "http://www.educa.madrid.org/ies.mirasierra.madrid"
   },
   {
     "nombre": "IES Francisco Tomas Y Valiente",
     "distrito": "Hortaleza",
     "lat": 40.4637,
-    "lng": -3.6505
+    "lng": -3.6505,
+    "web": "http://www.educa.madrid.org/ies.tomasyvaliente.madrid"
   },
   {
     "nombre": "IES Islas Filipinas",
     "distrito": "Chamberí",
     "lat": 40.4406,
-    "lng": -3.7113
+    "lng": -3.7113,
+    "web": "http://www.educa.madrid.org/ies.islasfilipinas.madrid"
   },
   {
     "nombre": "IES Luis Buñuel",
     "distrito": "Móstoles",
     "lat": 40.3396,
-    "lng": -3.8654
+    "lng": -3.8654,
+    "web": "http://www.educa.madrid.org/ies.luisbunuel.mostoles"
   },
   {
     "nombre": "IES Narcis Monturiol",
     "distrito": "Parla",
     "lat": 40.2433,
-    "lng": -3.7767
+    "lng": -3.7767,
+    "web": "http://www.educa.madrid.org/ies.narcismonturiol.parla"
   },
   {
     "nombre": "IES Jaime Ferran Clua",
     "distrito": "San Fernando de Henares",
     "lat": 40.4147,
-    "lng": -3.521
+    "lng": -3.521,
+    "web": "http://www.educa.madrid.org/ies.jaimeferran.sanfernando"
   },
   {
     "nombre": "CEPA Coslada",
     "distrito": "Coslada",
     "lat": 40.4313,
-    "lng": -3.5383
+    "lng": -3.5383,
+    "web": "http://www.educa.madrid.org/cepa.coslada"
   },
   {
     "nombre": "CEPA Colmenar Viejo",
     "distrito": "Colmenar Viejo",
     "lat": 40.6584,
-    "lng": -3.768
+    "lng": -3.768,
+    "web": "http://www.educa.madrid.org/cepa.colmenarviejo"
   },
   {
     "nombre": "CEPA Mariano Jose De Larra",
     "distrito": "Pinto",
     "lat": 40.2411,
-    "lng": -3.702
+    "lng": -3.702,
+    "web": "http://www.educa.madrid.org/cepa.pinto"
   },
   {
     "nombre": "CEPA Daoiz Y Velarde",
     "distrito": "Usera",
     "lat": 40.3675,
-    "lng": -3.7028
+    "lng": -3.7028,
+    "web": "http://www.educa.madrid.org/cepa.daoizyvelarde.madrid"
   },
   {
     "nombre": "IES Maria De Molina",
     "distrito": "Latina",
     "lat": 40.3777,
-    "lng": -3.78
+    "lng": -3.78,
+    "web": "http://www.educa.madrid.org/ies.mariademolina.madrid"
   },
   {
     "nombre": "IES Isaac Newton",
     "distrito": "Fuencarral-El Pardo",
     "lat": 40.473,
-    "lng": -3.7226
+    "lng": -3.7226,
+    "web": "http://www.educa.madrid.org/ies.newton.madrid"
   },
   {
     "nombre": "IES Severo Ochoa",
     "distrito": "Alcobendas",
     "lat": 40.5235,
-    "lng": -3.6544
+    "lng": -3.6544,
+    "web": "http://www.educa.madrid.org/ies.severoochoa.alcobendas"
   },
   {
     "nombre": "IES Parque De Lisboa",
     "distrito": "Alcorcón",
     "lat": 40.3508,
-    "lng": -3.8121
+    "lng": -3.8121,
+    "web": "http://www.educa.madrid.org/ies.parquelisboa.alcorcon"
   },
   {
     "nombre": "IES La Serna",
     "distrito": "Fuenlabrada",
     "lat": 40.296,
-    "lng": -3.7941
+    "lng": -3.7941,
+    "web": "http://www.educa.madrid.org/ies.laserna.fuenlabrada"
   },
   {
     "nombre": "IES La Fortuna",
     "distrito": "Leganés",
     "lat": 40.3596,
-    "lng": -3.784
+    "lng": -3.784,
+    "web": "http://www.educa.madrid.org/ies.lafortuna.leganes"
   },
   {
     "nombre": "IES Clara Campoamor",
     "distrito": "Móstoles",
     "lat": 40.33,
-    "lng": -3.8534
+    "lng": -3.8534,
+    "web": "http://www.educa.madrid.org/ies.claracampoamor.mostoles"
   },
   {
     "nombre": "IES Velazquez",
     "distrito": "Móstoles",
     "lat": 40.3305,
-    "lng": -3.8721
+    "lng": -3.8721,
+    "web": "http://www.educa.madrid.org/ies.velazquez.mostoles"
   },
   {
     "nombre": "IES Manuel Elkin Patarroyo",
     "distrito": "Parla",
     "lat": 40.2438,
-    "lng": -3.7637
+    "lng": -3.7637,
+    "web": "http://www.educa.madrid.org/ies.manuelelkinpatarroyo.parla"
   },
   {
     "nombre": "IES Camilo Jose Cela",
     "distrito": "Pozuelo de Alarcón",
     "lat": 40.4392,
-    "lng": -3.8196
+    "lng": -3.8196,
+    "web": "http://www.educa.madrid.org/ies.camilojosecela.pozuelodealarcon"
   },
   {
     "nombre": "IES Villa De Valdemoro",
     "distrito": "Valdemoro",
     "lat": 40.1893,
-    "lng": -3.6828
+    "lng": -3.6828,
+    "web": "http://www.educa.madrid.org/ies.villadevaldemoro.valdemoro"
   },
   {
     "nombre": "IES Alpajes",
     "distrito": "Aranjuez",
     "lat": 40.0351,
-    "lng": -3.5936
+    "lng": -3.5936,
+    "web": "http://www.educa.madrid.org/ies.alpajes.aranjuez"
   },
   {
     "nombre": "IES Maria De Zayas Y Sotomayor",
     "distrito": "Majadahonda",
     "lat": 40.4767,
-    "lng": -3.8576
+    "lng": -3.8576,
+    "web": "http://www.educa.madrid.org/ies.mariadezayas.majadahonda"
   },
   {
     "nombre": "CEIPSO Antonio Machado",
     "distrito": "Colmenar Viejo",
     "lat": 40.6635,
-    "lng": -3.7768
+    "lng": -3.7768,
+    "web": "cp.machado.colmenarviejo.educa.madrid.org"
   },
   {
     "nombre": "CEIPSO Santo Domingo",
     "distrito": "Algete",
     "lat": 40.6286,
-    "lng": -3.5831
+    "lng": -3.5831,
+    "web": "http://www.educa.madrid.org/cp.santodomingo.algete"
   },
   {
     "nombre": "IES Cardenal Cisneros",
     "distrito": "Alcalá de Henares",
     "lat": 40.4812,
-    "lng": -3.3708
+    "lng": -3.3708,
+    "web": "http://www.educa.madrid.org/ies.cardenalcisneros.alcala"
   },
   {
     "nombre": "IES Alkala-Nahar",
     "distrito": "Alcalá de Henares",
     "lat": 40.4868,
-    "lng": -3.3424
+    "lng": -3.3424,
+    "web": "http://www.educa.madrid.org/ies.alkalanahar.alcala"
   },
   {
     "nombre": "IES Josefina Aldecoa",
     "distrito": "Alcorcón",
     "lat": 40.3567,
-    "lng": -3.8168
+    "lng": -3.8168,
+    "web": "http://www.educa.madrid.org/ies.josefinaaldecoa.alcorcon"
   },
   {
     "nombre": "IES Grande Covian",
     "distrito": "Arganda del Rey",
     "lat": 40.2966,
-    "lng": -3.4335
+    "lng": -3.4335,
+    "web": "http://www.educa.madrid.org/ies.grandecovian.arganda"
   },
   {
     "nombre": "CEIPSO Enrique Tierno Galvan",
     "distrito": "Fuenlabrada",
     "lat": 40.2884,
-    "lng": -3.8059
+    "lng": -3.8059,
+    "web": "http://www.educa.madrid.org/cp.tiernogalvan.fuenlabrada"
   },
   {
     "nombre": "IES Julio Caro Baroja",
     "distrito": "Fuenlabrada",
     "lat": 40.2875,
-    "lng": -3.7862
+    "lng": -3.7862,
+    "web": "http://www.educa.madrid.org/ies.carobaroja.fuenlabrada"
   },
   {
     "nombre": "IES Salvador Allende",
     "distrito": "Fuenlabrada",
     "lat": 40.2894,
-    "lng": -3.7973
+    "lng": -3.7973,
+    "web": "http://www.educa.madrid.org/ies.salvadorallende.fuenlabrada"
   },
   {
     "nombre": "IES Laguna De Joatzel",
     "distrito": "Getafe",
     "lat": 40.3114,
-    "lng": -3.7119
+    "lng": -3.7119,
+    "web": "http://www.educa.madrid.org/ies.lagunadejoatzel.getafe"
   },
   {
     "nombre": "IES Isaac Albeniz",
     "distrito": "Leganés",
     "lat": 40.3405,
-    "lng": -3.7435
+    "lng": -3.7435,
+    "web": "http://www.educa.madrid.org/ies.albeniz.leganes"
   },
   {
     "nombre": "IES Marques De Suanzes",
     "distrito": "San Blas-Canillejas",
     "lat": 40.4445,
-    "lng": -3.6254
+    "lng": -3.6254,
+    "web": "http://www.educa.madrid.org/ies.marquesdesuanzes.madrid"
   },
   {
     "nombre": "IES Julio Verne",
     "distrito": "Leganés",
     "lat": 40.3374,
-    "lng": -3.7631
+    "lng": -3.7631,
+    "web": "http://www.educa.madrid.org/ies.julioverne.leganes"
   },
   {
     "nombre": "IES Salvador Dalí",
     "distrito": "Ciudad Lineal",
     "lat": 40.4396,
-    "lng": -3.6566
+    "lng": -3.6566,
+    "web": "http://www.educa.madrid.org/ies.salvadordali.madrid"
   },
   {
     "nombre": "IES Gabriel Garcia Marquez",
     "distrito": "Hortaleza",
     "lat": 40.4698,
-    "lng": -3.6355
+    "lng": -3.6355,
+    "web": "http://www.educa.madrid.org/ies.garciamarquez.madrid"
   },
   {
     "nombre": "IES Villablanca",
     "distrito": "Vicálvaro",
     "lat": 40.406,
-    "lng": -3.6002
+    "lng": -3.6002,
+    "web": "http://www.educa.madrid.org/ies.villablanca.madrid"
   },
   {
     "nombre": "IES Carlos Bousoño",
     "distrito": "Majadahonda",
     "lat": 40.4724,
-    "lng": -3.8607
+    "lng": -3.8607,
+    "web": "http://www.educa.madrid.org/ies.carlosbousono.majadahonda"
   },
   {
     "nombre": "IES Los Rosales",
     "distrito": "Móstoles",
     "lat": 40.3358,
-    "lng": -3.871
+    "lng": -3.871,
+    "web": "https://www.educa2.madrid.org/web/centro.ies.losrosales.mostoles"
   },
   {
     "nombre": "IES Benjamin Rua",
     "distrito": "Móstoles",
     "lat": 40.3363,
-    "lng": -3.8715
+    "lng": -3.8715,
+    "web": "http://www.educa.madrid.org/ies.benjaminrua.mostoles"
   },
   {
     "nombre": "IES Luis De Gongora",
     "distrito": "Torrejón de Ardoz",
     "lat": 40.45,
-    "lng": -3.4729
+    "lng": -3.4729,
+    "web": "http://www.educa.madrid.org/ies.gongora.torrejondeardoz"
   },
   {
     "nombre": "CEIPSO Laura Garcia Noblejas Y Brunet",
     "distrito": "Villaviciosa de Odón",
     "lat": 40.3621,
-    "lng": -3.9057
+    "lng": -3.9057,
+    "web": "http://www.educa.madrid.org/cp.garcianoblejas.villaviciosa2"
   },
   {
     "nombre": "IES Al-Satt",
     "distrito": "Algete",
     "lat": 40.5974,
-    "lng": -3.5091
+    "lng": -3.5091,
+    "web": "http://www.educa.madrid.org/ies.alsatt.algete"
   },
   {
     "nombre": "IES Aldebaran",
     "distrito": "Alcobendas",
     "lat": 40.5431,
-    "lng": -3.6606
+    "lng": -3.6606,
+    "web": "http://www.educa.madrid.org/ies.aldebaran.alcobendas"
   },
   {
     "nombre": "IES Gustavo Adolfo Becquer",
     "distrito": "Algete",
     "lat": 40.5974,
-    "lng": -3.5091
+    "lng": -3.5091,
+    "web": "http://www.educa.madrid.org/ies.becquer.algete"
   },
   {
     "nombre": "IES Carpe Diem",
     "distrito": "Chinchón",
     "lat": 40.1393,
-    "lng": -3.4145
+    "lng": -3.4145,
+    "web": "http://www.educa.madrid.org/ies.carpediem.chinchon"
   },
   {
     "nombre": "IES José Hierro",
     "distrito": "Getafe",
     "lat": 40.2907,
-    "lng": -3.7517
+    "lng": -3.7517,
+    "web": "http://www.educa.madrid.org/ies.josehierro.getafe"
   },
   {
     "nombre": "IES Leon Felipe",
     "distrito": "Getafe",
     "lat": 40.2996,
-    "lng": -3.7327
+    "lng": -3.7327,
+    "web": "http://www.educa.madrid.org/ies.leonfelipe.getafe"
   },
   {
     "nombre": "IES De Guadarrama",
     "distrito": "Guadarrama",
     "lat": 40.6652,
-    "lng": -4.0881
+    "lng": -4.0881,
+    "web": "http://www.educa.madrid.org/ies.guadarrama"
   },
   {
     "nombre": "IES San Nicasio",
     "distrito": "Leganés",
     "lat": 40.3407,
-    "lng": -3.7629
+    "lng": -3.7629,
+    "web": "http://www.educa.madrid.org/ies.sannicasio.leganes"
   },
   {
     "nombre": "IES Iturralde",
     "distrito": "Latina",
     "lat": 40.3856,
-    "lng": -3.7512
+    "lng": -3.7512,
+    "web": "http://www.educa.madrid.org/ies.iturralde.madrid"
   },
   {
     "nombre": "IES Villa De Vallecas",
     "distrito": "Villa de Vallecas",
     "lat": 40.3749,
-    "lng": -3.6247
+    "lng": -3.6247,
+    "web": "http://www.educa.madrid.org/ies.villadevallecas.madrid"
   },
   {
     "nombre": "IES San Juan De La Cruz",
     "distrito": "Pozuelo de Alarcón",
     "lat": 40.4304,
-    "lng": -3.8169
+    "lng": -3.8169,
+    "web": "http://www.educa.madrid.org/ies.sanjuandelacruz.pozuelodealarcon"
   },
   {
     "nombre": "IES El Burgo-Ignacio Echeverría",
     "distrito": "Rozas de Madrid, Las",
     "lat": 40.4882,
-    "lng": -3.8829
+    "lng": -3.8829,
+    "web": "http://www.educa.madrid.org/ies.burgoiecheverria.lasrozas"
   },
   {
     "nombre": "IES Julio Palacios",
     "distrito": "San Sebastián de los Reyes",
     "lat": 40.5435,
-    "lng": -3.6182
+    "lng": -3.6182,
+    "web": "http://www.educa.madrid.org/ies.juliopalacios.sansebastian"
   },
   {
     "nombre": "IES Agora",
     "distrito": "Alcobendas",
     "lat": 40.5523,
-    "lng": -3.6424
+    "lng": -3.6424,
+    "web": "http://www.educa.madrid.org/ies.agora.alcobendas"
   },
   {
     "nombre": "IES El Pinar",
     "distrito": "Alcorcón",
     "lat": 40.3398,
-    "lng": -3.8245
+    "lng": -3.8245,
+    "web": "http://www.educa.madrid.org/ies.elpinar.alcorcon"
   },
   {
     "nombre": "IES Profesor Maximo Trueba",
     "distrito": "Boadilla del Monte",
     "lat": 40.4062,
-    "lng": -3.8817
+    "lng": -3.8817,
+    "web": "http://www.educa.madrid.org/ies.maximotrueba.boadilla"
   },
   {
     "nombre": "IES De La Cabrera",
     "distrito": "Cabrera, La",
     "lat": 40.8669,
-    "lng": -3.6105
+    "lng": -3.6105,
+    "web": "http://www.educa.madrid.org/ies.lacabrera"
   },
   {
     "nombre": "IES Antonio Gaudi",
     "distrito": "Coslada",
     "lat": 40.4235,
-    "lng": -3.5387
+    "lng": -3.5387,
+    "web": "http://www.educa.madrid.org/ies.antoniogaudi.coslada"
   },
   {
     "nombre": "IES Altair",
     "distrito": "Getafe",
     "lat": 40.3153,
-    "lng": -3.7414
+    "lng": -3.7414,
+    "web": "http://www.educa.madrid.org/ies.altair.getafe"
   },
   {
     "nombre": "IES Juana De Castilla",
     "distrito": "Moratalaz",
     "lat": 40.3985,
-    "lng": -3.6331
+    "lng": -3.6331,
+    "web": "https://www.educa2.madrid.org/web/centro.ies.juanadecastilla.madrid"
   },
   {
     "nombre": "IES Miguel Delibes",
     "distrito": "Mejorada del Campo",
     "lat": 40.3906,
-    "lng": -3.484
+    "lng": -3.484,
+    "web": "http://www.educa.madrid.org/ies.delibes.mejorada"
   },
   {
     "nombre": "IES Profesor Angel Ysern",
     "distrito": "Navalcarnero",
     "lat": 40.2932,
-    "lng": -4.0107
+    "lng": -4.0107,
+    "web": "http://www.educa.madrid.org/ies.angelysern.navalcarnero"
   },
   {
     "nombre": "IES La Laguna",
     "distrito": "Parla",
     "lat": 40.2451,
-    "lng": -3.7724
+    "lng": -3.7724,
+    "web": "http://www.educa.madrid.org/ies.lalaguna.parla"
   },
   {
     "nombre": "IES Las Lagunas",
     "distrito": "Rivas-Vaciamadrid",
     "lat": 40.3624,
-    "lng": -3.5479
+    "lng": -3.5479,
+    "web": "http://www.educa.madrid.org/ies.laslagunas.rivas"
   },
   {
     "nombre": "IES Palas Atenea",
     "distrito": "Torrejón de Ardoz",
     "lat": 40.4639,
-    "lng": -3.4578
+    "lng": -3.4578,
+    "web": "http://www.educa.madrid.org/ies.palasatenea.torrejondeardoz"
   },
   {
     "nombre": "IES Calatalifa",
     "distrito": "Villaviciosa de Odón",
     "lat": 40.3547,
-    "lng": -3.9022
+    "lng": -3.9022,
+    "web": "http://www.educa.madrid.org/ies.calatalifa.villaviciosa"
   },
   {
     "nombre": "IES Las Canteras",
     "distrito": "Collado Villalba",
     "lat": 40.6395,
-    "lng": -3.9999
+    "lng": -3.9999,
+    "web": "http://www.educa.madrid.org/ies.lascanteras.colladovillalba"
   },
   {
     "nombre": "IES Satafi",
     "distrito": "Getafe",
     "lat": 40.3122,
-    "lng": -3.7122
+    "lng": -3.7122,
+    "web": "http://www.educa.madrid.org/ies.satafi.getafe"
   },
   {
     "nombre": "IES Ignacio Ellacuria",
     "distrito": "Alcalá de Henares",
     "lat": 40.4951,
-    "lng": -3.3547
+    "lng": -3.3547,
+    "web": "http://www.educa.madrid.org/ies.ignacioellacuria.alcala"
   },
   {
     "nombre": "IES Maria Guerrero",
     "distrito": "Collado Villalba",
     "lat": 40.6243,
-    "lng": -4.0043
+    "lng": -4.0043,
+    "web": "http://www.educa.madrid.org/ies.mariaguerrero.colladovillalba"
   },
   {
     "nombre": "IES Pablo Neruda",
     "distrito": "Leganés",
     "lat": 40.329,
-    "lng": -3.7455
+    "lng": -3.7455,
+    "web": "http://www.educa.madrid.org/ies.neruda.leganes"
   },
   {
     "nombre": "IES Gabriel Garcia Marquez",
     "distrito": "Leganés",
     "lat": 40.3277,
-    "lng": -3.7528
+    "lng": -3.7528,
+    "web": "http://www.educa.madrid.org/ies.garciamarquez.leganes"
   },
   {
     "nombre": "IES Joaquin Araujo",
     "distrito": "Fuenlabrada",
     "lat": 40.2781,
-    "lng": -3.7879
+    "lng": -3.7879,
+    "web": "http://www.educa.madrid.org/ies.joaquinaraujo.fuenlabrada"
   },
   {
     "nombre": "IES Dolores Ibarruri",
     "distrito": "Fuenlabrada",
     "lat": 40.2768,
-    "lng": -3.7965
+    "lng": -3.7965,
+    "web": "http://www.educa.madrid.org/ies.doloresibarruri.fuenlabrada"
   },
   {
     "nombre": "IES Antonio Lopez García",
     "distrito": "Getafe",
     "lat": 40.3241,
-    "lng": -3.7254
+    "lng": -3.7254,
+    "web": "http://www.educa.madrid.org/ies.antoniolopezgarcia.getafe"
   },
   {
     "nombre": "IES Margarita Salas",
     "distrito": "Majadahonda",
     "lat": 40.4651,
-    "lng": -3.8674
+    "lng": -3.8674,
+    "web": "http://www.educa.madrid.org/ies.margaritasalas.majadahonda"
   },
   {
     "nombre": "IES Antonio Gala",
     "distrito": "Móstoles",
     "lat": 40.3222,
-    "lng": -3.8827
+    "lng": -3.8827,
+    "web": "http://www.educa.madrid.org/ies.antoniogala.mostoles"
   },
   {
     "nombre": "IES Miguel Hernández",
     "distrito": "Móstoles",
     "lat": 40.3235,
-    "lng": -3.8497
+    "lng": -3.8497,
+    "web": "http://www.educa.madrid.org/ies.miguelhernandez.mostoles"
   },
   {
     "nombre": "IES Pintor Antonio Lopez",
     "distrito": "Tres Cantos",
     "lat": 40.6024,
-    "lng": -3.7025
+    "lng": -3.7025,
+    "web": "http://www.educa.madrid.org/ies.antoniolopez.trescantos"
   },
   {
     "nombre": "IES Itaca",
     "distrito": "Alcorcón",
     "lat": 40.3561,
-    "lng": -3.8089
+    "lng": -3.8089,
+    "web": "http://www.educa.madrid.org/ies.itaca.alcorcon"
   },
   {
     "nombre": "CEIPSO Velazquez",
     "distrito": "Fuenlabrada",
     "lat": 40.2925,
-    "lng": -3.8321
+    "lng": -3.8321,
+    "web": "https://www.educa2.madrid.org/web/ceips.velazquez"
   },
   {
     "nombre": "IES Luis Braille",
     "distrito": "Coslada",
     "lat": 40.4271,
-    "lng": -3.558
+    "lng": -3.558,
+    "web": "http://www.educa.madrid.org/ies.luisbraille.coslada"
   },
   {
     "nombre": "IES Infanta Elena",
     "distrito": "Galapagar",
     "lat": 40.5829,
-    "lng": -4.0114
+    "lng": -4.0114,
+    "web": "http://www.educa.madrid.org/ies.infantaelena.galapagar"
   },
   {
     "nombre": "IES Icaro",
     "distrito": "Getafe",
     "lat": 40.3159,
-    "lng": -3.7422
+    "lng": -3.7422,
+    "web": ""
   },
   {
     "nombre": "IES Santa Eugenia",
     "distrito": "Villa de Vallecas",
     "lat": 40.3855,
-    "lng": -3.6045
+    "lng": -3.6045,
+    "web": "http://www.educa.madrid.org/ies.santaeugenia.madrid"
   },
   {
     "nombre": "IES Clara Del Rey",
     "distrito": "Chamartín",
     "lat": 40.4464,
-    "lng": -3.6644
+    "lng": -3.6644,
+    "web": "http://www.educa.madrid.org/ies.claradelrey.madrid"
   },
   {
     "nombre": "IES Europa",
     "distrito": "Móstoles",
     "lat": 40.3275,
-    "lng": -3.8504
+    "lng": -3.8504,
+    "web": "http://www.educa.madrid.org/ies.europa.mostoles"
   },
   {
     "nombre": "IES Antonio De Nebrija",
     "distrito": "Móstoles",
     "lat": 40.3119,
-    "lng": -3.853
+    "lng": -3.853,
+    "web": "www.iesantoniodenebrija.es"
   },
   {
     "nombre": "IES Valle Inclan",
     "distrito": "Torrejón de Ardoz",
     "lat": 40.4628,
-    "lng": -3.4585
+    "lng": -3.4585,
+    "web": "http://www.educa.madrid.org/ies.valleinclan.torrejondeardoz"
   },
   {
     "nombre": "CEIPSO Los Jarales-Monterrozas",
     "distrito": "Rozas de Madrid, Las",
     "lat": 40.5197,
-    "lng": -3.9043
+    "lng": -3.9043,
+    "web": "http://www.educa.madrid.org/cp.losjarales.lasrozas"
   },
   {
     "nombre": "CEIPSO Ciudad De Columbia",
     "distrito": "Tres Cantos",
     "lat": 40.6139,
-    "lng": -3.7165
+    "lng": -3.7165,
+    "web": "http://www.educa.madrid.org/cp.ciudaddecolumbia.trescantos"
   },
   {
     "nombre": "CEPA Enrique Tierno Galvan",
     "distrito": "Arganda del Rey",
     "lat": 40.2984,
-    "lng": -3.4322
+    "lng": -3.4322,
+    "web": "http://www.educa.madrid.org/cepa.arganda"
   },
   {
     "nombre": "CEPA Pedro Martinez Gavito",
     "distrito": "San Lorenzo de El Escorial",
     "lat": 40.6009,
-    "lng": -4.1353
+    "lng": -4.1353,
+    "web": "http://www.educa.madrid.org/cepa.sanlorenzo"
   },
   {
     "nombre": "CEPA Pan Bendito",
     "distrito": "Carabanchel",
     "lat": 40.377,
-    "lng": -3.7344
+    "lng": -3.7344,
+    "web": "http://www.educa.madrid.org/cepa.panbendito.madrid"
   },
   {
     "nombre": "CEPA Tetuan",
     "distrito": "Tetuán",
     "lat": 40.468,
-    "lng": -3.6982
+    "lng": -3.6982,
+    "web": "http://www.educa.madrid.org/cepa.tetuan.madrid"
   },
   {
     "nombre": "CEPA Fuencarral",
     "distrito": "Fuencarral-El Pardo",
     "lat": 40.4959,
-    "lng": -3.6935
+    "lng": -3.6935,
+    "web": "https://www.educa2.madrid.org/web/centro.cepa.fuencarral.madrid "
   },
   {
     "nombre": "CEPA Entrevias",
     "distrito": "Puente de Vallecas",
     "lat": 40.3766,
-    "lng": -3.6695
+    "lng": -3.6695,
+    "web": "http://www.educa.madrid.org/cepa.entrevias.madrid"
   },
   {
     "nombre": "IES Rosa Chacel",
     "distrito": "Colmenar Viejo",
     "lat": 40.6542,
-    "lng": -3.7655
+    "lng": -3.7655,
+    "web": "http://www.educa.madrid.org/ies.rosachacel.colmenarviejo"
   },
   {
     "nombre": "IES Victoria Kent",
     "distrito": "Fuenlabrada",
     "lat": 40.3025,
-    "lng": -3.8104
+    "lng": -3.8104,
+    "web": "http://www.educa.madrid.org/ies.victoriakent.fuenlabrada"
   },
   {
     "nombre": "IES Pablo Picasso",
     "distrito": "Pinto",
     "lat": 40.2382,
-    "lng": -3.694
+    "lng": -3.694,
+    "web": "http://www.educa.madrid.org/ies.picasso.pinto"
   },
   {
     "nombre": "IES Juan De Mairena",
     "distrito": "San Sebastián de los Reyes",
     "lat": 40.5489,
-    "lng": -3.6349
+    "lng": -3.6349,
+    "web": "http://www.educa.madrid.org/ies.juandemairena.sansebastian"
   },
   {
     "nombre": "CEPA Villaverde",
     "distrito": "Villaverde",
     "lat": 40.3497,
-    "lng": -3.7087
+    "lng": -3.7087,
+    "web": "http://www.educa.madrid.org/cepa.villaverde.madrid"
   },
   {
     "nombre": "CEPA Canillejas",
     "distrito": "San Blas-Canillejas",
     "lat": 40.4374,
-    "lng": -3.6082
+    "lng": -3.6082,
+    "web": "http://www.educa.madrid.org/cepa.canillejas.madrid"
   },
   {
     "nombre": "CEPA Pablo Guzman",
     "distrito": "Hortaleza",
     "lat": 40.4621,
-    "lng": -3.6454
+    "lng": -3.6454,
+    "web": "http://www.educa.madrid.org/cepa.pabloguzman.madrid"
   },
   {
     "nombre": "IES Carmen Conde",
     "distrito": "Rozas de Madrid, Las",
     "lat": 40.5304,
-    "lng": -3.9107
+    "lng": -3.9107,
+    "web": "http://www.educa.madrid.org/ies.carmenconde.lasrozas"
   },
   {
     "nombre": "IES Luis Garcia Berlanga",
     "distrito": "Coslada",
     "lat": 40.4299,
-    "lng": -3.5626
+    "lng": -3.5626,
+    "web": "http://www.educa.madrid.org/ies.garciaberlanga.coslada"
   },
   {
     "nombre": "CEPA Vista Alegre",
     "distrito": "Carabanchel",
     "lat": 40.3852,
-    "lng": -3.7367
+    "lng": -3.7367,
+    "web": "http://www.educa.madrid.org/cepa.vistaalegre.madrid"
   },
   {
     "nombre": "CEPA Vallecas",
     "distrito": "Villa de Vallecas",
     "lat": 40.3815,
-    "lng": -3.6128
+    "lng": -3.6128,
+    "web": "http://www.educa.madrid.org/cepa.vallecas.madrid"
   },
   {
     "nombre": "CEPA Paracuellos Del Jarama",
     "distrito": "Paracuellos de Jarama",
     "lat": 40.5027,
-    "lng": -3.5326
+    "lng": -3.5326,
+    "web": "http://www.educa.madrid.org/cepa.paracuellos"
   },
   {
     "nombre": "CEPA Torres De La Alameda",
     "distrito": "Torres de la Alameda",
     "lat": 40.401,
-    "lng": -3.3608
+    "lng": -3.3608,
+    "web": "http://www.educa.madrid.org/cepa.torresdelaalameda"
   },
   {
     "nombre": "CEPA Villarejo De Salvanes",
     "distrito": "Villarejo de Salvanés",
     "lat": 40.1676,
-    "lng": -3.2756
+    "lng": -3.2756,
+    "web": "http://www.educa.madrid.org/cepa.villarejodesalvanes"
   },
   {
     "nombre": "CEPA San Martin De Valdeiglesias",
     "distrito": "San Martín de Valdeiglesias",
     "lat": 40.3635,
-    "lng": -4.3982
+    "lng": -4.3982,
+    "web": "https://www.educa2.madrid.org/web/centro.cepa.sanmartindevaldeiglesias"
   },
   {
     "nombre": "IES Rayuela",
     "distrito": "Móstoles",
     "lat": 40.3311,
-    "lng": -3.8747
+    "lng": -3.8747,
+    "web": "http://www.educa.madrid.org/ies.rayuela.mostoles"
   },
   {
     "nombre": "IES El Olivo",
     "distrito": "Parla",
     "lat": 40.2365,
-    "lng": -3.7616
+    "lng": -3.7616,
+    "web": "https://site.educa.madrid.org/ies.elolivo.parla/"
   },
   {
     "nombre": "IES Doctor Marañon",
     "distrito": "Alcalá de Henares",
     "lat": 40.4936,
-    "lng": -3.3767
+    "lng": -3.3767,
+    "web": "http://www.educa.madrid.org/ies.maranon.alcala"
   },
   {
     "nombre": "IES Duque De Rivas",
     "distrito": "Rivas-Vaciamadrid",
     "lat": 40.3675,
-    "lng": -3.5338
+    "lng": -3.5338,
+    "web": "http://www.educa.madrid.org/ies.duquederivas.rivas"
   },
   {
     "nombre": "IES Anselmo Lorenzo",
     "distrito": "San Martín de la Vega",
     "lat": 40.2149,
-    "lng": -3.5666
+    "lng": -3.5666,
+    "web": "http://www.educa.madrid.org/ies.anselmolorenzo.sanmartindelavega"
   },
   {
     "nombre": "CEPA Sierra Norte",
     "distrito": "Torrelaguna",
     "lat": 40.8282,
-    "lng": -3.5407
+    "lng": -3.5407,
+    "web": "http://www.educa.madrid.org/cepa.torrelaguna"
   },
   {
     "nombre": "IES Francisco De Quevedo",
     "distrito": "San Blas-Canillejas",
     "lat": 40.4216,
-    "lng": -3.6225
+    "lng": -3.6225,
+    "web": "http://www.educa.madrid.org/ies.quevedo.madrid"
   },
   {
     "nombre": "IES Los Olivos",
     "distrito": "Mejorada del Campo",
     "lat": 40.3927,
-    "lng": -3.4799
+    "lng": -3.4799,
+    "web": "http://www.educa.madrid.org/ies.losolivos.mejorada"
   },
   {
     "nombre": "IES Manuel De Falla",
     "distrito": "Coslada",
     "lat": 40.4167,
-    "lng": -3.5547
+    "lng": -3.5547,
+    "web": "http://www.educa.madrid.org/ies.manueldefalla.coslada"
   },
   {
     "nombre": "IES Villarejo De Salvanés",
     "distrito": "Villarejo de Salvanés",
     "lat": 40.1748,
-    "lng": -3.2866
+    "lng": -3.2866,
+    "web": "http://www.educa.madrid.org/ies.villarejo"
   },
   {
     "nombre": "IES Lazaro Cardenas",
     "distrito": "Collado Villalba",
     "lat": 40.621,
-    "lng": -4.0184
+    "lng": -4.0184,
+    "web": "http://www.educa.madrid.org/ies.lazarocardenas.colladovillalba"
   },
   {
     "nombre": "CEIPSO Ciudad De Nejapa",
     "distrito": "Tres Cantos",
     "lat": 40.6009,
-    "lng": -3.7009
+    "lng": -3.7009,
+    "web": "http://www.educa.madrid.org/cp.ciudaddenejapa.trescantos"
   },
   {
     "nombre": "CEPA Cid Campeador Las Aguilas - Cuatro Vientos",
     "distrito": "Latina",
     "lat": 40.3819,
-    "lng": -3.7707
+    "lng": -3.7707,
+    "web": "http://www.educa.madrid.org/cepa.cidcampeador.madrid"
   },
   {
     "nombre": "CEPA Ciudad Lineal",
     "distrito": "Ciudad Lineal",
     "lat": 40.4293,
-    "lng": -3.6323
+    "lng": -3.6323,
+    "web": "http://www.educa.madrid.org/cepa.ciudadlineal.madrid"
   },
   {
     "nombre": "CEPA El Ponton",
     "distrito": "Collado Villalba",
     "lat": 40.6289,
-    "lng": -4.0081
+    "lng": -4.0081,
+    "web": "http://www.educa.madrid.org/cepa.colladovillalba"
   },
   {
     "nombre": "CEPA Oporto",
     "distrito": "Carabanchel",
     "lat": 40.3863,
-    "lng": -3.7249
+    "lng": -3.7249,
+    "web": "http://www.educa.madrid.org/cepa.oporto.madrid"
   },
   {
     "nombre": "CEPA Los Rosales",
     "distrito": "Villaverde",
     "lat": 40.3542,
-    "lng": -3.6815
+    "lng": -3.6815,
+    "web": "http://www.educa.madrid.org/cepa.losrosales.madrid"
   },
   {
     "nombre": "CEPA Vicalvaro",
     "distrito": "Vicálvaro",
     "lat": 40.4015,
-    "lng": -3.6068
+    "lng": -3.6068,
+    "web": "http://www.educa.madrid.org/cepa.vicalvaro.madrid"
   },
   {
     "nombre": "CEPA Dulce Chacon",
     "distrito": "Hortaleza",
     "lat": 40.4772,
-    "lng": -3.6497
+    "lng": -3.6497,
+    "web": "http://www.educa.madrid.org/cepa.dulcechacon.madrid"
   },
   {
     "nombre": "CEPA El Buen Gobernador",
     "distrito": "Torrejón de Ardoz",
     "lat": 40.4557,
-    "lng": -3.4818
+    "lng": -3.4818,
+    "web": "http://www.educa.madrid.org/cepa.torrejondeardoz"
   },
   {
     "nombre": "CEPA Alfar",
     "distrito": "Alcorcón",
     "lat": 40.3529,
-    "lng": -3.8157
+    "lng": -3.8157,
+    "web": "http://www.educa.madrid.org/cepa.alcorcon"
   },
   {
     "nombre": "CEPA Jose Luis Sampedro",
     "distrito": "Aranjuez",
     "lat": 40.0277,
-    "lng": -3.6164
+    "lng": -3.6164,
+    "web": "http://www.educa.madrid.org/cepa.aranjuez"
   },
   {
     "nombre": "CEPA Rosalia De Castro",
     "distrito": "Leganés",
     "lat": 40.3394,
-    "lng": -3.7548
+    "lng": -3.7548,
+    "web": "http://www.educa.madrid.org/cepa.leganes"
   },
   {
     "nombre": "CEPA Gloria Fuertes",
     "distrito": "Navalcarnero",
     "lat": 40.2874,
-    "lng": -4.0133
+    "lng": -4.0133,
+    "web": "http://www.educa.madrid.org/cepa.gloriafuertes.navalcarnero"
   },
   {
     "nombre": "CEPA Ramon Y Cajal",
     "distrito": "Parla",
     "lat": 40.2378,
-    "lng": -3.7754
+    "lng": -3.7754,
+    "web": "http://www.educa.madrid.org/cepa.parla"
   },
   {
     "nombre": "CEPA Hermanos Correa",
     "distrito": "Valdemoro",
     "lat": 40.1873,
-    "lng": -3.6896
+    "lng": -3.6896,
+    "web": "http://www.educa.madrid.org/cepa.valdemoro"
   },
   {
     "nombre": "CEPA Mancomunidad Del Suroeste",
     "distrito": "Humanes de Madrid",
     "lat": 40.2542,
-    "lng": -3.8287
+    "lng": -3.8287,
+    "web": "http://www.educa.madrid.org/cepa.mancomunidadsuroeste.grinon"
   },
   {
     "nombre": "CEPA Atalayas",
     "distrito": "Molar, El",
     "lat": 40.7372,
-    "lng": -3.5823
+    "lng": -3.5823,
+    "web": "http://www.educa.madrid.org/cepa.elmolar"
   },
   {
     "nombre": "CEPA Arganzuela",
     "distrito": "Arganzuela",
     "lat": 40.4005,
-    "lng": -3.696
+    "lng": -3.696,
+    "web": "http://www.educa.madrid.org/cepa.arganzuela.madrid"
   },
   {
     "nombre": "CEPA Las Rozas",
     "distrito": "Rozas de Madrid, Las",
     "lat": 40.4954,
-    "lng": -3.8696
+    "lng": -3.8696,
+    "web": "http://www.educa.madrid.org/cepa.lasrozas"
   },
   {
     "nombre": "IES Francisco De Goya",
     "distrito": "Ciudad Lineal",
     "lat": 40.4184,
-    "lng": -3.6508
+    "lng": -3.6508,
+    "web": "http://www.educa.madrid.org/ies.goya.madrid"
   },
   {
     "nombre": "IES Pedro De Tolosa",
     "distrito": "San Martín de Valdeiglesias",
     "lat": 40.3625,
-    "lng": -4.4045
+    "lng": -4.4045,
+    "web": "http://www.educa.madrid.org/ies.pedrodetolosa.sanmartindevaldeiglesias"
   },
   {
     "nombre": "CEPA Moncloa",
     "distrito": "Moncloa-Aravaca",
     "lat": 40.425,
-    "lng": -3.7147
+    "lng": -3.7147,
+    "web": "http://www.educa.madrid.org/cepa.moncloa.madrid"
   },
   {
     "nombre": "CEPA San Martin De La Vega",
     "distrito": "San Martín de la Vega",
     "lat": 40.2112,
-    "lng": -3.5741
+    "lng": -3.5741,
+    "web": "http://www.educa.madrid.org/cepa.sanmartindelavega"
   },
   {
     "nombre": "IES Senda Galiana",
     "distrito": "Torres de la Alameda",
     "lat": 40.3973,
-    "lng": -3.3596
+    "lng": -3.3596,
+    "web": "http://www.educa.madrid.org/ies.sendagaliana.torres"
   },
   {
     "nombre": "IES Humanes",
     "distrito": "Humanes de Madrid",
     "lat": 40.2472,
-    "lng": -3.8201
+    "lng": -3.8201,
+    "web": "http://www.educa.madrid.org/ies.humanes.humanes"
   },
   {
     "nombre": "IES Avalon",
     "distrito": "Valdemoro",
     "lat": 40.1957,
-    "lng": -3.6867
+    "lng": -3.6867,
+    "web": "http://www.educa.madrid.org/ies.avalon.valdemoro"
   },
   {
     "nombre": "IES Valmayor",
     "distrito": "Valdemorillo",
     "lat": 40.5018,
-    "lng": -4.0657
+    "lng": -4.0657,
+    "web": "http://www.educa.madrid.org/ies.valmayor.valdemorillo"
   },
   {
     "nombre": "IES Madrid-Sur",
     "distrito": "Puente de Vallecas",
     "lat": 40.3765,
-    "lng": -3.6566
+    "lng": -3.6566,
+    "web": "http://www.educa.madrid.org/ies.madridsur.madrid"
   },
   {
     "nombre": "IES Atenea",
     "distrito": "Alcalá de Henares",
     "lat": 40.4682,
-    "lng": -3.3681
+    "lng": -3.3681,
+    "web": "http://www.educa.madrid.org/ies.atenea.alcala"
   },
   {
     "nombre": "IES Alpedrete",
     "distrito": "Alpedrete",
     "lat": 40.6541,
-    "lng": -4.0164
+    "lng": -4.0164,
+    "web": "http://www.educa.madrid.org/ies.alpedrete.alpedrete"
   },
   {
     "nombre": "IES Francisco Ayala",
     "distrito": "Hoyo de Manzanares",
     "lat": 40.626,
-    "lng": -3.9013
+    "lng": -3.9013,
+    "web": "http://www.educa.madrid.org/ies.franciscoayala.hoyodemanzanares"
   },
   {
     "nombre": "IES Ignacio Aldecoa",
     "distrito": "Getafe",
     "lat": 40.3253,
-    "lng": -3.6574
+    "lng": -3.6574,
+    "web": "http://www.educa.madrid.org/ies.ignacioaldecoa.getafe"
   },
   {
     "nombre": "IES Maestro Juan Maria Leonet",
     "distrito": "Villa del Prado",
     "lat": 40.2727,
-    "lng": -4.304
+    "lng": -4.304,
+    "web": "http://www.educa.madrid.org/ies.maestrojmleonet.villadelprado"
   },
   {
     "nombre": "IES Marcela De Ulloa",
     "distrito": "Colmenar de Oreja",
     "lat": 40.1143,
-    "lng": -3.3931
+    "lng": -3.3931,
+    "web": "http://www.educa.madrid.org/sies.carpediem.colmenardeoreja"
   },
   {
     "nombre": "IES Vega Del Tajuña",
     "distrito": "Morata de Tajuña",
     "lat": 40.2294,
-    "lng": -3.4428
+    "lng": -3.4428,
+    "web": "http://www.educa.madrid.org/ies.vegadeltajuna.morata"
   },
   {
     "nombre": "IES Las Encinas",
     "distrito": "Villanueva de la Cañada",
     "lat": 40.4553,
-    "lng": -3.9941
+    "lng": -3.9941,
+    "web": "http://www.educa.madrid.org/ies.lasencinas.villanuevadelacanada"
   },
   {
     "nombre": "IES Griñon",
     "distrito": "Griñón",
     "lat": 40.2148,
-    "lng": -3.8459
+    "lng": -3.8459,
+    "web": "http://www.educa.madrid.org/ies.grinon.grinon"
   },
   {
     "nombre": "IES San Agustin De Guadalix",
     "distrito": "San Agustín del Guadalix",
     "lat": 40.6791,
-    "lng": -3.6192
+    "lng": -3.6192,
+    "web": "http://www.educa.madrid.org/ies.sanagustin.sanagustin"
   },
   {
     "nombre": "IES Cañada Real",
     "distrito": "Galapagar",
     "lat": 40.5834,
-    "lng": -4.0083
+    "lng": -4.0083,
+    "web": "http://www.educa.madrid.org/ies.canadareal.galapagar"
   },
   {
     "nombre": "IES El Escorial",
     "distrito": "Escorial, El",
     "lat": 40.5785,
-    "lng": -4.1243
+    "lng": -4.1243,
+    "web": "http://www.educa.madrid.org/ies.elescorial.elescorial"
   },
   {
     "nombre": "CEPA Orcasitas",
     "distrito": "Usera",
     "lat": 40.3697,
-    "lng": -3.7188
+    "lng": -3.7188,
+    "web": "http://www.educa.madrid.org/cepa.orcasitas.madrid"
   },
   {
     "nombre": "CEPA Joaquin Sorolla",
     "distrito": "Salamanca",
     "lat": 40.4354,
-    "lng": -3.6727
+    "lng": -3.6727,
+    "web": "http://www.educa.madrid.org/cepa.joaquinsorolla.madrid"
   },
   {
     "nombre": "IES Europa",
     "distrito": "Rivas-Vaciamadrid",
     "lat": 40.3564,
-    "lng": -3.5297
+    "lng": -3.5297,
+    "web": "http://www.educa.madrid.org/ies.europa.rivas"
   },
   {
     "nombre": "IES Gregorio Peces-Barba",
     "distrito": "Colmenarejo",
     "lat": 40.5568,
-    "lng": -4.0129
+    "lng": -4.0129,
+    "web": "http://www.educa.madrid.org/ies.colmenarejo"
   },
   {
     "nombre": "IES Principe Felipe",
     "distrito": "Fuencarral-El Pardo",
     "lat": 40.4807,
-    "lng": -3.7027
+    "lng": -3.7027,
+    "web": "http://www.educa.madrid.org/ies.principefelipe.madrid"
   },
   {
     "nombre": "IES Puerta Bonita",
     "distrito": "Carabanchel",
     "lat": 40.3796,
-    "lng": -3.7396
+    "lng": -3.7396,
+    "web": "http://www.educa.madrid.org/ies.puertabonita.madrid"
   },
   {
     "nombre": "IES Hotel Escuela De La Comunidad De Madrid",
     "distrito": "Fuencarral-El Pardo",
     "lat": 40.5256,
-    "lng": -3.6828
+    "lng": -3.6828,
+    "web": "http://www.educa.madrid.org/ies.hotelescuela.madrid"
   },
   {
     "nombre": "IES Federico Garcia Lorca",
     "distrito": "Rozas de Madrid, Las",
     "lat": 40.5513,
-    "lng": -3.8987
+    "lng": -3.8987,
+    "web": "http://www.educa.madrid.org/ies.garcialorca.lasrozas"
   },
   {
     "nombre": "IES Centro De Capacitacion Agraria",
     "distrito": "Villaviciosa de Odón",
     "lat": 40.3596,
-    "lng": -3.8906
+    "lng": -3.8906,
+    "web": "http://www.educa.madrid.org/ies.capacitacionagraria.villaviciosa"
   },
   {
     "nombre": "CEIPSO Guindalera",
     "distrito": "Salamanca",
     "lat": 40.4372,
-    "lng": -3.6669
+    "lng": -3.6669,
+    "web": "http://www.educa.madrid.org/cp.guindalera.madrid"
   },
   {
     "nombre": "IES Gabriela Mistral",
     "distrito": "Arroyomolinos",
     "lat": 40.2641,
-    "lng": -3.9161
+    "lng": -3.9161,
+    "web": "http://www.educa.madrid.org/ies.gabrielamistral.arroyomolinos"
   },
   {
     "nombre": "IES Alfonso Moreno",
     "distrito": "Brunete",
     "lat": 40.4133,
-    "lng": -4.002
+    "lng": -4.002,
+    "web": "http://www.educa.madrid.org/ies.alfonsomoreno.brunete"
   },
   {
     "nombre": "IES Gabriel Cisneros",
     "distrito": "Móstoles",
     "lat": 40.3159,
-    "lng": -3.9225
+    "lng": -3.9225,
+    "web": "http://www.educa.madrid.org/ies.gabrielcisneros.mostoles"
   },
   {
     "nombre": "IES Sevilla La Nueva",
     "distrito": "Sevilla la Nueva",
     "lat": 40.3464,
-    "lng": -4.031
+    "lng": -4.031,
+    "web": "http://www.educa.madrid.org/ies.sevillalanueva.sevilla"
   },
   {
     "nombre": "IES Sapere Aude",
     "distrito": "Villanueva del Pardillo",
     "lat": 40.4909,
-    "lng": -3.9622
+    "lng": -3.9622,
+    "web": "http://www.educa.madrid.org/ies.villanuevadelpardillo"
   },
   {
     "nombre": "IES Miguel De Cervantes",
     "distrito": "Móstoles",
     "lat": 40.3088,
-    "lng": -3.8782
+    "lng": -3.8782,
+    "web": "http://www.educa.madrid.org/ies.cervantes.mostoles"
   },
   {
     "nombre": "IES Profesor Julio Perez",
     "distrito": "Rivas-Vaciamadrid",
     "lat": 40.3321,
-    "lng": -3.514
+    "lng": -3.514,
+    "web": "http://www.educa.madrid.org/ies.profesorjulioperez.rivas"
   },
   {
     "nombre": "CEIPSO Anton Sevillano",
     "distrito": "Sevilla la Nueva",
     "lat": 40.347,
-    "lng": -4.0314
+    "lng": -4.0314,
+    "web": "http://www.educa.madrid.org/cp.antonsevillano.sevilla"
   },
   {
     "nombre": "CEIPSO El Encinar",
     "distrito": "Torrelodones",
     "lat": 40.5698,
-    "lng": -3.9272
+    "lng": -3.9272,
+    "web": "http://www.educa.madrid.org/cp.elencinar.torrelodones"
   },
   {
     "nombre": "CEIPSO Maria Moliner",
     "distrito": "Villanueva de la Cañada",
     "lat": 40.4399,
-    "lng": -3.9998
+    "lng": -3.9998,
+    "web": "http://www.educa.madrid.org/cp.mariamoliner.villanuevadelacanada"
   },
   {
     "nombre": "IES Las Americas",
     "distrito": "Parla",
     "lat": 40.2358,
-    "lng": -3.7622
+    "lng": -3.7622,
+    "web": "http://www.educa.madrid.org/ies.lasamericas.parla"
   },
   {
     "nombre": "IES Ana Maria Matute",
     "distrito": "Velilla de San Antonio",
     "lat": 40.3714,
-    "lng": -3.4842
+    "lng": -3.4842,
+    "web": "http://www.educa.madrid.org/ies.anammatute.velilla"
   },
   {
     "nombre": "IES Gaspar Sanz",
     "distrito": "Meco",
     "lat": 40.5462,
-    "lng": -3.3222
+    "lng": -3.3222,
+    "web": "http://www.educa.madrid.org/ies.gasparsanz.meco"
   },
   {
     "nombre": "IES Adolfo Suarez",
     "distrito": "Paracuellos de Jarama",
     "lat": 40.5028,
-    "lng": -3.5259
+    "lng": -3.5259,
+    "web": "http://www.educa.madrid.org/ies.adolfosuarez.paracuellos"
   },
   {
     "nombre": "IES Renacimiento",
     "distrito": "Carabanchel",
     "lat": 40.3941,
-    "lng": -3.7375
+    "lng": -3.7375,
+    "web": "http://www.educa.madrid.org/ies.renacimiento.madrid"
   },
   {
     "nombre": "CEPA Rivas-Vaciamadrid",
     "distrito": "Rivas-Vaciamadrid",
     "lat": 40.3737,
-    "lng": -3.527
+    "lng": -3.527,
+    "web": "http://www.educa.madrid.org/cepa.rivas"
   },
   {
     "nombre": "CEPA Mario Vargas Llosa",
     "distrito": "Majadahonda",
     "lat": 40.4682,
-    "lng": -3.871
+    "lng": -3.871,
+    "web": "http://www.educa.madrid.org/cepa.mariovargasllosa.majadahonda"
   },
   {
     "nombre": "CEPA Pozuelo De Alarcon",
     "distrito": "Pozuelo de Alarcón",
     "lat": 40.4495,
-    "lng": -3.7993
+    "lng": -3.7993,
+    "web": "http://www.educa.madrid.org/cepa.pozuelodealarcon"
   },
   {
     "nombre": "IES Sierra De Guadarrama",
     "distrito": "Soto del Real",
     "lat": 40.7547,
-    "lng": -3.78
+    "lng": -3.78,
+    "web": "www.iessoto.es"
   },
   {
     "nombre": "CEPA Las Rosas",
     "distrito": "San Blas-Canillejas",
     "lat": 40.4213,
-    "lng": -3.6237
+    "lng": -3.6237,
+    "web": "http://www.educa.madrid.org/cepa.lasrosas.madrid"
   },
   {
     "nombre": "IES Numancia",
     "distrito": "Puente de Vallecas",
     "lat": 40.4022,
-    "lng": -3.6545
+    "lng": -3.6545,
+    "web": "http://www.educa.madrid.org/ies.numancia.madrid"
   },
   {
     "nombre": "IES Escuela De Hosteleria Y Turismo",
     "distrito": "Alcalá de Henares",
     "lat": 40.4925,
-    "lng": -3.3472
+    "lng": -3.3472,
+    "web": "http://www.educa.madrid.org/ies.hosteleria.alcala"
   },
   {
     "nombre": "IES Jose Saramago",
     "distrito": "Arganda del Rey",
     "lat": 40.3125,
-    "lng": -3.4528
+    "lng": -3.4528,
+    "web": "http://www.educa.madrid.org/ies.josesaramago.arganda"
   },
   {
     "nombre": "IES Atenea",
     "distrito": "San Sebastián de los Reyes",
     "lat": 40.5591,
-    "lng": -3.6266
+    "lng": -3.6266,
+    "web": "http://www.educa.madrid.org/ies.atenea.sansebastian"
   },
   {
     "nombre": "IES Arquitecto Ventura Rodriguez",
     "distrito": "Boadilla del Monte",
     "lat": 40.4092,
-    "lng": -3.8931
+    "lng": -3.8931,
+    "web": "http://www.educa.madrid.org/ies.arquitectoventurarodriguez.boadilla"
   },
   {
     "nombre": "IES Jose Saramago",
     "distrito": "Majadahonda",
     "lat": 40.4672,
-    "lng": -3.8765
+    "lng": -3.8765,
+    "web": "http://www.educa.madrid.org/ies.josesaramago.majadahonda"
   },
   {
     "nombre": "IES Barrio Loranca",
     "distrito": "Fuenlabrada",
     "lat": 40.2946,
-    "lng": -3.8351
+    "lng": -3.8351,
+    "web": "http://www.educa.madrid.org/ies.barrioloranca.fuenlabrada"
   },
   {
     "nombre": "IES El Alamo",
     "distrito": "Álamo, El",
     "lat": 40.2284,
-    "lng": -3.9848
+    "lng": -3.9848,
+    "web": "http://www.educa.madrid.org/ies.elalamo.elalamo"
   },
   {
     "nombre": "IES Miguel Delibes",
     "distrito": "Torrejón de la Calzada",
     "lat": 40.1936,
-    "lng": -3.8049
+    "lng": -3.8049,
+    "web": "http://www.educa.madrid.org/ies.migueldelibes.torrejondelacalzada"
   },
   {
     "nombre": "IES Sabino Fernandez Campo",
     "distrito": "Robledo de Chavela",
     "lat": 40.4987,
-    "lng": -4.235
+    "lng": -4.235,
+    "web": "http://www.educa.madrid.org/ies.sabinofernandezcampo.robledo"
   },
   {
     "nombre": "CEPA Distrito Centro",
     "distrito": "Centro",
     "lat": 40.427,
-    "lng": -3.7064
+    "lng": -3.7064,
+    "web": "http://www.educa.madrid.org/cepa.centro.madrid"
   },
   {
     "nombre": "CEPA La Mesta",
     "distrito": "Villanueva de la Cañada",
     "lat": 40.4499,
-    "lng": -4.0058
+    "lng": -4.0058,
+    "web": "http://www.educa.madrid.org/cepa.lamesta.villanuevadelacanada"
   },
   {
     "nombre": "CEPA La Oreja Verde",
     "distrito": "Galapagar",
     "lat": 40.5947,
-    "lng": -3.9868
+    "lng": -3.9868,
+    "web": "http://www.educa.madrid.org/cepa.galapagar"
   },
   {
     "nombre": "CEPA Almajan",
     "distrito": "Torrelodones",
     "lat": 40.5766,
-    "lng": -3.9445
+    "lng": -3.9445,
+    "web": "http://www.educa.madrid.org/cepa.torrelodones"
   },
   {
     "nombre": "CEPA Buitrago De Lozoya",
     "distrito": "Buitrago del Lozoya",
     "lat": 40.993,
-    "lng": -3.6384
+    "lng": -3.6384,
+    "web": "http://www.educa.madrid.org/cepa.buitrago"
   },
   {
     "nombre": "CEIPSO Pedro Duque",
     "distrito": "Vicálvaro",
     "lat": 40.3972,
-    "lng": -3.6072
+    "lng": -3.6072,
+    "web": "http://www.educa.madrid.org/cp.pedroduque.madrid"
   },
   {
     "nombre": "CEIPSO Bachiller Alonso Lopez",
     "distrito": "Alcobendas",
     "lat": 40.5533,
-    "lng": -3.6558
+    "lng": -3.6558,
+    "web": "http://www.educa.madrid.org/cp.bachilleralonsolopez.alcobendas"
   },
   {
     "nombre": "CEIPSO Salvador Dali",
     "distrito": "Fuenlabrada",
     "lat": 40.3038,
-    "lng": -3.8423
+    "lng": -3.8423,
+    "web": "http://www.educa.madrid.org/cp.salvadordali.fuenlabrada"
   },
   {
     "nombre": "CEIPSO El Cantizal",
     "distrito": "Rozas de Madrid, Las",
     "lat": 40.5189,
-    "lng": -3.9225
+    "lng": -3.9225,
+    "web": "http://www.educa.madrid.org/cp.elcantizal.lasrozas"
   },
   {
     "nombre": "IES Lazaro Carreter",
     "distrito": "Alcalá de Henares",
     "lat": 40.5046,
-    "lng": -3.3734
+    "lng": -3.3734,
+    "web": "http://www.educa.madrid.org/ies.lazarocarreter.alcala"
   },
   {
     "nombre": "IES Miguel De Cervantes",
     "distrito": "Daganzo de Arriba",
     "lat": 40.5448,
-    "lng": -3.4626
+    "lng": -3.4626,
+    "web": "http://www.educa.madrid.org/ies.migueldecervantes.daganzo"
   },
   {
     "nombre": "IES Don Pelayo",
     "distrito": "Villalbilla",
     "lat": 40.4495,
-    "lng": -3.352
+    "lng": -3.352,
+    "web": "http://www.educa.madrid.org/ies.donpelayo.villalbilla"
   },
   {
     "nombre": "CEPA San Sebastian De Los Reyes",
     "distrito": "San Sebastián de los Reyes",
     "lat": 40.5542,
-    "lng": -3.6326
+    "lng": -3.6326,
+    "web": "http://www.educa.madrid.org/cepa.sansebastian"
   },
   {
     "nombre": "CEPA Sierra De Guadarrama",
     "distrito": "Collado Mediano",
     "lat": 40.6903,
-    "lng": -4.0415
+    "lng": -4.0415,
+    "web": "http://www.educa.madrid.org/cepa.sierradeguadarrama.colladomediano"
   },
   {
     "nombre": "IES Santiago Rusiñol",
     "distrito": "Aranjuez",
     "lat": 40.0341,
-    "lng": -3.5839
+    "lng": -3.5839,
+    "web": "http://www.educa.madrid.org/ies.santiagorusinol.aranjuez"
   },
   {
     "nombre": "IES Maestro Matias Bravo",
     "distrito": "Valdemoro",
     "lat": 40.1786,
-    "lng": -3.6892
+    "lng": -3.6892,
+    "web": "http://www.educa.madrid.org/ies.maestromatiasbravo.valdemoro"
   },
   {
     "nombre": "IES Francisco Umbral",
     "distrito": "Ciempozuelos",
     "lat": 40.1616,
-    "lng": -3.6273
+    "lng": -3.6273,
+    "web": "http://www.educa.madrid.org/ies.franciscoumbral.ciempozuelos"
   },
   {
     "nombre": "IES Villaverde",
     "distrito": "Villaverde",
     "lat": 40.3573,
-    "lng": -3.6904
+    "lng": -3.6904,
+    "web": "http://www.educa.madrid.org/ies.villaverde.madrid"
   },
   {
     "nombre": "CEIPSO Gabriela Mistral",
     "distrito": "Fuencarral-El Pardo",
     "lat": 40.5077,
-    "lng": -3.6676
+    "lng": -3.6676,
+    "web": "http://www.educa.madrid.org/cp.gabrielamistral.madrid"
   },
   {
     "nombre": "CEIPSO Adolfo Suarez",
     "distrito": "Hortaleza",
     "lat": 40.4893,
-    "lng": -3.6529
+    "lng": -3.6529,
+    "web": "http://www.educa.madrid.org/cp.adolfosuarez.madrid"
   },
   {
     "nombre": "CEIPSO Sansueña",
     "distrito": "Talamanca de Jarama",
     "lat": 40.7475,
-    "lng": -3.515
+    "lng": -3.515,
+    "web": "http://www.educa.madrid.org/cp.sansuena.talamanca"
   },
   {
     "nombre": "CEIPSO Maria Martin",
     "distrito": "Navalcarnero",
     "lat": 40.2937,
-    "lng": -3.9961
+    "lng": -3.9961,
+    "web": "http://www.educa.madrid.org/cp.mariamartin.navalcarnero"
   },
   {
     "nombre": "CEIPSO Gandhi",
     "distrito": "Villaviciosa de Odón",
     "lat": 40.3606,
-    "lng": -3.914
+    "lng": -3.914,
+    "web": "http://www.educa.madrid.org/cp.gandhi.villaviciosa"
   },
   {
     "nombre": "IES Antares",
     "distrito": "Rivas-Vaciamadrid",
     "lat": 40.3536,
-    "lng": -3.5156
+    "lng": -3.5156,
+    "web": "http://www.educa.madrid.org/ies.antares.rivas"
   },
   {
     "nombre": "IES Luis Garcia Berlanga",
     "distrito": "Guadalix de la Sierra",
     "lat": 40.7822,
-    "lng": -3.6961
+    "lng": -3.6961,
+    "web": "http://www.educa.madrid.org/ies.luisgarciaberlanga.guadalix"
   },
   {
     "nombre": "CEIPSO Principes De Asturias",
     "distrito": "Pozuelo de Alarcón",
     "lat": 40.4573,
-    "lng": -3.8068
+    "lng": -3.8068,
+    "web": "http://www.educa.madrid.org/cp.principesdeasturias.pozuelodealarcon"
   },
   {
     "nombre": "CEIPSO Teresa De Calcuta",
     "distrito": "San Sebastián de los Reyes",
     "lat": 40.5616,
-    "lng": -3.6122
+    "lng": -3.6122,
+    "web": "http://www.educa.madrid.org/cp.teresadecalcuta.sansebastian"
   },
   {
     "nombre": "IES Gustavo Adolfo Becquer",
     "distrito": "Moraleja de Enmedio",
     "lat": 40.2661,
-    "lng": -3.8544
+    "lng": -3.8544,
+    "web": "http://www.educa.madrid.org/sies.africa.moraleja"
   },
   {
     "nombre": "IES Gonzalo Anes",
     "distrito": "Collado Mediano",
     "lat": 40.6902,
-    "lng": -4.042
+    "lng": -4.042,
+    "web": "http://www.educa.madrid.org/ies.gonzaloanes.colladomediano"
   },
   {
     "nombre": "IES Campo Real",
     "distrito": "Campo Real",
     "lat": 40.3335,
-    "lng": -3.3724
+    "lng": -3.3724,
+    "web": "http://www.educa.madrid.org/ies.camporeal"
   },
   {
     "nombre": "CEIPSO Mario Vargas Llosa",
     "distrito": "Rozas de Madrid, Las",
     "lat": 40.527,
-    "lng": -3.9163
+    "lng": -3.9163,
+    "web": "http://www.educa.madrid.org/cp.vargasllosa.lasrozas"
   },
   {
     "nombre": "CEIPSO Salvador De Madariaga",
     "distrito": "Daganzo de Arriba",
     "lat": 40.5444,
-    "lng": -3.4664
+    "lng": -3.4664,
+    "web": "http://www.educa.madrid.org/cp.salvadordemadariaga.daganzo"
   },
   {
     "nombre": "IES Calderon De La Barca",
     "distrito": "Pinto",
     "lat": 40.256,
-    "lng": -3.6968
+    "lng": -3.6968,
+    "web": "http://www.educa.madrid.org/ies.calderon.pinto"
   },
   {
     "nombre": "CEIPSO Santo Angel De La Guarda",
     "distrito": "Chapinería",
     "lat": 40.378,
-    "lng": -4.2052
+    "lng": -4.2052,
+    "web": "http://www.educa.madrid.org/cp.santoangeldelaguarda.chapineria"
   },
   {
     "nombre": "CEIPSO San Miguel",
     "distrito": "Villamantilla",
     "lat": 40.3452,
-    "lng": -4.1283
+    "lng": -4.1283,
+    "web": "http://www.educa.madrid.org/cp.sanmiguel.villamantilla"
   },
   {
     "nombre": "CEIPSO Loyola De Palacio",
     "distrito": "Villa de Vallecas",
     "lat": 40.3606,
-    "lng": -3.5986
+    "lng": -3.5986,
+    "web": "http://www.educa.madrid.org/cp.loyoladepalacio.madrid"
   },
   {
     "nombre": "CEIPSO Angel Gonzalez",
     "distrito": "Leganés",
     "lat": 40.3102,
-    "lng": -3.7891
+    "lng": -3.7891,
+    "web": "http://www.educa.madrid.org/cp.angelgonzalez.leganes"
   },
   {
     "nombre": "IES Fernando Fernan Gomez",
     "distrito": "Humanes de Madrid",
     "lat": 40.2558,
-    "lng": -3.8182
+    "lng": -3.8182,
+    "web": "http://www.educa.madrid.org/ies.fernangomez.humanes"
   },
   {
     "nombre": "CEIPSO Leopoldo Calvo-Sotelo",
     "distrito": "Fuencarral-El Pardo",
     "lat": 40.502,
-    "lng": -3.6748
+    "lng": -3.6748,
+    "web": "http://www.educa.madrid.org/cp.leopoldocalvosotelo.madrid"
   },
   {
     "nombre": "IES Jimena Menendez Pidal",
     "distrito": "Fuenlabrada",
     "lat": 40.285,
-    "lng": -3.8151
+    "lng": -3.8151,
+    "web": "http://www.educa.madrid.org/ies.jimenamenendezpidal.fuenlabrada"
   },
   {
     "nombre": "CEIPSO Maestro Rodrigo",
     "distrito": "Aranjuez",
     "lat": 40.0657,
-    "lng": -3.5971
+    "lng": -3.5971,
+    "web": "http://www.educa.madrid.org/cp.maestrorodrigo.aranjuez"
   },
   {
     "nombre": "CEIPSO Ernest Hemingway",
     "distrito": "Alcalá de Henares",
     "lat": 40.5004,
-    "lng": -3.3628
+    "lng": -3.3628,
+    "web": "http://www.educa.madrid.org/cp.ernesthemingway.alcala"
   },
   {
     "nombre": "IES Carpe Diem",
     "distrito": "Fuenlabrada",
     "lat": 40.2936,
-    "lng": -3.8311
+    "lng": -3.8311,
+    "web": "https://www.educa2.madrid.org/web/centro.ies.carpediem.fuenlabrada"
   },
   {
     "nombre": "IES Nicolas Copernico",
     "distrito": "Parla",
     "lat": 40.2238,
-    "lng": -3.7614
+    "lng": -3.7614,
+    "web": "http://www.educa.madrid.org/ies.nicolascopernico.parla"
   },
   {
     "nombre": "IES Cortes De Cadiz",
     "distrito": "Molar, El",
     "lat": 40.7402,
-    "lng": -3.5833
+    "lng": -3.5833,
+    "web": "http://www.educa.madrid.org/ies.cortesdecadiz.elmolar"
   },
   {
     "nombre": "CEIPSO Josep Tarradellas",
     "distrito": "Fuencarral-El Pardo",
     "lat": 40.5101,
-    "lng": -3.6701
+    "lng": -3.6701,
+    "web": "http://www.educa.madrid.org/cp.joseptarradellas.madrid"
   },
   {
     "nombre": "IES La Senda",
     "distrito": "Getafe",
     "lat": 40.2944,
-    "lng": -3.7474
+    "lng": -3.7474,
+    "web": "http://www.educa.madrid.org/ies.lasenda.getafe"
   },
   {
     "nombre": "IES Pedro Duque",
     "distrito": "Leganés",
     "lat": 40.3268,
-    "lng": -3.7535
+    "lng": -3.7535,
+    "web": "http://www.educa.madrid.org/ies.pedroduque.leganes"
   },
   {
     "nombre": "CEIPSO Constitucion De 1812",
     "distrito": "Leganés",
     "lat": 40.3192,
-    "lng": -3.751
+    "lng": -3.751,
+    "web": "http://www.educa.madrid.org/cp.constitucionde1812.leganes"
   },
   {
     "nombre": "IES Manuel Fraga Iribarne",
     "distrito": "Hortaleza",
     "lat": 40.4998,
-    "lng": -3.6572
+    "lng": -3.6572,
+    "web": "http://www.educa.madrid.org/ies.manuelfragairibarne.madrid"
   },
   {
     "nombre": "CEIPSO Puerta De La Sierra",
     "distrito": "Venturada",
     "lat": 40.7982,
-    "lng": -3.6251
+    "lng": -3.6251,
+    "web": "http://www.educa.madrid.org/cp.puertadelasierra.venturada"
   },
   {
     "nombre": "IES Jorge Guillen",
     "distrito": "Alcorcón",
     "lat": 40.3397,
-    "lng": -3.8195
+    "lng": -3.8195,
+    "web": "http://www.educa.madrid.org/ies.jorgeguillen.alcorcon"
   },
   {
     "nombre": "IES Gonzalo Chacon",
     "distrito": "Arroyomolinos",
     "lat": 40.2847,
-    "lng": -3.9209
+    "lng": -3.9209,
+    "web": "http://www.educa.madrid.org/ies.gonzalochacon.arroyomolinos"
   },
   {
     "nombre": "IES Jose Luis Lopez Aranguren",
     "distrito": "Fuenlabrada",
     "lat": 40.2933,
-    "lng": -3.7821
+    "lng": -3.7821,
+    "web": "https://www.educa2.madrid.org/web/centro.ies.lopezaranguren.fuenlabrada"
   },
   {
     "nombre": "IES Neil Armstrong",
     "distrito": "Valdemoro",
     "lat": 40.1892,
-    "lng": -3.6674
+    "lng": -3.6674,
+    "web": "http://www.educa.madrid.org/ies.neilarmstrong.valdemoro"
   },
   {
     "nombre": "IES Pedro Salinas",
     "distrito": "Usera",
     "lat": 40.3889,
-    "lng": -3.7089
+    "lng": -3.7089,
+    "web": "http://www.educa.madrid.org/ies.pedrosalinas.madrid"
   },
   {
     "nombre": "CEIPSO Jose De Echegaray",
     "distrito": "Villa de Vallecas",
     "lat": 40.3675,
-    "lng": -3.6126
+    "lng": -3.6126,
+    "web": "http://www.educa.madrid.org/cp.josedeechegaray.madrid"
   },
   {
     "nombre": "IES Menendez Pelayo",
     "distrito": "Getafe",
     "lat": 40.3191,
-    "lng": -3.7231
+    "lng": -3.7231,
+    "web": "https://www.educa2.madrid.org/web/centro.ies.menendezpelayo.getafe"
   },
   {
     "nombre": "IES Juan Gris",
     "distrito": "Móstoles",
     "lat": 40.3112,
-    "lng": -3.8539
+    "lng": -3.8539,
+    "web": "http://www.educa.madrid.org/ies.juangris.mostoles"
   },
   {
     "nombre": "IES El Cañaveral",
     "distrito": "Móstoles",
     "lat": 40.3126,
-    "lng": -3.8525
+    "lng": -3.8525,
+    "web": "http://www.educa.madrid.org/ies.elcanaveral.mostoles"
   },
   {
     "nombre": "IES Francisco Ayala",
     "distrito": "Carabanchel",
     "lat": 40.3657,
-    "lng": -3.7608
+    "lng": -3.7608,
+    "web": "http://www.educa.madrid.org/ies.franciscoayala.madrid"
   },
   {
     "nombre": "IES Rafael Frühbeck De Burgos",
     "distrito": "Leganés",
     "lat": 40.3095,
-    "lng": -3.7877
+    "lng": -3.7877,
+    "web": "http://www.educa.madrid.org/ies.rafaelfruhbeckdeburgos.leganes"
   },
   {
     "nombre": "IES Sor Juana De La Cruz",
     "distrito": "Cubas de la Sagra",
     "lat": 40.1968,
-    "lng": -3.8444
+    "lng": -3.8444,
+    "web": "http://www.educa.madrid.org/ies.sorjuanadelacruz.cubasdelasagra"
   },
   {
     "nombre": "IES Jose Garcia Nieto",
     "distrito": "Rozas de Madrid, Las",
     "lat": 40.5243,
-    "lng": -3.8923
+    "lng": -3.8923,
+    "web": "http://www.educa.madrid.org/ies.josegarcianieto.lasrozas"
   },
   {
     "nombre": "CEIPSO Blas De Lezo",
     "distrito": "Fuencarral-El Pardo",
     "lat": 40.5112,
-    "lng": -3.6726
+    "lng": -3.6726,
+    "web": "http://www.educa.madrid.org/cp.blasdelezo.madrid"
   },
   {
     "nombre": "CEIPSO Miguel De Cervantes",
     "distrito": "Getafe",
     "lat": 40.3159,
-    "lng": -3.7069
+    "lng": -3.7069,
+    "web": "http://www.educa.madrid.org/cp.migueldecervantes.getafe"
   },
   {
     "nombre": "IES Alfredo Kraus",
     "distrito": "San Blas-Canillejas",
     "lat": 40.4238,
-    "lng": -3.6077
+    "lng": -3.6077,
+    "web": "http://www.educa.madrid.org/ies.alfredokraus.madrid"
   },
   {
     "nombre": "IES Juan Ramon Jiménez",
     "distrito": "Villaverde",
     "lat": 40.3432,
-    "lng": -3.6741
+    "lng": -3.6741,
+    "web": "http://site.educa.madrid.org/ies.juanramonjimenez.madrid/"
   },
   {
     "nombre": "IES Marie Curie",
     "distrito": "Loeches",
     "lat": 40.384,
-    "lng": -3.4152
+    "lng": -3.4152,
+    "web": "http://www.educa.madrid.org/ies.mariecurie.loeches"
   },
   {
     "nombre": "CEIPSO Andrea Casamayor",
     "distrito": "Paracuellos de Jarama",
     "lat": 40.501,
-    "lng": -3.5098
+    "lng": -3.5098,
+    "web": "http://www.educa.madrid.org/cp.andreacasamayor.paracuellos"
   },
   {
     "nombre": "IES Maria Rodrigo",
     "distrito": "Villa de Vallecas",
     "lat": 40.3681,
-    "lng": -3.6192
+    "lng": -3.6192,
+    "web": "http://www.educa.madrid.org/ies.mariarodrigo.madrid"
   },
   {
     "nombre": "CEIPSO La Luna",
     "distrito": "Rivas-Vaciamadrid",
     "lat": 40.3744,
-    "lng": -3.5381
+    "lng": -3.5381,
+    "web": "http://www.educa.madrid.org/cp.laluna.rivas"
   },
   {
     "nombre": "IES Montserrat Caballe",
     "distrito": "Tres Cantos",
     "lat": 40.616,
-    "lng": -3.723
+    "lng": -3.723,
+    "web": "http://www.educa.madrid.org/ies.montserratcaballe.trescantos"
   },
   {
     "nombre": "CEIPSO Alfredo Di Stefano",
     "distrito": "Hortaleza",
     "lat": 40.4966,
-    "lng": -3.6232
+    "lng": -3.6232,
+    "web": "http://www.educa.madrid.org/cp.alfredodistefano.madrid"
   },
   {
     "nombre": "CEIPSO Angel Nieto",
     "distrito": "Villa de Vallecas",
     "lat": 40.3617,
-    "lng": -3.5879
+    "lng": -3.5879,
+    "web": "http://www.educa.madrid.org/cp.angelnieto.madrid"
   },
   {
     "nombre": "IES Malala Yousafzai",
     "distrito": "Fuencarral-El Pardo",
     "lat": 40.5,
-    "lng": -3.6647
+    "lng": -3.6647,
+    "web": "http://www.educa.madrid.org/ies.malalayousafzai.madrid"
   },
   {
     "nombre": "IES Simone Veil",
     "distrito": "Paracuellos de Jarama",
     "lat": 40.4972,
-    "lng": -3.5148
+    "lng": -3.5148,
+    "web": "http://www.educa.madrid.org/ies.simoneveil.paracuellos"
   },
   {
     "nombre": "IES Africa",
     "distrito": "Fuenlabrada",
     "lat": 40.2859,
-    "lng": -3.8095
+    "lng": -3.8095,
+    "web": "http://www.educa.madrid.org/ies.africa.fuenlabrada"
   },
   {
     "nombre": "IES Isabel La Catolica",
     "distrito": "Boadilla del Monte",
     "lat": 40.4106,
-    "lng": -3.9116
+    "lng": -3.9116,
+    "web": "http://www.educa.madrid.org/ies.isabellacatolica.boadilla"
   },
   {
     "nombre": "IES Gloria Fuertes",
     "distrito": "Alcobendas",
     "lat": 40.5541,
-    "lng": -3.6576
+    "lng": -3.6576,
+    "web": "http://site.educa.madrid.org/ies.gloriafuertes.alcobendas/"
   },
   {
     "nombre": "IES Elisa Soriano Fischer",
     "distrito": "Getafe",
     "lat": 40.3206,
-    "lng": -3.7426
+    "lng": -3.7426,
+    "web": "http://www.educa.madrid.org/ies.elisasorianofischer.getafe"
   },
   {
     "nombre": "IES Antonio Fraguas Forges",
     "distrito": "Arganzuela",
     "lat": 40.399,
-    "lng": -3.6801
+    "lng": -3.6801,
+    "web": "http://www.educa.madrid.org/ies.forges.madrid"
   },
   {
     "nombre": "IES Jane Goodall",
     "distrito": "San Blas-Canillejas",
     "lat": 40.4414,
-    "lng": -3.5883
+    "lng": -3.5883,
+    "web": "http://www.educa.madrid.org/ies.janegoodall.madrid"
   },
   {
     "nombre": "IES Ana Frank",
     "distrito": "Moncloa-Aravaca",
     "lat": 40.4505,
-    "lng": -3.7801
+    "lng": -3.7801,
+    "web": "https://site.educa.madrid.org/ies.anafrank.madrid/"
   },
   {
     "nombre": "IES Francisca De Pedraza",
     "distrito": "Alcalá de Henares",
     "lat": 40.4837,
-    "lng": -3.3877
+    "lng": -3.3877,
+    "web": "http://www.educa.madrid.org/ies.franciscadepedraza.alcala"
   },
   {
     "nombre": "IES Juan Bautista Monegro",
     "distrito": "Torrejón de Ardoz",
     "lat": 40.4505,
-    "lng": -3.4461
+    "lng": -3.4461,
+    "web": "http://www.educa.madrid.org/ies.juanbautistamonegro.torrejondeardoz"
   },
   {
     "nombre": "CEIPSO Padre Garralda",
     "distrito": "Villanueva de la Cañada",
     "lat": 40.438,
-    "lng": -4.0092
+    "lng": -4.0092,
+    "web": "http://www.educa.madrid.org/cp.padregarralda.villanuevadelacanada"
   },
   {
     "nombre": "IES Jose Pedro Perez Llorca",
     "distrito": "Parla",
     "lat": 40.2178,
-    "lng": -3.7578
+    "lng": -3.7578,
+    "web": "http://www.educa.madrid.org/ies.josepedroperezllorca.parla"
   },
   {
     "nombre": "IES Blanca Fernandez Ochoa",
     "distrito": "Fuencarral-El Pardo",
     "lat": 40.5003,
-    "lng": -3.7119
+    "lng": -3.7119,
+    "web": "http://www.educa.madrid.org/ies.blancafdezochoa.madrid"
   },
   {
     "nombre": "IES Torcuato Fernandez Miranda",
     "distrito": "Arroyomolinos",
     "lat": 40.283,
-    "lng": -3.9222
+    "lng": -3.9222,
+    "web": "http://www.educa.madrid.org/ies.torcuatofdezmiranda.arroyomolinos"
   },
   {
     "nombre": "IES Centro Integral De Formacion Profesional A Distancia Ignacio Ellacuria",
     "distrito": "Alcorcón",
     "lat": 40.3358,
-    "lng": -3.8213
+    "lng": -3.8213,
+    "web": "http://www.educa.madrid.org/ies.ignacioellacuria.alcorcon"
   },
   {
     "nombre": "IES Isidra De Guzman",
     "distrito": "Alcalá de Henares",
     "lat": 40.4737,
-    "lng": -3.3717
+    "lng": -3.3717,
+    "web": "http://www.educa.madrid.org/ies.isidradeguzman.alcala"
   },
   {
     "nombre": "IES Maria Goyri Goyri",
     "distrito": "Villaverde",
     "lat": 40.338,
-    "lng": -3.6768
+    "lng": -3.6768,
+    "web": "http://www.educa.madrid.org/ies.mariagoyrigoyri.madrid"
   },
   {
     "nombre": "CEIPSO Rudyard Kipling",
     "distrito": "Vicálvaro",
     "lat": 40.4017,
-    "lng": -3.5648
+    "lng": -3.5648,
+    "web": "http://www.educa.madrid.org/cp.rudyardkipling.madrid"
   },
   {
     "nombre": "IES Eduardo Capa",
     "distrito": "Arganda del Rey",
     "lat": 40.2973,
-    "lng": -3.4564
+    "lng": -3.4564,
+    "web": ""
   }
 ]

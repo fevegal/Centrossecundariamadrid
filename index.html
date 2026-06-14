@@ -24,6 +24,10 @@
     <div class="app-container">
         <aside class="sidebar">
             <header class="sidebar-header">
+                <div class="mobile-close" onclick="toggleSidebar()">
+                        <span>Cerrar Panel ⬇️</span>
+                </div>
+
                 <div class="brand">
                     <span class="brand-icon">🎓</span>
                     <div>
@@ -69,11 +73,15 @@
         </aside>
 
         <main id="map"></main>
+        
+        <button id="mobile-toggle" onclick="toggleSidebar()">
+            <span>🔍</span> Ver Lista y Filtros
+        </button>
     </div>
 
     <div id="modal-contacto" class="modal-overlay">
         <div class="modal-box">
-            <span class="close-btn" onclick="cerrarModalContacto()">&times;</span>
+            <span class="close-btn" onclick="cerrarModalContacto()">×</span>
             <h2 style="margin-bottom: 8px; color: var(--text-main);">Contactar a Fernando</h2>
             <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 20px;">Rellena el formulario y te responderé lo antes posible.</p>
             
@@ -108,7 +116,6 @@
     <script src="https://unpkg.com/leaflet.smooth_marker_bouncing@3.3.1/dist/bundle.js"></script>
     
     <script>
-        // Inicializar mapa
         const map = L.map('map', { zoomControl: false }).setView([40.473, -3.641], 12);
         L.control.zoom({ position: 'topright' }).addTo(map);
 
@@ -217,6 +224,30 @@
                 
                 const parseo = obtenerTipoYNombre(centro.nombre);
 
+                // Botón inteligente de página web
+                /*const enlaceWeb = centro.web;
+                const botonWebHTML = enlaceWeb && enlaceWeb.trim() !== "" 
+                    ? `<a href="${enlaceWeb.startsWith('http') ? enlaceWeb : 'https://' + enlaceWeb}" target="_blank" class="route-btn" style="background: #e2e8f0; color: #0f172a; margin-bottom: 4px;">🌐 Visitar web del centro ↗</a>` 
+                    : '';*/
+
+                    // --- NUEVO: Botón inteligente de página web MEJORADO ---
+                let enlaceWeb = centro.web;
+                let botonWebHTML = '';
+                
+                // Comprobamos que exista y que no diga "No consta" (típico en Madrid)
+                if (enlaceWeb && enlaceWeb.trim() !== "" && enlaceWeb.toLowerCase() !== "no consta") {
+                    // Limpiamos espacios accidentales
+                    enlaceWeb = enlaceWeb.trim();
+                    
+                    // Si no tiene 'http', le ponemos 'http://' normal (muchos centros antiguos fallan con https://)
+                    if (!enlaceWeb.startsWith('http')) {
+                        enlaceWeb = 'http://' + enlaceWeb;
+                    }
+                    
+                    botonWebHTML = `<a href="${enlaceWeb}" target="_blank" class="route-btn" style="background: #e2e8f0; color: #0f172a; margin-bottom: 4px;">🌐 Visitar web del centro ↗</a>`;
+                }
+                // ----------------------------------------------
+
                 const contenidoPopup = `
                     <div class="map-popup">
                         <span class="badge ${parseo.clase}">${parseo.tipo}</span>
@@ -224,13 +255,16 @@
                         <p><strong>Distrito:</strong> ${centro.distrito || 'Madrid'}</p>
                         
                         <div style="display: flex; flex-direction: column; gap: 8px; margin-top: 10px;">
+                            
+                            ${botonWebHTML}
+
                             <button onclick="calcularRutaGPS(${centro.lat}, ${centro.lng})" class="route-btn">
                                 📍 Ruta desde mi ubicación (GPS)
                             </button>
                             
                             <div style="background: #f1f5f9; padding: 10px; border-radius: 8px; border: 1px solid #e2e8f0; margin-top: 4px;">
                                 <p style="font-size: 11.5px; margin-bottom: 6px; font-weight: 600; color: var(--text-main);">✏️ O escribe desde dónde sales:</p>
-                                <input type="text" id="origen-manual" placeholder="Ej: Atocha, Madrid" style="width: 100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 12px; margin-bottom: 8px; outline: none; box-sizing: border-box;">
+                                <input type="text" id="origen-manual-${centro.lat}" placeholder="Ej: Atocha, Madrid" style="width: 100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 12px; margin-bottom: 8px; outline: none; box-sizing: border-box;">
                                 <button onclick="calcularRutaManual(${centro.lat}, ${centro.lng})" class="route-btn" style="background: var(--text-muted); width: 100%; padding: 8px;">
                                     Trazar ruta al instituto
                                 </button>
@@ -262,6 +296,7 @@
                     </div>
                 `;
 
+                // Event listener corregido (sin duplicados)
                 li.addEventListener('click', () => {
                     marcadoresGrupo.zoomToShowLayer(marcador, () => {
                         map.flyTo([centro.lat, centro.lng], 16, { animate: true, duration: 1 });
@@ -271,6 +306,11 @@
                     
                     document.querySelectorAll('.instituto-item').forEach(el => el.classList.remove('active'));
                     li.classList.add('active');
+
+                    // Cerrar el panel automáticamente si estamos en móvil
+                    if (window.innerWidth <= 768) {
+                        document.querySelector('.sidebar').classList.remove('active');
+                    }
                 });
 
                 listaUL.appendChild(li);
@@ -292,7 +332,10 @@
         };
 
         window.calcularRutaManual = function(destLat, destLng) {
-            const inputOrigen = document.getElementById('origen-manual').value;
+            const inputElement = document.getElementById(`origen-manual-${destLat}`);
+            if (!inputElement) return;
+
+            const inputOrigen = inputElement.value;
             if (!inputOrigen || inputOrigen.trim() === '') {
                 alert("Por favor, escribe una calle o ciudad primero.");
                 return;
@@ -387,6 +430,11 @@
             }
         };
 
+        // Abrir / Cerrar el panel lateral en móviles
+        window.toggleSidebar = function() {
+            document.querySelector('.sidebar').classList.toggle('active');
+        };
+        
         // Listeners globales
         document.getElementById('search-input').addEventListener('input', aplicarFiltrosCruzados);
         document.getElementById('filter-distrito').addEventListener('change', aplicarFiltrosCruzados);
