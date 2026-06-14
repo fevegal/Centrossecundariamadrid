@@ -224,29 +224,16 @@
                 
                 const parseo = obtenerTipoYNombre(centro.nombre);
 
-                // Botón inteligente de página web
-                /*const enlaceWeb = centro.web;
-                const botonWebHTML = enlaceWeb && enlaceWeb.trim() !== "" 
-                    ? `<a href="${enlaceWeb.startsWith('http') ? enlaceWeb : 'https://' + enlaceWeb}" target="_blank" class="route-btn" style="background: #e2e8f0; color: #0f172a; margin-bottom: 4px;">🌐 Visitar web del centro ↗</a>` 
-                    : '';*/
-
-                    // --- NUEVO: Botón inteligente de página web MEJORADO ---
                 let enlaceWeb = centro.web;
                 let botonWebHTML = '';
                 
-                // Comprobamos que exista y que no diga "No consta" (típico en Madrid)
                 if (enlaceWeb && enlaceWeb.trim() !== "" && enlaceWeb.toLowerCase() !== "no consta") {
-                    // Limpiamos espacios accidentales
                     enlaceWeb = enlaceWeb.trim();
-                    
-                    // Si no tiene 'http', le ponemos 'http://' normal (muchos centros antiguos fallan con https://)
                     if (!enlaceWeb.startsWith('http')) {
                         enlaceWeb = 'http://' + enlaceWeb;
                     }
-                    
                     botonWebHTML = `<a href="${enlaceWeb}" target="_blank" class="route-btn" style="background: #e2e8f0; color: #0f172a; margin-bottom: 4px;">🌐 Visitar web del centro ↗</a>`;
                 }
-                // ----------------------------------------------
 
                 const contenidoPopup = `
                     <div class="map-popup">
@@ -296,7 +283,6 @@
                     </div>
                 `;
 
-                // Event listener corregido (sin duplicados)
                 li.addEventListener('click', () => {
                     marcadoresGrupo.zoomToShowLayer(marcador, () => {
                         map.flyTo([centro.lat, centro.lng], 16, { animate: true, duration: 1 });
@@ -307,7 +293,6 @@
                     document.querySelectorAll('.instituto-item').forEach(el => el.classList.remove('active'));
                     li.classList.add('active');
 
-                    // Cerrar el panel automáticamente si estamos en móvil
                     if (window.innerWidth <= 768) {
                         document.querySelector('.sidebar').classList.remove('active');
                     }
@@ -430,10 +415,17 @@
             }
         };
 
-        // Abrir / Cerrar el panel lateral en móviles
+        // --- MÓVILES: Abrir / Cerrar el panel lateral ---
         window.toggleSidebar = function() {
             document.querySelector('.sidebar').classList.toggle('active');
         };
+
+        // NUEVO: Cerrar el panel móvil al tocar en cualquier parte del mapa
+        map.on('click', function() {
+            if (window.innerWidth <= 768) {
+                document.querySelector('.sidebar').classList.remove('active');
+            }
+        });
         
         // Listeners globales
         document.getElementById('search-input').addEventListener('input', aplicarFiltrosCruzados);

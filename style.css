@@ -272,76 +272,106 @@ body, html { height: 100%; width: 100%; overflow: hidden; background-color: var(
 @keyframes slideUp { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
 
 /* ==========================================
-   DISEÑO RESPONSIVO (MÓVILES - ESTILO APP)
+   DISEÑO RESPONSIVO (EXPERIENCIA APP NATIVA MÓVIL)
    ========================================== */
 #mobile-toggle { display: none; }
 .mobile-close { display: none; }
 
 @media (max-width: 768px) {
-    /* El contenedor principal ya no usa flex, permitiendo capas superpuestas */
+    /* Permitir capas superpuestas */
     .app-container { display: block; position: relative; }
     
-    /* El mapa ocupa el 100% de la pantalla dinámica */
+    /* El mapa ocupa el 100% de la pantalla */
     #map { height: 100dvh; width: 100vw; z-index: 1; }
 
-    /* El menú lateral se convierte en un panel deslizante (Bottom Sheet) */
+    /* Panel Deslizante (Bottom Sheet) Estilo iOS */
     .sidebar {
         position: fixed;
-        bottom: -120%; /* Oculto abajo por defecto */
+        bottom: -120%; 
         left: 0;
         width: 100vw;
         height: 85dvh;
-        border-radius: 24px 24px 0 0;
+        border-radius: 32px 32px 0 0; /* Bordes mucho más redondeados */
         transition: bottom 0.4s cubic-bezier(0.32, 0.72, 0, 1);
-        box-shadow: 0 -15px 40px rgba(0,0,0,0.3);
+        box-shadow: 0 -10px 40px rgba(0,0,0,0.4);
         z-index: 2000;
     }
 
-    /* Cuando el panel está activo, sube */
     .sidebar.active { bottom: 0; }
 
-    /* Botón flotante estilo Google Maps */
+    /* Indicador de arrastre (Píldora gris superior) */
+    .sidebar::before {
+        content: '';
+        position: absolute;
+        top: 12px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 45px;
+        height: 5px;
+        background-color: rgba(255, 255, 255, 0.6);
+        border-radius: 10px;
+        z-index: 2001;
+    }
+
+    /* Ajustamos el padding para hacer hueco a la píldora */
+    .sidebar-header { padding-top: 32px; border-radius: 32px 32px 0 0; }
+
+    /* Botón flotante estilo Glassmorphism (Premium) */
     #mobile-toggle {
         display: flex;
         justify-content: center;
         align-items: center;
         position: fixed;
-        bottom: 30px;
+        bottom: 35px;
         left: 50%;
         transform: translateX(-50%);
         z-index: 1000;
-        background: var(--primary-gradient);
+        background: rgba(15, 23, 42, 0.85); /* Semitransparente */
+        backdrop-filter: blur(12px); /* Efecto cristal */
+        -webkit-backdrop-filter: blur(12px);
         color: white;
-        padding: 14px 28px;
-        border-radius: 30px;
+        padding: 16px 32px;
+        border-radius: 40px;
         box-shadow: 0 10px 25px rgba(15, 23, 42, 0.3);
-        border: none;
+        border: 1px solid rgba(255, 255, 255, 0.1);
         font-size: 15px;
         font-weight: 600;
-        gap: 8px;
+        gap: 10px;
         cursor: pointer;
+        transition: transform 0.2s;
     }
 
-    /* Botón de cerrar dentro del menú */
+    #mobile-toggle:active { transform: translateX(-50%) scale(0.95); }
+
+    /* Ocultar el botón flotante suavemente cuando se abre el menú */
+    .sidebar.active ~ #mobile-toggle { display: none; }
+
+    /* Botón de cerrar integrado (más limpio) */
     .mobile-close {
-        display: flex;
-        justify-content: center;
-        padding: 12px;
-        background: rgba(255,255,255,0.15);
-        border-radius: 12px;
-        margin-bottom: 20px;
-        font-size: 13px;
-        font-weight: bold;
-        cursor: pointer;
-        color: white;
-        transition: background 0.2s;
+        display: flex; justify-content: center; padding: 12px;
+        background: rgba(255,255,255,0.15); border-radius: 16px;
+        margin-bottom: 20px; font-size: 13px; font-weight: 700;
+        cursor: pointer; color: white; transition: background 0.2s;
     }
     .mobile-close:active { background: rgba(255,255,255,0.3); }
 
-    /* Ajustes para que los filtros no se aplasten */
     .filters-row { flex-direction: column; }
     
-    /* Panel de rutas más pequeño en móvil */
-    .panel-resumen-ruta { width: 220px; padding: 12px; }
-    .panel-resumen-ruta h4 { font-size: 13px !important; }
+    /* Adaptar popups del mapa para que no desborden la pantalla */
+    .leaflet-popup-content { width: 260px !important; margin: 14px !important; }
+    
+    /* Ocultar botones de zoom (+/-) porque ocupan espacio y en móvil se usa el pellizco */
+    .leaflet-control-zoom { display: none !important; }
+
+    /* Centrar y adaptar la tarjeta resumen de la ruta arriba de la pantalla */
+    .panel-resumen-ruta {
+        position: fixed;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: calc(100vw - 40px);
+        margin: 0 !important;
+        border-radius: 20px;
+        z-index: 1000;
+    }
 }
