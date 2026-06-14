@@ -270,3 +270,51 @@ body, html { height: 100%; width: 100%; overflow: hidden; background-color: var(
 
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 @keyframes slideUp { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+/* ==========================================
+   DISEÑO RESPONSIVO (MÓVILES Y TABLETS)
+   ========================================== */
+@media (max-width: 768px) {
+    /* Cambiamos la estructura: Mapa arriba, menú abajo */
+    .app-container {
+        flex-direction: column-reverse; 
+    }
+    
+    /* El menú ocupa todo el ancho y la mitad inferior del alto */
+    .sidebar {
+        width: 100%;
+        height: 55vh; 
+        box-shadow: 0 -10px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    /* El mapa ocupa todo el ancho y la mitad superior */
+    #map {
+        width: 100%;
+        height: 45vh; 
+    }
+
+    /* Reducimos un poco los márgenes para ganar espacio */
+    .sidebar-header {
+        padding: 20px 16px;
+    }
+
+    /* Apilamos los filtros uno debajo de otro para que no se aprieten */
+    .filters-row {
+        flex-direction: column; 
+    }
+
+    /* Adaptamos la ventana flotante de contacto */
+    .modal-box {
+        width: 90%;
+        padding: 20px;
+    }
+
+    /* Hacemos el panel flotante de las rutas un poco más pequeño */
+    .panel-resumen-ruta {
+        width: 220px;
+        padding: 12px;
+    }
+    
+    .panel-resumen-ruta h4 {
+        font-size: 13px !important;
+    }
+}
